@@ -12,4 +12,6 @@ def cleanSpecial(df):
     # supprimer les caractères speciaux (*&^£@~#!*^%") dans les columns donnees
     for column in df.columns:
         df[column] = df[column].str.replace(r"\W", "")
+    # cree nouveau fichier pour afficher les resultas
+    df.to_csv("results.csv")
     
