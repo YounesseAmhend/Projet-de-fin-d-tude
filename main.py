@@ -7,3 +7,9 @@ profile.to_file("Analysis.html")
 profile.to_file("Analysis.json")
 print("\n\n time :",time.process_time(), "s")
 
+
+def cleanSpecial(df):
+    # supprimer les caractères speciaux (*&^£@~#!*^%") dans les columns donnees
+    for column in df.columns:
+        df[column] = df[column].str.replace(r"\W", "")
+    
