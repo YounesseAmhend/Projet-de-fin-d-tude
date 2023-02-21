@@ -1,7 +1,6 @@
 import pandas as pd
 from ydata_profiling import ProfileReport
-from sklearn.preprocessing import OneHotEncoder
-import numpy as np
+from sklearn.preprocessing import LabelEncoder
 import time
 
 
@@ -26,24 +25,26 @@ numeric_variables = ['Age', 'Year_DM_Diagnosed', 'DM_Duration', 'Waist', 'BMI', 
 
 df = pd.read_csv("Gulf.csv", low_memory=False, usecols=numeric_variables)
 ds = pd.read_csv("Gulf.csv", low_memory=False, usecols=to_numeric)
-    
+dall = pd.read_csv("Gulf.csv", low_memory=False, usecols=variables)
         
-ohe = OneHotEncoder()
+ohe = LabelEncoder()
 
-feature_array = ohe.fit_transform(ds[to_numeric]).toarray()
-feature_labels = ohe.categories_
-feature_labels = np.concatenate(feature_labels, dtype=object)
+feature_array = ds.apply(ohe.fit_transform)
+# feature_labels = ohe.categories_
+# feature_labels = np.concatenate(feature_labels, dtype=object)
 
 
 
-dp = pd.DataFrame(feature_array,columns=feature_labels)
+# dp = pd.DataFrame(feature_array,columns=feature_labels)
 
-dl = df.merge(dp,left_index=True, right_index=True)
+dl = df.merge(feature_array,left_index=True, right_index=True)
 dl.to_excel("results.xlsx")
 
-# profile = ProfileReport(dl)
-# profile.to_file("Analysis.html")
-# profile.to_file("Analysis.json")
+profile = ProfileReport(dall)
+profile.to_file("Analysis.html")
+profile.to_file("Analysis.json")
+profile = ProfileReport(dl)
+profile.to_file("dl.html")
 
 print("\n\n time :",time.process_time(), "s")
 
