@@ -22,14 +22,26 @@ numeric_variables = ['Age', 'Year_DM_Diagnosed', 'DM_Duration', 'Waist', 'BMI', 
                      'HbA1C_Admission_Value', 'Cholesterol_Value_SI_Units', 'Triglycerides_Value_SI_Units', 
                      'Creatinine_Clearance', 'Heart_Rate'
                      ]
+def clean(df, column:str, min:float, max:float, conv:float=1.0):
+    for i in range(len(df[column])):
+        value = float(df[column][i])
+        if min <= value and value <= max:
+            continue
+        elif  min <= (value*conv) and (value*conv )<= max:
+            df.loc[i, column]=str(value*conv)
+        else:
+            df.loc[i, column]=""
+def replaceValue(df, column:str, newValue:str, valueToReplace:str):
+    df[column] = df[column].replace(valueToReplace, value)
 
 df = pd.read_csv("Gulf.csv", low_memory=False, usecols=numeric_variables)
 ds = pd.read_csv("Gulf.csv", low_memory=False, usecols=to_numeric)
 dall = pd.read_csv("Gulf.csv", low_memory=False, usecols=variables)
         
+print(type(dall["Age"][1]))
 ohe = LabelEncoder()
 
-feature_array = ds.apply(ohe.fit_transform)
+numeric = ds.apply(ohe.fit_transform)
 # feature_labels = ohe.categories_
 # feature_labels = np.concatenate(feature_labels, dtype=object)
 
@@ -37,9 +49,10 @@ feature_array = ds.apply(ohe.fit_transform)
 
 # dp = pd.DataFrame(feature_array,columns=feature_labels)
 
-dl = df.merge(feature_array,left_index=True, right_index=True)
+dl = df.merge(numeric,left_index=True, right_index=True)
 dl.to_excel("results.xlsx")
-
+clean(dall, column="Age", min=30, max=60)
+dall.to_excel("old.xlsx")
 profile = ProfileReport(dall)
 profile.to_file("Analysis.html")
 profile.to_file("Analysis.json")
