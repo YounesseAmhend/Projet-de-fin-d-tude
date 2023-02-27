@@ -51,7 +51,6 @@ numeric = ds.apply(ohe.fit_transform)
 
 dl = df.merge(numeric,left_index=True, right_index=True)
 dl.to_excel("results.xlsx")
-clean(dall, column="Age", min=30, max=60)
 dall.to_excel("old.xlsx")
 profile = ProfileReport(dall)
 profile.to_file("Analysis.html")
