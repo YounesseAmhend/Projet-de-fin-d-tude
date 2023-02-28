@@ -22,6 +22,7 @@ numeric_variables = ['Age', 'Year_DM_Diagnosed', 'DM_Duration', 'Waist', 'BMI', 
                      'HbA1C_Admission_Value', 'Cholesterol_Value_SI_Units', 'Triglycerides_Value_SI_Units', 
                      'Creatinine_Clearance', 'Heart_Rate'
                      ]
+# cleaning functions
 def clean(df, column:str, min:float, max:float, conv:float=1.0):
     for i in range(len(df[column])):
         value = float(df[column][i])
@@ -38,7 +39,6 @@ df = pd.read_csv("Gulf.csv", low_memory=False, usecols=numeric_variables)
 ds = pd.read_csv("Gulf.csv", low_memory=False, usecols=to_numeric)
 dall = pd.read_csv("Gulf.csv", low_memory=False, usecols=variables)
         
-print(type(dall["Age"][1]))
 ohe = LabelEncoder()
 
 numeric = ds.apply(ohe.fit_transform)
@@ -52,11 +52,29 @@ numeric = ds.apply(ohe.fit_transform)
 dl = df.merge(numeric,left_index=True, right_index=True)
 dl.to_excel("results.xlsx")
 dall.to_excel("old.xlsx")
+
 profile = ProfileReport(dall)
-profile.to_file("Analysis.html")
-profile.to_file("Analysis.json")
+profile.to_file("AnalysisAll.html")
 profile = ProfileReport(dl)
-profile.to_file("dl.html")
+profile.to_file("encodedAnalysis.html")
+
+# #cleaning
+clean(df=dall, column="Year_DM_Diagnosed", min=1967 ,max=2013,conv=1)
+clean(df=dall, column="DM_Duration", min=0 ,max=45,conv=1)
+clean(df=dall, column="Heart_Rate", min=25 ,max=300,conv=1)
+clean(df=dall, column="HbA1C_Admission_Value", min=3.9 ,max=14.1,conv=1)
+clean(df=dall, column="Cholesterol_Value_SI_Units", min=1 ,max=25.86,conv=0.02586)
+clean(df=dall, column="Triglycerides_Value_SI_Units", min=0.2 ,max=22.58,conv=0.01129)
+clean(df=dall, column="BMI", min=9 ,max=105,conv=1)
+clean(df=dall, column="Creatinine_Clearance", min=5 ,max=200,conv=60)
+clean(df=dall, column="Fasting_Blood_Glucose_Value_SI_Units", min=1 ,max=20,conv=0.056)
+
+profile = ProfileReport(dall)
+profile.to_file("AnalysisAllCleaned.html")
+profile = ProfileReport(dl)
+profile.to_file("encodedAnalysisCleaned.html")
+dl.to_excel("resultsCleaned.xlsx")
+dall.to_excel("oldCleaned.xlsx")
 
 print("\n\n time :",time.process_time(), "s")
 
