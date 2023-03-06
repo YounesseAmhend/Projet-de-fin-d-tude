@@ -19,7 +19,7 @@
 17,Male,78,Below secondary school (high school),No,No,No,Yes,Yes,No,,,,,Never Smoked,64.0,88.0,,5.3,Yes,3.9,0.7,20.81,38.13
 18,Female,70,No school,No,No,No,Yes,Yes,No,,,,,Never Smoked,111.0,100.0,,6.4,No,5.18,0.87,28.69,90.27
 19,Male,79,No school,No,No,No,Yes,Yes,Yes,1989.0,24.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Past smoker (smoker stopped > 1year ago),87.0,112.0,6.7,8.1,Yes,6.1,2.42,24.88,53.07
-20,Female,87,No school,No,No,Yes,No,No,Yes,2007.0,,Type 2,Oral Hypoglycemic drugs,Never Smoked,120.0,105.0,10.4,,Yes,,4.2,33.06,43.9
+20,Female,87,No school,No,No,Yes,No,No,Yes,2007.0,,Type 2,Oral Hypoglycemic drugs,Never Smoked,120.0,105.0,10.4,,Yes,0.7,4.2,33.06,43.9
 21,Male,77,No school,No,No,No,No,No,No,,,,,Never Smoked,88.0,78.0,,,Yes,3.3,0.7,17.78,47.69
 22,Female,66,No school,No,No,No,Yes,No,Yes,2008.0,4.0,Type 2,"Diet,  Insulin",Never Smoked,88.0,72.0,5.0,,No,5.3,1.5,28.06,45.03
 23,Female,62,No school,No,No,No,Yes,Yes,Yes,2000.0,12.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,118.0,88.0,5.1,,Yes,6.2,0.74,34.41,79.3
@@ -70,7 +70,7 @@
 68,Male,70,Below secondary school (high school),No,No,No,Yes,Yes,Yes,2000.0,12.0,Type 2,Oral Hypoglycemic drugs,Past smoker (smoker stopped > 1year ago),57.0,75.0,,,No,4.6,1.2,25.1,64.81
 69,Male,75,Below secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,Yes,1997.0,15.0,Type 2,Oral Hypoglycemic drugs,Past smoker (smoker stopped > 1year ago),156.0,78.0,9.4,,Yes,4.1,1.1,25.56,49.04
 70,Male,39,Secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),79.0,75.0,5.0,,Yes,4.3,1.3,24.86,16.52
-71,Female,47,Below secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),101.0,85.0,4.1,4.7,Yes,3.6,1.5,29.73,
+71,Female,47,Below secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),101.0,85.0,4.1,4.7,Yes,3.6,1.5,29.73,229.07
 72,Female,102,No school,No,No,No,No,No,No,,,,,Past smoker (smoker stopped > 1year ago),105.0,75.0,,,No,,,31.22,39.0
 73,Male,90,No school,No,No,Yes,No,No,No,,,,,Past smoker (smoker stopped > 1year ago),99.0,75.0,,,No,,,27.68,63.9
 74,Female,62,No school,No,No,No,Yes,Yes,Yes,2002.0,10.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,81.0,80.0,8.1,,Yes,4.1,1.6,34.26,102.96
@@ -99,24 +99,24 @@
 97,Male,59,Some college or vocational school,"Yes, Full-time",No,No,Yes,Yes,No,,,,,Never Smoked,94.0,110.0,5.44,5.05,Yes,4.48,0.95,37.65,123.45
 98,Female,62,No school,No,No,No,Yes,Yes,Yes,2002.0,10.0,Type 2,"Oral Hypoglycemic drugs,  Insulin",Never Smoked,89.0,114.0,,10.38,Yes,3.75,0.49,28.57,21.16
 99,Male,57,Secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,Yes,1985.0,27.0,Type 1,Insulin,Never Smoked,107.0,40.0,7.4,6.7,Yes,3.19,1.6,26.89,111.78
-100,Female,58,Below secondary school (high school),No,No,No,Yes,Yes,Yes,2005.0,7.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,97.0,,8.71,8.24,Yes,4.47,0.91,51.11,
+100,Female,58,Below secondary school (high school),No,No,No,Yes,Yes,Yes,2005.0,7.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,97.0,,8.71,8.24,Yes,4.47,0.91,51.11,241.56
 101,Male,62,Post-graduate degree,No,No,No,Yes,Yes,No,,,,,Past smoker (smoker stopped > 1year ago),82.0,108.0,8.8,6.5,Yes,5.6,1.7,31.83,123.27
-102,Female,53,Below secondary school (high school),No,No,No,Yes,Yes,Yes,1995.0,17.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Never Smoked,80.0,100.0,3.5,,Yes,4.88,0.86,29.38,79.54
+102,Female,53,Below secondary school (high school),No,No,No,Yes,Yes,Yes,1995.0,17.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Never Smoked,80.0,100.0,3.5,15.2,Yes,4.88,0.86,29.38,79.54
 103,Female,73,No school,No,No,No,Yes,Yes,Yes,2002.0,10.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Past smoker (smoker stopped > 1year ago),103.0,96.0,6.3,9.08,Yes,3.91,1.79,25.72,52.48
 104,Female,57,Graduated from college,"Yes, Full-time",No,No,Yes,Yes,Yes,1999.0,14.0,Type 2,Insulin,Past smoker (smoker stopped > 1year ago),80.0,112.0,11.1,9.9,Yes,4.7,1.0,36.16,108.52
 105,Male,53,Secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,No,,,,,Recent smoker (stopped smoking  > 1 month and < 1 year),66.0,114.0,5.0,5.8,Yes,5.5,1.9,32.11,145.23
-106,Male,48,Some college or vocational school,"Yes, Full-time",No,No,No,Yes,No,,,,,Past smoker (smoker stopped > 1year ago),89.0,112.0,7.99,6.93,Yes,6.9,3.19,26.83,
+106,Male,48,Some college or vocational school,"Yes, Full-time",No,No,No,Yes,No,,,,,Past smoker (smoker stopped > 1year ago),89.0,112.0,7.99,6.93,Yes,6.9,3.19,26.83,200.39
 107,Male,55,Secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,Yes,2002.0,10.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Current smoker (currently smoking or stopped smoking < 1 month),86.0,96.0,6.58,,Yes,5.08,2.01,27.36,152.07
 108,Male,51,Below secondary school (high school),No,No,No,Yes,Yes,Yes,2007.0,5.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,103.0,119.0,12.09,9.83,Yes,4.29,1.64,32.65,168.42
 109,Male,62,No school,"Yes, Full-time",No,No,Yes,Yes,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),52.0,98.0,,,Yes,3.32,1.31,29.76,50.06
 110,Male,60,Below secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Past smoker (smoker stopped > 1year ago),61.0,105.0,12.2,7.66,Yes,4.75,2.16,31.77,125.84
 111,Male,76,Below secondary school (high school),"Yes, Part-time",No,No,Yes,Yes,Yes,1984.0,28.0,Type 2,Oral Hypoglycemic drugs,Past smoker (smoker stopped > 1year ago),82.0,116.0,8.1,,Yes,4.3,1.4,29.4,95.35
-112,Male,44,Below secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),75.0,125.0,4.3,,Yes,5.4,2.2,35.27,
+112,Male,44,Below secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),75.0,125.0,4.3,,Yes,5.4,2.2,35.27,240.62
 113,Male,50,Secondary school (high school),"Yes, Full-time",No,No,No,Yes,No,,,,,Never Smoked,76.0,97.0,5.18,,Yes,5.22,1.36,27.7,126.29
 114,Female,50,Post-graduate degree,"Yes, Full-time",No,No,Yes,Yes,No,,,,,Never Smoked,85.0,96.0,4.41,,Yes,4.49,2.56,30.11,78.82
 115,Female,72,No school,No,No,No,Yes,Yes,Yes,1985.0,27.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Never Smoked,105.0,119.0,10.95,7.35,Yes,5.09,3.02,36.44,152.61
 116,Male,70,Secondary school (high school),No,No,No,No,Yes,Yes,,3.0,Type 2,Diet,Past smoker (smoker stopped > 1year ago),64.0,114.0,7.1,,Yes,4.19,0.86,30.86,124.78
-117,Female,56,Secondary school (high school),No,No,No,Yes,Yes,Yes,1988.0,24.0,Type 2,"Oral Hypoglycemic drugs,  Insulin",Past smoker (smoker stopped > 1year ago),102.0,121.0,12.6,9.1,Yes,4.4,2.4,36.89,
+117,Female,56,Secondary school (high school),No,No,No,Yes,Yes,Yes,1988.0,24.0,Type 2,"Oral Hypoglycemic drugs,  Insulin",Past smoker (smoker stopped > 1year ago),102.0,121.0,12.6,9.1,Yes,4.4,2.4,36.89,212.44
 118,Male,57,Below secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,Yes,2005.0,7.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),95.0,106.0,7.6,,Yes,4.2,2.8,26.25,128.55
 119,Male,52,Secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Never Smoked,74.0,98.0,5.3,5.37,Yes,4.64,0.3,22.84,94.0
 120,Male,58,Below secondary school (high school),No,No,No,Yes,Yes,Yes,2007.0,5.0,Type 2,Oral Hypoglycemic drugs,Past smoker (smoker stopped > 1year ago),86.0,100.0,1.1816000000000002,9.8,Yes,5.1,2.2,28.7,75.65
@@ -136,21 +136,21 @@
 134,Male,64,Secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,Yes,2010.0,2.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Past smoker (smoker stopped > 1year ago),69.0,84.0,8.51,6.91,Yes,3.97,2.43,31.07,127.85
 135,Male,37,Below secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),93.0,112.0,8.3,6.7,Yes,6.7,6.2,33.06,148.08
 136,Male,70,No school,No,No,No,Yes,Yes,Yes,1990.0,,Type 2,"Diet,  Oral Hypoglycemic drugs",Never Smoked,85.0,80.0,5.11,7.41,Yes,3.81,1.36,21.2,51.33
-137,Female,62,Secondary school (high school),No,No,No,Yes,Yes,Yes,2000.0,12.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,80.0,,1.01,6.5,Yes,,,26.84,180.96
+137,Female,62,Secondary school (high school),No,No,No,Yes,Yes,Yes,2000.0,12.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,80.0,,1.01,6.5,Yes,0.17,0.01,26.84,180.96
 138,Male,54,Below secondary school (high school),No,No,No,Yes,Yes,Yes,1992.0,20.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),90.0,120.0,1.1984,10.1,Yes,5.7,1.6,31.23,123.41
 139,Male,47,Graduated from college,"Yes, Full-time",No,No,Yes,Yes,Yes,1999.0,13.0,Type 2,"Oral Hypoglycemic drugs,  Insulin",Past smoker (smoker stopped > 1year ago),96.0,117.0,14.3,12.9,Yes,2.5,1.5,35.09,190.15
 140,Female,73,No school,No,No,No,Yes,Yes,Yes,1992.0,20.0,Type 2,Insulin,Never Smoked,81.0,136.0,8.3,10.1,Yes,3.7,1.9,37.11,83.79
-141,Female,51,Secondary school (high school),No,No,No,Yes,Yes,Yes,2006.0,6.0,Type 2,Diet,Never Smoked,96.0,110.0,12.7,13.5,Yes,4.9,2.3,43.57,
+141,Female,51,Secondary school (high school),No,No,No,Yes,Yes,Yes,2006.0,6.0,Type 2,Diet,Never Smoked,96.0,110.0,12.7,13.5,Yes,4.9,2.3,43.57,262.25
 142,Male,59,Secondary school (high school),No,No,No,Yes,Yes,Yes,1996.0,16.0,Type 2,Insulin,Never Smoked,60.0,99.0,4.4,8.4,Yes,5.2,0.74,25.26,19.55
 143,Female,58,No school,No,No,No,Yes,Yes,Yes,1980.0,32.0,Type 2,Insulin,Never Smoked,55.0,98.0,9.9,8.2,Yes,4.8,1.5,31.23,14.41
-144,Male,28,Secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,Yes,2012.0,1.0,Type 2,Diet,Current smoker (currently smoking or stopped smoking < 1 month),114.0,150.0,10.5,7.6,Yes,6.3,3.1,57.19,
+144,Male,28,Secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,Yes,2012.0,1.0,Type 2,Diet,Current smoker (currently smoking or stopped smoking < 1 month),114.0,150.0,10.5,7.6,Yes,6.3,3.1,57.19,626.18
 145,Male,87,No school,No,No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),78.0,34.0,4.8,5.45,Yes,5.59,2.19,22.38,57.29
 146,Male,50,Some college or vocational school,"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),73.0,95.0,4.61,5.71,Yes,5.09,1.3,28.73,143.26
 147,Female,51,No school,No,No,No,Yes,Yes,Yes,2002.0,10.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,80.0,102.0,8.8,7.4,Yes,4.8,2.1,30.44,132.73
 148,Male,52,Some college or vocational school,No,No,No,Yes,Yes,Yes,2007.0,7.0,Type 2,Oral Hypoglycemic drugs,Recent smoker (stopped smoking  > 1 month and < 1 year),80.0,90.0,10.0,9.39,Yes,2.72,2.51,29.07,117.95
-149,Male,46,Graduated from college,"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),95.0,32.0,,5.33,Yes,,2.48,24.91,58.8
+149,Male,46,Graduated from college,"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),95.0,32.0,0.46,5.33,Yes,0.17,2.48,24.91,58.8
 150,Male,47,Secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),63.0,133.0,6.09,,Yes,6.06,0.87,27.92,117.48
-151,Male,75,Graduated from college,No,No,No,Yes,Yes,Yes,1990.0,22.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),100.0,,,5.5,Yes,,,23.88,26.65
+151,Male,75,Graduated from college,No,No,No,Yes,Yes,Yes,1990.0,22.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),100.0,,0.38,5.5,Yes,0.13,0.01,23.88,26.65
 152,Male,66,Secondary school (high school),No,No,No,Yes,Yes,Yes,2006.0,6.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Past smoker (smoker stopped > 1year ago),96.0,90.0,5.52,6.46,Yes,4.9,1.42,31.57,84.24
 153,Male,42,Graduated from college,"Yes, Full-time",No,No,No,Yes,Yes,2004.0,8.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),82.0,102.0,,,Yes,5.9,2.77,29.76,132.9
 154,Male,47,Some college or vocational school,"Yes, Full-time",No,No,Yes,No,Yes,2004.0,8.0,Type 2,Insulin,Current smoker (currently smoking or stopped smoking < 1 month),110.0,102.0,12.5,11.2,Yes,4.99,2.22,25.39,87.81
@@ -180,7 +180,7 @@
 178,Male,89,No school,No,No,No,Yes,No,Yes,1985.0,27.0,Type 2,"Oral Hypoglycemic drugs,  Insulin",Past smoker (smoker stopped > 1year ago),120.0,88.0,11.2,10.05,No,2.37,1.03,18.37,29.59
 179,Female,59,No school,No,No,No,Yes,No,Yes,,15.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,95.0,115.0,9.37,8.44,Yes,4.6,1.75,47.33,148.26
 180,Male,63,No school,No,No,No,Yes,Yes,No,,,,,Never Smoked,85.0,95.0,5.18,7.42,Yes,3.72,1.75,28.65,14.32
-181,Male,66,Below secondary school (high school),"Yes, Part-time",No,No,Yes,No,Yes,2005.0,7.0,Type 2,"Oral Hypoglycemic drugs,  Insulin",Current smoker (currently smoking or stopped smoking < 1 month),85.0,96.0,16.4,,No,3.71,1.85,21.67,59.01
+181,Male,66,Below secondary school (high school),"Yes, Part-time",No,No,Yes,No,Yes,2005.0,7.0,Type 2,"Oral Hypoglycemic drugs,  Insulin",Current smoker (currently smoking or stopped smoking < 1 month),85.0,96.0,16.4,15.15,No,3.71,1.85,21.67,59.01
 182,Male,53,Below secondary school (high school),"Yes, Full-time",No,No,No,No,Yes,,20.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),90.0,85.0,12.2,,Yes,6.2,2.9,22.86,71.72
 183,Female,67,No school,No,No,No,Yes,Yes,Yes,2007.0,5.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,100.0,80.0,13.2,10.58,Yes,4.8,0.84,22.81,72.76
 184,Female,50,Below secondary school (high school),No,No,No,Yes,Yes,Yes,,25.0,Type 2,Insulin,Current smoker (currently smoking or stopped smoking < 1 month),109.0,105.0,17.0,9.53,Yes,6.5,1.22,40.06,128.87
@@ -200,10 +200,10 @@
 198,Male,40,Secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),55.0,105.0,,5.3,Yes,5.25,1.45,32.74,162.89
 199,Male,53,Below secondary school (high school),No,No,No,Yes,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),66.0,85.0,5.2,5.2,Yes,6.09,2.29,25.95,111.47
 200,Female,76,No school,No,No,No,Yes,Yes,No,,,,,Never Smoked,79.0,110.0,4.79,5.73,No,4.49,0.75,39.35,129.13
-201,Male,44,Below secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,Yes,2005.0,,Type 2,"Diet,  Oral Hypoglycemic drugs",Current smoker (currently smoking or stopped smoking < 1 month),96.0,127.0,10.08,8.03,Yes,8.93,1.51,42.93,
+201,Male,44,Below secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,Yes,2005.0,,Type 2,"Diet,  Oral Hypoglycemic drugs",Current smoker (currently smoking or stopped smoking < 1 month),96.0,127.0,10.08,8.03,Yes,8.93,1.51,42.93,202.65
 202,Male,52,No school,No,No,No,Yes,Yes,Yes,,30.0,Type 2,"Oral Hypoglycemic drugs,  Insulin",Current smoker (currently smoking or stopped smoking < 1 month),89.0,95.0,12.24,,No,3.01,0.57,32.72,151.19
 203,Female,69,No school,No,No,No,Yes,Yes,Yes,,20.0,Type 2,"Oral Hypoglycemic drugs,  Insulin",Never Smoked,89.0,100.0,13.2,8.08,Yes,4.59,4.1,35.8,97.7
-204,Male,47,Graduated from college,"Yes, Full-time",No,No,Yes,Yes,Yes,,24.0,Type 2,Insulin,Current smoker (currently smoking or stopped smoking < 1 month),119.0,120.0,14.1,8.44,Yes,6.03,2.01,40.43,
+204,Male,47,Graduated from college,"Yes, Full-time",No,No,Yes,Yes,Yes,,24.0,Type 2,Insulin,Current smoker (currently smoking or stopped smoking < 1 month),119.0,120.0,14.1,8.44,Yes,6.03,2.01,40.43,230.69
 205,Male,63,Below secondary school (high school),No,No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),70.0,72.0,,4.76,No,5.15,1.05,17.47,55.64
 206,Male,77,No school,No,No,No,Yes,Yes,No,,,,,Never Smoked,90.0,110.0,7.7,6.29,Yes,5.04,0.59,34.82,68.22
 207,Male,71,No school,No,No,No,Yes,No,Yes,1990.0,22.0,Type 2,Insulin,Current smoker (currently smoking or stopped smoking < 1 month),90.0,93.0,14.13,11.0,Yes,5.42,0.98,21.11,48.38
@@ -219,7 +219,7 @@
 217,Male,40,Secondary school (high school),No,No,No,Yes,No,No,,,,,Past smoker (smoker stopped > 1year ago),90.0,97.0,5.7,5.49,No,2.92,0.43,25.14,8.59
 218,Male,64,Below secondary school (high school),No,No,No,Yes,No,No,,,,,Past smoker (smoker stopped > 1year ago),80.0,104.0,11.02,7.9,Yes,4.56,0.93,25.11,87.32
 219,Female,72,Below secondary school (high school),No,No,No,Yes,Yes,Yes,1994.0,18.0,Type 2,Insulin,Never Smoked,105.0,112.0,12.0,,No,3.8,1.32,39.84,63.84
-220,Male,58,Below secondary school (high school),No,No,No,No,No,Yes,1999.0,13.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),90.0,98.0,18.4,12.71,No,4.03,1.54,28.07,
+220,Male,58,Below secondary school (high school),No,No,No,No,No,Yes,1999.0,13.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),90.0,98.0,18.4,12.71,No,4.03,1.54,28.07,228.98
 221,Male,62,No school,No,No,No,Yes,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),40.0,80.0,5.6,7.5,Yes,5.2,1.37,24.22,63.36
 222,Male,53,Below secondary school (high school),No,No,No,Yes,Yes,No,,,,,Never Smoked,66.0,101.0,6.8,6.92,Yes,6.35,1.82,30.1,95.0
 223,Male,69,No school,No,No,No,Yes,No,Yes,2002.0,10.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,65.0,95.0,11.4,8.81,Yes,3.56,0.97,28.2,61.55
@@ -229,18 +229,18 @@
 227,Female,65,No school,No,No,No,Yes,No,Yes,1992.0,20.0,Type 2,Insulin,Never Smoked,85.0,102.0,6.82,7.57,Yes,3.38,1.33,39.19,128.04
 228,Male,45,Secondary school (high school),"Yes, Full-time",No,No,No,Yes,Yes,,5.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,90.0,99.0,7.6,9.15,Yes,7.4,3.2,26.89,104.33
 229,Male,58,Below secondary school (high school),No,No,No,Yes,No,Yes,2003.0,9.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),60.0,106.0,8.9,6.17,No,,,33.83,84.98
-230,Female,24,Secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,Yes,1994.0,18.0,Type 1,"Diet,  Oral Hypoglycemic drugs,  Insulin",Never Smoked,100.0,91.0,,,Yes,5.94,4.26,29.17,79.31
+230,Female,24,Secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,Yes,1994.0,18.0,Type 1,"Diet,  Oral Hypoglycemic drugs,  Insulin",Never Smoked,100.0,91.0,,14.95,Yes,5.94,4.26,29.17,79.31
 231,Male,52,Some college or vocational school,No,No,No,Yes,No,Yes,2007.0,5.0,Type 2,Diet,Never Smoked,80.0,104.0,,6.35,Yes,4.71,1.14,29.76,96.85
 232,Male,61,Below secondary school (high school),No,No,No,Yes,Yes,No,,,,,Never Smoked,70.0,110.0,9.0,7.6,Yes,4.6,1.65,31.46,94.1
 233,Male,71,No school,No,No,No,Yes,No,Yes,1988.0,24.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),80.0,106.0,14.2,9.41,No,2.65,1.23,33.2,76.74
 234,Male,48,Below secondary school (high school),"Yes, Full-time",No,No,No,No,Yes,2003.0,9.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),80.0,98.0,7.3,7.25,No,5.29,5.25,27.18,108.75
 235,Male,51,Secondary school (high school),No,No,No,Yes,No,Yes,2008.0,4.0,Type 2,Diet,Current smoker (currently smoking or stopped smoking < 1 month),82.0,98.0,,10.54,Yes,4.29,2.5,24.45,85.83
 236,Female,42,Graduated from college,"Yes, Full-time",No,No,No,No,No,,,,,Never Smoked,65.0,97.0,4.8,5.63,Yes,4.61,1.24,28.93,121.33
-237,Female,49,Secondary school (high school),No,No,No,No,Yes,Yes,1997.0,15.0,Type 2,"Diet,  Oral Hypoglycemic drugs,  Insulin",Never Smoked,82.0,134.0,,11.12,Yes,5.41,2.68,39.19,
+237,Female,49,Secondary school (high school),No,No,No,No,Yes,Yes,1997.0,15.0,Type 2,"Diet,  Oral Hypoglycemic drugs,  Insulin",Never Smoked,82.0,134.0,,11.12,Yes,5.41,2.68,39.19,212.94
 238,Male,66,Below secondary school (high school),No,No,No,Yes,No,No,2008.0,4.0,Type 2,Diet,Never Smoked,82.0,103.0,,6.44,Yes,5.5,2.33,30.48,69.35
 239,Male,78,No school,No,No,No,Yes,Yes,Yes,1984.0,28.0,Type 2,Insulin,Never Smoked,65.0,100.0,11.98,,No,2.9,0.82,30.42,57.68
 240,Male,58,Secondary school (high school),"Yes, Full-time",No,No,Yes,No,Yes,2002.0,10.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),60.0,117.0,12.8,,Yes,4.84,2.88,35.22,144.29
-241,Female,52,No school,No,No,No,Yes,Yes,Yes,,17.0,Type 2,Insulin,Never Smoked,85.0,115.0,14.15,,Yes,6.83,2.27,42.05,
+241,Female,52,No school,No,No,No,Yes,Yes,Yes,,17.0,Type 2,Insulin,Never Smoked,85.0,115.0,14.15,,Yes,6.83,2.27,42.05,321.8
 242,Male,80,No school,No,No,No,Yes,Yes,Yes,,20.0,Type 2,"Oral Hypoglycemic drugs,  Insulin",Never Smoked,84.0,94.0,5.9,8.7,Yes,4.5,1.6,26.11,46.39
 243,Male,74,No school,No,No,No,Yes,Yes,Yes,,6.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,74.0,75.0,11.8,6.8,Yes,2.5,0.97,25.91,89.04
 244,Female,70,No school,No,No,No,Yes,Yes,Yes,,30.0,Type 2,"Oral Hypoglycemic drugs,  Insulin",Never Smoked,78.0,114.0,12.0,7.06,Yes,4.4,1.79,34.42,89.6
@@ -275,7 +275,7 @@
 273,Female,91,No school,No,No,No,Yes,No,No,,,,,Never Smoked,122.0,86.0,5.4,7.1,No,7.1,2.89,23.44,22.32
 274,Male,73,No school,No,No,No,Yes,No,Yes,1992.0,20.0,Type 2,Insulin,Never Smoked,70.0,112.0,5.2,6.8,Yes,4.0,1.69,22.15,11.91
 275,Female,67,No school,No,No,No,Yes,No,Yes,1997.0,15.0,Type 2,"Diet,  Oral Hypoglycemic drugs,  Insulin",Never Smoked,86.0,136.0,,10.6,Yes,5.2,3.16,39.06,44.92
-276,Male,44,Secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,Yes,1996.0,16.0,Type 2,"Diet,  Oral Hypoglycemic drugs,  Insulin",Current smoker (currently smoking or stopped smoking < 1 month),95.0,122.0,12.0,8.0,Yes,5.9,0.9,38.74,
+276,Male,44,Secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,Yes,1996.0,16.0,Type 2,"Diet,  Oral Hypoglycemic drugs,  Insulin",Current smoker (currently smoking or stopped smoking < 1 month),95.0,122.0,12.0,8.0,Yes,5.9,0.9,38.74,214.69
 277,Male,59,Secondary school (high school),No,No,No,Yes,Yes,Yes,1984.0,28.0,Type 2,"Oral Hypoglycemic drugs,  Insulin",Never Smoked,90.0,93.0,,12.3,No,3.9,2.5,24.24,81.18
 278,Female,74,No school,No,No,No,Yes,No,No,,,,,Never Smoked,68.0,119.0,5.7,6.2,No,4.5,1.51,26.84,32.9
 279,Male,34,Secondary school (high school),"Yes, Part-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),136.0,52.0,,8.7,No,3.0,2.01,31.12,117.56
@@ -300,14 +300,14 @@
 298,Male,64,Secondary school (high school),No,No,No,No,No,Yes,2007.0,5.0,Type 2,Insulin,Current smoker (currently smoking or stopped smoking < 1 month),83.0,100.0,,,No,,,23.88,71.48
 299,Male,83,No school,No,No,No,Yes,Yes,Yes,2011.0,1.0,Type 2,Insulin,Never Smoked,75.0,102.0,,7.4,No,,,31.38,19.59
 300,Male,67,No school,No,No,No,Yes,Yes,Yes,2002.0,10.0,Type 2,Insulin,Past smoker (smoker stopped > 1year ago),100.0,112.0,,10.3,Yes,4.6,6.7,28.73,136.97
-301,Male,41,Secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,Yes,2011.0,1.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),80.0,135.0,,11.1,Yes,5.0,2.77,45.71,
+301,Male,41,Secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,Yes,2011.0,1.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),80.0,135.0,,11.1,Yes,5.0,2.77,45.71,213.1
 302,Female,62,No school,No,No,No,Yes,No,Yes,2010.0,2.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Never Smoked,80.0,97.0,,8.6,Yes,3.7,2.7,28.89,117.17
 303,Male,41,Secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Past smoker (smoker stopped > 1year ago),68.0,114.0,,,Yes,3.9,1.28,29.6,177.72
 304,Male,56,Below secondary school (high school),"Yes, Full-time",No,No,Yes,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),95.0,106.0,5.3,6.1,Yes,5.1,0.9,30.8,127.72
 305,Female,53,Below secondary school (high school),No,No,No,Yes,No,No,,,,,Never Smoked,85.0,115.0,,6.1,Yes,4.7,1.2,35.94,138.74
 306,Male,69,Secondary school (high school),No,No,No,Yes,Yes,Yes,2002.0,10.0,Type 2,Insulin,Current smoker (currently smoking or stopped smoking < 1 month),70.0,130.0,,8.4,Yes,2.5,0.96,41.52,88.81
 307,Female,67,No school,No,No,No,Yes,Yes,Yes,2002.0,10.0,Type 2,Insulin,Never Smoked,105.0,136.0,,11.0,No,,,38.28,95.39
-308,Male,37,Graduated from college,"Yes, Full-time",No,No,Yes,Yes,Yes,2009.0,3.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),80.0,110.0,,8.1,Yes,4.7,4.13,34.29,
+308,Male,37,Graduated from college,"Yes, Full-time",No,No,Yes,Yes,Yes,2009.0,3.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),80.0,110.0,,8.1,Yes,4.7,4.13,34.29,229.35
 309,Male,54,Secondary school (high school),No,No,No,No,No,No,,,,,Never Smoked,77.0,108.0,6.0,5.6,Yes,6.0,2.2,28.72,108.39
 310,Male,58,Secondary school (high school),No,No,No,Yes,No,No,,,,,Never Smoked,95.0,115.0,6.1,6.1,Yes,4.6,1.9,33.2,109.91
 311,Male,64,Below secondary school (high school),No,No,No,No,No,Yes,1992.0,21.0,Type 2,Insulin,Current smoker (currently smoking or stopped smoking < 1 month),85.0,96.0,,11.0,No,,,30.48,116.85
@@ -317,7 +317,7 @@
 315,Male,51,Secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),80.0,90.0,,7.1,Yes,4.1,1.86,26.81,107.99
 316,Male,57,Below secondary school (high school),No,No,No,No,Yes,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),78.0,88.0,,6.4,Yes,4.7,1.83,24.22,76.02
 317,Female,54,Below secondary school (high school),No,No,No,Yes,Yes,Yes,2003.0,10.0,Type 2,"Diet,  Oral Hypoglycemic drugs,  Insulin",Never Smoked,95.0,105.0,7.9,8.1,Yes,4.2,1.3,34.19,153.6
-318,Male,37,Below secondary school (high school),No,No,No,Yes,Yes,Yes,2005.0,8.0,Type 2,"Oral Hypoglycemic drugs,  Insulin",Current smoker (currently smoking or stopped smoking < 1 month),100.0,102.0,6.0,6.1,Yes,4.4,0.74,27.08,
+318,Male,37,Below secondary school (high school),No,No,No,Yes,Yes,Yes,2005.0,8.0,Type 2,"Oral Hypoglycemic drugs,  Insulin",Current smoker (currently smoking or stopped smoking < 1 month),100.0,102.0,6.0,6.1,Yes,4.4,0.74,27.08,259.71
 319,Male,36,Below secondary school (high school),"Yes, Part-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),86.0,109.0,5.6,5.6,Yes,4.4,1.2,28.7,164.47
 320,Female,59,Below secondary school (high school),No,No,No,Yes,No,No,,,,,Never Smoked,90.0,109.0,5.8,5.9,Yes,4.1,1.3,34.19,107.34
 321,Male,49,Some college or vocational school,"Yes, Part-time",No,No,No,No,No,,,,,Never Smoked,80.0,106.0,5.1,5.9,Yes,4.2,1.4,28.33,128.15
@@ -402,7 +402,7 @@
 400,Male,45,Below secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),82.0,101.0,4.1,,Yes,5.6,2.09,32.74,134.72
 401,Male,68,No school,No,No,No,Yes,No,No,,,,,Never Smoked,84.0,122.0,,,Yes,3.1,1.2,27.4,63.7
 402,Male,72,No school,No,No,No,No,No,Yes,1994.0,18.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,64.0,90.0,,,Yes,4.5,,20.48,48.02
-403,Male,35,Below secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),80.0,138.0,,,Yes,4.69,1.3,43.55,
+403,Male,35,Below secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),80.0,138.0,,,Yes,4.69,1.3,43.55,212.3
 404,Male,76,No school,No,No,No,Yes,Yes,Yes,2000.0,12.0,Type 2,Insulin,Never Smoked,120.0,94.0,7.6,,Yes,3.1,0.8,23.66,28.26
 405,Male,72,No school,No,No,No,Yes,No,No,,,,,Never Smoked,150.0,112.0,,,Yes,3.7,0.6,35.16,75.28
 406,Female,80,No school,No,No,No,Yes,No,Yes,1992.0,20.0,Type 2,Insulin,Never Smoked,114.0,92.0,,9.6,Yes,8.6,0.8,21.91,26.27
@@ -429,7 +429,7 @@
 427,Female,57,No school,No,No,No,No,No,No,,,,,Never Smoked,69.0,88.0,,,Yes,4.4,2.1,23.44,79.68
 428,Female,67,No school,No,No,No,Yes,No,No,,,,,Never Smoked,90.0,92.0,,,Yes,3.0,1.5,25.78,43.2
 429,Male,55,No school,No,No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),70.0,116.0,,,Yes,4.8,3.8,29.4,90.2
-430,Male,81,No school,No,No,No,Yes,Yes,Yes,1980.0,32.0,Type 2,Insulin,Never Smoked,91.0,106.0,,12.6,Yes,4.52,1.95,28.96,22.7
+430,Male,81,No school,No,No,No,Yes,Yes,Yes,1980.0,32.0,Type 2,Insulin,Never Smoked,91.0,106.0,0.81,12.6,Yes,4.52,1.95,28.96,22.7
 431,Female,69,No school,No,No,No,Yes,Yes,Yes,1987.0,25.0,Type 2,Insulin,Never Smoked,90.0,101.0,5.2,7.0,Yes,4.2,1.99,31.16,37.97
 432,Female,78,No school,No,No,No,Yes,Yes,Yes,2005.0,7.0,Type 2,Insulin,Never Smoked,80.0,126.0,8.4,9.3,Yes,3.44,1.4,50.0,106.53
 433,Male,55,Secondary school (high school),No,No,Yes,Yes,Yes,Yes,2011.0,1.0,Type 2,Diet,Current smoker (currently smoking or stopped smoking < 1 month),85.0,109.0,9.0,7.6,Yes,5.98,2.65,28.41,35.11
@@ -465,7 +465,7 @@
 463,Female,80,No school,No,No,No,Yes,Yes,Yes,1982.0,30.0,Type 2,Insulin,Never Smoked,102.0,107.0,13.2,9.1,Yes,3.85,1.72,28.76,47.48
 464,Male,43,Some college or vocational school,"Yes, Part-time",No,No,Yes,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),77.0,120.0,5.5,5.4,Yes,6.12,0.75,39.45,169.47
 465,Female,62,Secondary school (high school),No,No,No,No,No,Yes,2008.0,4.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,92.0,92.0,5.9,7.6,Yes,4.77,1.01,30.86,96.86
-466,Female,38,Some college or vocational school,"Yes, Full-time",No,No,Yes,Yes,Yes,1995.0,17.0,Type 1,"Oral Hypoglycemic drugs,  Insulin",Never Smoked,119.0,150.0,7.6,,No,4.14,3.25,48.41,
+466,Female,38,Some college or vocational school,"Yes, Full-time",No,No,Yes,Yes,Yes,1995.0,17.0,Type 1,"Oral Hypoglycemic drugs,  Insulin",Never Smoked,119.0,150.0,7.6,14.7,No,4.14,3.25,48.41,220.32
 467,Male,51,Secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Never Smoked,67.0,109.0,3.7,5.5,Yes,7.03,2.42,28.34,143.57
 468,Male,47,Secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),74.0,88.0,5.4,5.1,Yes,5.0,1.4,29.76,107.89
 469,Female,59,No school,No,No,No,Yes,Yes,Yes,1992.0,20.0,Type 2,Insulin,Never Smoked,111.0,105.0,11.9,9.4,Yes,4.29,2.53,30.08,109.94
@@ -501,13 +501,13 @@
 499,Female,75,No school,No,No,No,Yes,Yes,Yes,1982.0,30.0,Type 2,Insulin,Never Smoked,70.0,98.0,10.7,,Yes,3.4,1.4,27.92,82.86
 500,Female,63,No school,No,No,No,Yes,Yes,Yes,1992.0,20.0,Type 2,Insulin,Never Smoked,58.0,73.0,2.9,,Yes,3.88,0.93,19.71,14.67
 501,Male,64,Graduated from college,No,No,No,No,Yes,No,,,,,Never Smoked,92.0,90.0,8.8,6.5,Yes,4.4,1.0,23.44,35.06
-502,Female,59,No school,No,No,No,Yes,Yes,Yes,1987.0,25.0,Type 2,Insulin,Never Smoked,105.0,125.0,8.9,,Yes,4.9,2.3,37.11,85.14
+502,Female,59,No school,No,No,No,Yes,Yes,Yes,1987.0,25.0,Type 2,Insulin,Never Smoked,105.0,125.0,8.9,14.5,Yes,4.9,2.3,37.11,85.14
 503,Female,64,Below secondary school (high school),No,No,No,Yes,Yes,Yes,1995.0,17.0,Type 2,"Oral Hypoglycemic drugs,  Insulin",Never Smoked,58.0,113.0,7.0,8.4,Yes,4.12,1.34,29.14,85.12
 504,Female,59,Graduated from college,No,No,No,Yes,Yes,Yes,1992.0,20.0,Type 2,Insulin,Never Smoked,75.0,95.0,3.4,10.7,Yes,5.57,1.72,31.25,51.44
 505,Male,39,Secondary school (high school),"Yes, Full-time",No,No,No,Yes,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),60.0,100.0,5.3,5.6,No,,,29.76,122.79
 506,Male,79,No school,No,No,No,Yes,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),92.0,92.0,5.0,5.8,No,4.3,0.74,20.76,42.47
 507,Male,64,Graduated from college,No,No,No,Yes,No,No,,,,,Never Smoked,56.0,115.0,8.0,7.3,Yes,9.1,2.47,27.34,50.34
-508,Male,86,No school,No,No,No,Yes,Yes,Yes,1982.0,30.0,Type 2,Insulin,Never Smoked,68.0,111.0,5.6,8.5,No,1.75,,32.27,51.98
+508,Male,86,No school,No,No,No,Yes,Yes,Yes,1982.0,30.0,Type 2,Insulin,Never Smoked,68.0,111.0,5.6,8.5,No,1.75,0.13,32.27,51.98
 509,Male,50,Graduated from college,"Yes, Full-time",No,No,No,Yes,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),84.0,105.0,4.0,5.3,Yes,3.2,1.07,29.73,111.94
 510,Male,47,Secondary school (high school),No,No,No,Yes,Yes,Yes,1987.0,25.0,Type 2,Diet,Never Smoked,90.0,122.0,7.3,7.3,Yes,1.8,0.7,39.18,12.85
 511,Female,65,Secondary school (high school),No,No,No,Yes,No,No,,,,,Never Smoked,89.0,83.0,4.5,,Yes,4.09,0.77,22.89,91.28
@@ -515,7 +515,7 @@
 513,Male,74,Secondary school (high school),No,No,No,Yes,Yes,Yes,1982.0,30.0,Type 2,Insulin,Past smoker (smoker stopped > 1year ago),103.0,116.0,4.8,8.2,Yes,4.38,1.01,29.39,55.35
 514,Male,63,No school,No,No,No,Yes,Yes,Yes,1992.0,20.0,Type 2,Insulin,Past smoker (smoker stopped > 1year ago),132.0,91.0,5.7,,Yes,2.75,1.42,26.73,86.1
 515,Male,72,Below secondary school (high school),No,No,No,Yes,Yes,Yes,2006.0,7.0,Type 2,Oral Hypoglycemic drugs,Past smoker (smoker stopped > 1year ago),70.0,88.0,2.8,8.7,Yes,2.94,0.38,25.83,64.96
-516,Female,41,Some college or vocational school,"Yes, Full-time",No,No,Yes,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),96.0,120.0,5.4,5.5,Yes,5.86,5.17,37.55,
+516,Female,41,Some college or vocational school,"Yes, Full-time",No,No,Yes,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),96.0,120.0,5.4,5.5,Yes,5.86,5.17,37.55,204.14
 517,Male,69,Secondary school (high school),No,No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),70.0,92.0,3.8,5.0,Yes,6.12,1.29,25.54,88.44
 518,Female,62,No school,No,No,No,Yes,Yes,Yes,1984.0,28.0,Type 2,Insulin,Never Smoked,97.0,95.0,15.6,10.6,Yes,4.54,0.72,24.8,51.62
 519,Male,37,Post-graduate degree,"Yes, Full-time",No,No,No,Yes,No,,,,,Past smoker (smoker stopped > 1year ago),90.0,95.0,6.0,4.2,Yes,4.1,1.6,27.43,145.78
@@ -565,7 +565,7 @@
 563,Male,87,No school,No,No,No,No,No,No,,,,,Past smoker (smoker stopped > 1year ago),82.0,114.0,,,Yes,5.56,1.87,25.01,55.77
 564,Female,64,No school,No,No,No,No,Yes,No,,,,,Never Smoked,72.0,88.0,,7.3,Yes,3.66,1.33,29.14,65.0
 565,Male,50,Below secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Never Smoked,48.0,107.0,4.7,4.38,Yes,5.99,1.54,24.8,96.86
-566,Male,48,Secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),102.0,94.0,,,Yes,6.58,2.17,24.77,127.26
+566,Male,48,Secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),102.0,94.0,,3.75,Yes,6.58,2.17,24.77,127.26
 567,Male,60,Below secondary school (high school),No,No,No,Yes,Yes,Yes,2006.0,6.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,72.0,108.0,,,Yes,4.84,1.89,32.47,117.96
 568,Female,66,No school,No,No,No,Yes,No,No,,,,,Never Smoked,60.0,93.0,4.45,4.01,Yes,3.41,0.77,22.89,121.98
 569,Female,55,No school,No,No,No,Yes,Yes,Yes,2002.0,10.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Never Smoked,100.0,83.0,4.23,7.84,Yes,5.21,1.63,22.22,12.03
@@ -588,7 +588,7 @@
 586,Male,67,No school,No,No,No,Yes,Yes,Yes,1992.0,20.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Never Smoked,72.0,81.0,,11.88,Yes,5.4,1.48,25.15,81.18
 587,Female,61,No school,No,No,No,Yes,Yes,Yes,2007.0,5.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Never Smoked,80.0,88.0,,9.67,Yes,15.7,10.59,25.89,89.24
 588,Female,54,No school,No,No,No,Yes,No,No,,,,,Never Smoked,68.0,84.0,5.7,,Yes,4.3,1.4,25.16,83.56
-589,Male,41,Below secondary school (high school),"Yes, Part-time",No,No,Yes,No,Yes,2007.0,5.0,Type 2,Insulin,Never Smoked,102.0,106.0,,9.2,Yes,5.85,1.94,32.87,111.97
+589,Male,41,Below secondary school (high school),"Yes, Part-time",No,No,Yes,No,Yes,2007.0,5.0,Type 2,Insulin,Never Smoked,102.0,106.0,0.47,9.2,Yes,5.85,1.94,32.87,111.97
 590,Male,73,No school,No,No,No,Yes,No,No,,,,,Never Smoked,60.0,121.0,,,Yes,3.84,0.96,36.96,72.02
 591,Male,78,No school,No,No,No,No,No,No,,,,,Never Smoked,70.0,105.0,5.2,4.6,Yes,4.7,0.7,26.13,46.14
 592,Female,61,No school,No,No,No,Yes,No,Yes,2009.0,3.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,110.0,55.0,,10.9,No,,,28.06,35.3
@@ -655,7 +655,7 @@
 653,Male,61,No school,No,No,No,No,Yes,No,,,,,Never Smoked,50.0,85.0,5.0,,Yes,7.9,1.1,23.81,85.81
 654,Male,67,No school,No,No,No,Yes,Yes,Yes,1987.0,25.0,Type 2,"Diet,  Insulin",Never Smoked,72.0,90.0,15.0,8.5,Yes,5.5,,27.34,54.73
 655,Male,50,No school,No,No,No,Yes,Yes,Yes,2007.0,5.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Never Smoked,57.0,93.0,8.6,8.4,Yes,5.5,8.7,24.06,65.33
-656,Male,47,Below secondary school (high school),"Yes, Full-time",No,No,No,Yes,Yes,2002.0,10.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Recent smoker (stopped smoking  > 1 month and < 1 year),68.0,96.0,15.0,9.4,Yes,5.0,0.5,23.41,
+656,Male,47,Below secondary school (high school),"Yes, Full-time",No,No,No,Yes,Yes,2002.0,10.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Recent smoker (stopped smoking  > 1 month and < 1 year),68.0,96.0,15.0,9.4,Yes,5.0,0.5,23.41,875.43
 657,Male,78,No school,No,No,No,Yes,Yes,Yes,2002.0,10.0,Type 2,"Diet,  Insulin",Never Smoked,74.0,89.0,12.3,11.6,Yes,3.1,1.7,26.57,25.88
 658,Female,70,No school,No,No,No,Yes,Yes,No,,,,,Never Smoked,101.0,92.0,8.0,,Yes,5.9,1.1,22.86,61.4
 659,Female,68,No school,No,No,No,Yes,Yes,Yes,2002.0,10.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Never Smoked,84.0,88.0,1.3328,7.1,Yes,3.8,0.7,27.55,79.1
@@ -708,7 +708,7 @@
 706,Female,61,No school,No,No,No,Yes,Yes,Yes,2005.0,7.0,Type 2,"Diet,  Insulin",Never Smoked,83.0,89.0,10.5,,Yes,6.5,2.5,24.8,71.89
 707,Male,53,Below secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,No,,,,,Never Smoked,74.0,83.0,,,Yes,4.1,0.6,23.88,86.87
 708,Male,67,No school,No,No,No,Yes,Yes,Yes,2007.0,5.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Never Smoked,82.0,87.0,6.5,5.7,Yes,3.6,0.8,22.49,106.12
-709,Male,50,Secondary school (high school),"Yes, Full-time",No,No,No,Yes,No,,,,,Never Smoked,82.0,82.0,6.2,5.7,Yes,5.8,,23.05,
+709,Male,50,Secondary school (high school),"Yes, Full-time",No,No,No,Yes,No,,,,,Never Smoked,82.0,82.0,6.2,5.7,Yes,5.8,,23.05,460.63
 710,Male,45,Below secondary school (high school),"Yes, Part-time",No,No,No,Yes,No,,,,,Never Smoked,96.0,88.0,,,Yes,3.9,1.6,26.72,106.36
 711,Female,68,Below secondary school (high school),No,No,No,Yes,Yes,Yes,2002.0,10.0,Type 2,Insulin,Never Smoked,66.0,88.0,9.3,6.8,Yes,3.2,1.4,27.89,50.14
 712,Female,49,No school,No,No,No,No,No,No,,,,,Never Smoked,67.0,118.0,6.0,5.3,Yes,4.3,2.1,24.68,73.97
@@ -769,7 +769,7 @@
 767,Male,67,No school,No,No,No,Yes,Yes,Yes,2001.0,12.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Never Smoked,82.0,98.0,19.0,12.9,Yes,3.6,0.8,22.38,56.61
 768,Male,32,Secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),72.0,85.0,,,Yes,4.8,0.8,26.18,153.93
 769,Male,66,No school,"Yes, Full-time",No,No,Yes,Yes,Yes,2008.0,5.0,Type 2,None,Current smoker (currently smoking or stopped smoking < 1 month),69.0,109.0,,6.9,Yes,3.8,2.2,21.77,74.81
-770,Male,62,No school,No,No,No,Yes,Yes,Yes,1996.0,16.0,Type 2,Insulin,Current smoker (currently smoking or stopped smoking < 1 month),68.0,95.0,1.2656,,No,3.9,1.9,34.67,86.44
+770,Male,62,No school,No,No,No,Yes,Yes,Yes,1996.0,16.0,Type 2,Insulin,Current smoker (currently smoking or stopped smoking < 1 month),68.0,95.0,1.2656,15.2,No,3.9,1.9,34.67,86.44
 771,Male,45,No school,"Yes, Full-time",No,No,Yes,Yes,Yes,2002.0,10.0,Type 2,Insulin,Never Smoked,88.0,91.0,3.9,,Yes,2.5,0.9,24.51,22.78
 772,Male,39,Secondary school (high school),"Yes, Full-time",No,No,No,Yes,No,,,,,Never Smoked,82.0,88.0,13.0,12.3,Yes,4.5,1.5,24.98,108.3
 773,Male,58,No school,"Yes, Full-time",No,No,Yes,Yes,No,,,,,Never Smoked,74.0,89.0,,5.5,Yes,3.3,1.5,23.24,7.93
@@ -891,18 +891,18 @@
 889,Female,74,No school,No,No,No,Yes,Yes,Yes,2006.0,7.0,Type 2,None,Never Smoked,88.0,118.0,7.7,6.0,Yes,5.1,2.2,24.98,8.84
 890,Male,50,Below secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,Yes,2002.0,10.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),116.0,125.0,,7.3,Yes,4.6,1.3,26.73,76.34
 891,Male,70,No school,No,No,No,Yes,No,No,,,,,Never Smoked,104.0,78.0,4.7,7.7,Yes,4.57,0.99,22.1,41.62
-892,Male,43,Below secondary school (high school),"Yes, Full-time",No,No,No,No,Yes,2006.0,6.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,117.0,89.0,,,No,,,27.76,151.36
+892,Male,43,Below secondary school (high school),"Yes, Full-time",No,No,No,No,Yes,2006.0,6.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,117.0,89.0,,15.8,No,,,27.76,151.36
 893,Male,61,No school,No,No,No,Yes,No,Yes,2002.0,10.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,103.0,90.0,,,No,,,25.95,28.47
 894,Male,60,No school,No,No,No,Yes,Yes,Yes,2007.0,5.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,106.0,116.0,,,Yes,3.32,0.62,31.59,111.35
 895,Male,61,No school,No,No,No,Yes,Yes,Yes,2002.0,10.0,Type 2,Insulin,Never Smoked,96.0,82.0,7.01,5.6,No,4.08,1.1,25.39,69.41
 896,Male,75,No school,No,No,No,No,No,No,,,,,Never Smoked,180.0,92.0,,,No,3.86,0.78,26.57,65.18
 897,Male,68,No school,No,No,No,No,No,Yes,2002.0,10.0,Type 2,Insulin,Never Smoked,78.0,90.0,,7.7,Yes,4.45,0.64,29.38,92.01
 898,Male,32,No school,"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),65.0,110.0,6.36,,Yes,5.75,1.93,29.41,146.64
-899,Male,61,No school,No,No,No,Yes,No,No,,,,,Never Smoked,72.0,90.0,,,Yes,4.05,0.45,24.61,74.83
+899,Male,61,No school,No,No,No,Yes,No,No,,,,,Never Smoked,72.0,90.0,,3.2,Yes,4.05,0.45,24.61,74.83
 900,Male,50,No school,No,No,No,No,No,No,,,,,Past smoker (smoker stopped > 1year ago),60.0,103.0,,4.1,Yes,4.44,0.92,26.06,98.12
 901,Male,55,No school,No,No,No,Yes,No,No,,,,,Never Smoked,111.0,92.0,5.78,4.0,Yes,7.24,0.88,25.46,73.5
 902,Male,48,Below secondary school (high school),No,No,No,Yes,No,Yes,1994.0,18.0,Type 2,"Oral Hypoglycemic drugs,  Insulin",Never Smoked,80.0,94.0,9.2,,Yes,4.26,1.79,21.77,106.09
-903,Male,61,No school,No,No,No,Yes,Yes,Yes,2002.0,10.0,Type 2,Diet,Never Smoked,89.0,90.0,,,Yes,3.64,0.6,23.83,76.16
+903,Male,61,No school,No,No,No,Yes,Yes,Yes,2002.0,10.0,Type 2,Diet,Never Smoked,89.0,90.0,,15.4,Yes,3.64,0.6,23.83,76.16
 904,Male,65,No school,No,No,No,No,No,No,,,,,Never Smoked,98.0,85.0,,5.7,Yes,3.87,0.38,25.71,68.7
 905,Female,62,No school,No,No,No,No,No,No,,,,,Never Smoked,162.0,114.0,,8.2,Yes,5.45,0.87,35.46,62.92
 906,Male,59,No school,No,No,No,Yes,No,Yes,1999.0,13.0,Type 2,"Oral Hypoglycemic drugs,  Insulin",Past smoker (smoker stopped > 1year ago),92.0,104.0,,7.3,No,,,30.1,54.86
@@ -942,7 +942,7 @@
 940,Male,72,No school,No,No,No,Yes,Yes,No,,,,,Never Smoked,102.0,89.0,4.1,,Yes,6.62,0.73,20.66,57.38
 941,Female,63,No school,No,No,No,Yes,Yes,Yes,2001.0,11.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,140.0,80.0,,,Yes,3.5,1.01,22.03,40.04
 942,Male,34,Some college or vocational school,"Yes, Full-time",No,No,No,No,No,,,,,Recent smoker (stopped smoking  > 1 month and < 1 year),85.0,96.0,,,Yes,7.11,4.7,25.35,101.86
-943,Female,59,No school,No,No,No,Yes,Yes,No,,,,,Never Smoked,110.0,75.0,,,Yes,3.89,1.64,27.34,36.86
+943,Female,59,No school,No,No,No,Yes,Yes,No,,,,,Never Smoked,110.0,75.0,0.61,,Yes,3.89,1.64,27.34,36.86
 944,Female,48,Below secondary school (high school),No,No,No,No,No,No,,,,,Never Smoked,71.0,81.0,4.6,5.2,Yes,5.8,2.2,24.92,107.64
 945,Female,55,No school,No,No,No,Yes,Yes,Yes,2001.0,11.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,72.0,89.0,,,Yes,3.7,0.88,23.31,66.05
 946,Male,63,No school,No,No,No,Yes,No,No,,,,,Past smoker (smoker stopped > 1year ago),87.0,101.0,,,Yes,6.46,1.28,27.13,86.56
@@ -1025,7 +1025,7 @@
 1023,Male,73,No school,No,No,No,No,No,No,,,,,Past smoker (smoker stopped > 1year ago),75.0,101.0,6.43,6.0,Yes,6.79,1.63,38.58,68.04
 1024,Female,47,No school,No,No,No,No,No,No,,,,,Never Smoked,65.0,90.0,5.2,6.0,Yes,4.87,1.91,27.12,115.85
 1025,Male,75,Below secondary school (high school),No,No,No,Yes,No,Yes,2000.0,12.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,68.0,108.0,13.2,6.0,Yes,5.04,0.68,28.91,17.98
-1026,Male,49,No school,"Yes, Full-time",No,Yes,No,No,No,,,,,Never Smoked,80.0,94.0,6.6,7.0,Yes,5.8,1.2,29.52,
+1026,Male,49,No school,"Yes, Full-time",No,Yes,No,No,No,,,,,Never Smoked,80.0,94.0,6.6,7.0,Yes,5.8,1.2,29.52,3.7
 1027,Male,62,No school,"Yes, Full-time",No,No,No,No,No,,,,,Never Smoked,96.0,104.0,5.2,6.0,Yes,4.2,1.6,30.73,76.28
 1028,Male,66,No school,No,No,No,No,No,No,,,,,Never Smoked,66.0,101.0,5.7,6.0,Yes,6.87,1.25,35.58,113.42
 1029,Male,53,No school,No,No,No,No,No,Yes,2011.0,1.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),68.0,99.0,11.8,,Yes,6.56,0.93,28.96,85.16
@@ -1041,7 +1041,7 @@
 1039,Male,68,No school,No,No,No,Yes,No,No,,,,,Past smoker (smoker stopped > 1year ago),70.0,90.0,5.2,,Yes,4.78,1.04,24.22,52.54
 1040,Male,63,No school,No,No,No,No,No,No,,,,,Never Smoked,60.0,92.0,5.0,6.0,Yes,5.11,1.19,24.61,84.51
 1041,Female,57,No school,No,No,No,No,Yes,No,,,,,Never Smoked,80.0,124.0,5.2,,Yes,5.6,2.4,39.82,129.55
-1042,Female,29,Secondary school (high school),No,No,No,No,No,No,,,,,Never Smoked,72.0,108.0,5.5,,Yes,3.17,0.68,41.14,
+1042,Female,29,Secondary school (high school),No,No,No,No,No,No,,,,,Never Smoked,72.0,108.0,5.5,,Yes,3.17,0.68,41.14,205.23
 1043,Female,60,No school,No,No,No,Yes,No,No,,,,,Never Smoked,88.0,95.0,5.2,,Yes,4.58,1.33,26.16,65.37
 1044,Female,60,No school,No,No,No,No,No,No,,,,,Never Smoked,80.0,101.0,5.2,,Yes,4.94,0.72,31.53,104.0
 1045,Male,46,Below secondary school (high school),No,No,No,Yes,Yes,No,,,,,Never Smoked,90.0,120.0,5.5,6.0,Yes,6.74,0.91,38.87,151.2
@@ -1320,13 +1320,13 @@
 1318,Female,56,No school,No,No,No,Yes,No,No,,,,,Never Smoked,104.0,90.0,,,No,,,31.47,129.14
 1319,Male,65,No school,No,No,No,No,No,No,,,,,Recent smoker (stopped smoking  > 1 month and < 1 year),80.0,88.0,,5.4,Yes,6.84,2.34,23.53,67.73
 1320,Male,54,Below secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,No,,,,,Never Smoked,120.0,85.0,,5.6,Yes,4.62,0.96,25.39,79.03
-1321,Male,48,Below secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),75.0,100.0,,,Yes,5.29,1.07,26.17,128.88
+1321,Male,48,Below secondary school (high school),"Yes, Full-time",No,No,No,No,No,20.0,1992.0,,,Current smoker (currently smoking or stopped smoking < 1 month),75.0,100.0,,,Yes,5.29,1.07,26.17,128.88
 1322,Female,83,No school,No,No,No,Yes,Yes,No,,,,,Never Smoked,100.0,100.0,,6.3,Yes,4.27,1.28,26.27,35.7
-1323,Male,51,Below secondary school (high school),"Yes, Full-time",No,No,Yes,No,Yes,1996.0,16.0,Type 2,Insulin,Current smoker (currently smoking or stopped smoking < 1 month),71.0,104.0,13.51,,Yes,5.91,1.11,23.59,81.79
+1323,Male,51,Below secondary school (high school),"Yes, Full-time",No,No,Yes,No,Yes,1996.0,16.0,Type 2,Insulin,Current smoker (currently smoking or stopped smoking < 1 month),71.0,104.0,13.51,14.7,Yes,5.91,1.11,23.59,81.79
 1324,Male,71,No school,No,No,No,Yes,No,No,,,,,Never Smoked,79.0,90.0,7.16,5.5,Yes,5.73,1.15,22.77,56.58
 1325,Male,82,No school,No,No,No,No,No,No,,,,,Never Smoked,110.0,67.0,9.06,6.6,Yes,3.88,0.54,22.81,27.35
 1326,Female,46,No school,No,No,No,Yes,No,No,,,,,Never Smoked,77.0,110.0,,,Yes,4.34,1.03,34.67,185.98
-1327,Male,51,No school,"Yes, Full-time",No,No,No,No,No,,,,,Never Smoked,83.0,104.0,5.37,7.2,No,4.22,,34.58,164.21
+1327,Male,51,No school,"Yes, Full-time",No,No,No,No,No,,,,,Never Smoked,83.0,104.0,5.37,7.2,No,4.22,0.01,34.58,164.21
 1328,Male,52,No school,"Yes, Full-time",No,No,No,No,Yes,2004.0,8.0,Type 2,Diet,Never Smoked,96.0,94.0,10.7,12.5,Yes,6.83,2.12,27.77,
 1329,Male,60,No school,No,No,No,No,No,No,,,,,Never Smoked,70.0,103.0,9.72,5.6,Yes,5.06,2.69,28.6,105.33
 1330,Male,50,Below secondary school (high school),"Yes, Full-time",No,No,No,Yes,No,,,,,Past smoker (smoker stopped > 1year ago),89.0,85.0,4.3,7.1,Yes,5.91,2.0,25.39,95.94
@@ -1369,7 +1369,7 @@
 1367,Male,60,No school,No,No,No,Yes,Yes,No,,,,,Never Smoked,80.0,32.0,,,No,,,25.71,58.37
 1368,Male,43,Some college or vocational school,"Yes, Full-time",No,No,Yes,Yes,Yes,2007.0,5.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Past smoker (smoker stopped > 1year ago),78.0,100.0,,,Yes,5.2,0.54,25.71,132.57
 1369,Male,72,Below secondary school (high school),No,No,No,Yes,No,No,,,,,Past smoker (smoker stopped > 1year ago),92.0,78.0,5.3,,Yes,3.7,0.44,26.99,74.99
-1370,Male,54,Below secondary school (high school),"Yes, Part-time",No,No,Yes,Yes,Yes,,,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),80.0,83.0,5.8,,Yes,4.1,3.0,28.73,66.3
+1370,Male,54,Below secondary school (high school),"Yes, Part-time",No,No,Yes,Yes,Yes,10.0,,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),80.0,83.0,5.8,,Yes,4.1,3.0,28.73,66.3
 1371,Male,49,Secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,No,,,,,Past smoker (smoker stopped > 1year ago),108.0,78.0,5.7,,Yes,5.8,1.8,26.01,109.5
 1372,Male,73,Below secondary school (high school),No,No,No,Yes,Yes,Yes,2000.0,12.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,125.0,84.0,3.7,,Yes,5.5,2.1,27.76,79.63
 1373,Male,66,No school,No,No,No,Yes,Yes,Yes,1997.0,15.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,92.0,79.0,5.9,,Yes,5.8,0.87,27.73,70.6
@@ -1409,7 +1409,7 @@
 1407,Female,88,No school,No,No,No,Yes,Yes,Yes,2010.0,2.0,Type 2,Insulin,Past smoker (smoker stopped > 1year ago),80.0,98.0,9.8,,Yes,4.2,0.5,28.52,22.82
 1408,Male,73,Secondary school (high school),No,No,Yes,Yes,Yes,Yes,2002.0,10.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,96.0,90.0,9.3,,Yes,5.5,0.4,24.8,36.98
 1409,Female,62,No school,No,No,Yes,Yes,No,Yes,2002.0,10.0,Type 2,Insulin,Never Smoked,113.0,100.0,18.2,11.2,Yes,7.7,2.7,22.03,21.45
-1410,Male,35,Below secondary school (high school),"Yes, Full-time",No,No,Yes,No,No,,,,,Recent smoker (stopped smoking  > 1 month and < 1 year),113.0,120.0,7.9,,Yes,5.3,2.3,52.47,
+1410,Male,35,Below secondary school (high school),"Yes, Full-time",No,No,Yes,No,No,,,,,Recent smoker (stopped smoking  > 1 month and < 1 year),113.0,120.0,7.9,,Yes,5.3,2.3,52.47,252.36
 1411,Female,57,Below secondary school (high school),No,No,No,Yes,Yes,Yes,1992.0,20.0,Type 2,Insulin,Never Smoked,85.0,90.0,8.0,,Yes,3.84,1.32,23.44,57.55
 1412,Female,77,No school,No,No,No,Yes,Yes,Yes,,7.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,95.0,100.0,8.2,7.14,Yes,4.3,1.47,30.43,81.9
 1413,Male,52,Some college or vocational school,"Yes, Full-time",No,No,No,Yes,Yes,1992.0,,Type 2,Insulin,Never Smoked,100.0,113.0,12.9,10.86,Yes,6.4,1.26,31.14,100.43
@@ -1441,10 +1441,10 @@
 1439,Male,70,No school,No,No,No,Yes,Yes,Yes,1992.0,20.0,Type 2,Insulin,Past smoker (smoker stopped > 1year ago),100.0,120.0,,10.3,Yes,3.0,0.42,36.52,170.83
 1440,Female,64,No school,No,No,No,Yes,Yes,Yes,1987.0,25.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Never Smoked,100.0,140.0,,10.9,Yes,5.0,2.36,31.14,46.19
 1441,Male,72,Below secondary school (high school),No,No,No,Yes,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),86.0,108.0,,5.1,Yes,6.2,1.36,26.51,84.65
-1442,Female,72,No school,No,No,No,Yes,Yes,Yes,2002.0,10.0,Type 2,Insulin,Never Smoked,100.0,110.0,,,Yes,6.02,0.94,31.16,64.45
+1442,Female,72,No school,No,No,No,Yes,Yes,Yes,2002.0,10.0,Type 2,Insulin,Never Smoked,100.0,110.0,,14.3,Yes,6.02,0.94,31.16,64.45
 1443,Female,68,No school,No,No,No,Yes,No,Yes,2002.0,10.0,Type 2,Insulin,Never Smoked,122.0,128.0,5.1,9.8,Yes,4.2,1.3,31.63,99.84
 1444,Female,73,No school,No,No,No,Yes,Yes,Yes,2000.0,12.0,Type 2,Insulin,Never Smoked,90.0,120.0,6.4,,Yes,4.9,0.5,38.02,48.45
-1445,Male,62,No school,No,No,No,Yes,No,No,,,,,Past smoker (smoker stopped > 1year ago),86.0,99.0,,,Yes,,1.2,30.47,73.02
+1445,Male,62,No school,No,No,No,Yes,No,No,,,,,Past smoker (smoker stopped > 1year ago),86.0,99.0,,,Yes,0.08,1.2,30.47,73.02
 1446,Male,58,Below secondary school (high school),No,No,No,Yes,No,No,,,,,Past smoker (smoker stopped > 1year ago),150.0,103.0,5.6,,Yes,4.0,0.9,21.85,55.16
 1447,Male,73,No school,No,No,No,Yes,Yes,Yes,1979.0,33.0,Type 2,Insulin,Never Smoked,66.0,124.0,,,Yes,3.2,2.0,29.41,32.58
 1448,Male,70,No school,No,No,No,Yes,No,Yes,2000.0,12.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,70.0,118.0,,,No,,,33.13,86.99
@@ -1495,7 +1495,7 @@
 1493,Female,72,No school,No,No,No,No,No,No,,,,,Never Smoked,120.0,82.0,3.95,5.0,Yes,4.9,1.33,18.22,24.37
 1494,Male,61,No school,No,No,No,No,No,No,,,,,Past smoker (smoker stopped > 1year ago),100.0,87.0,5.77,6.0,Yes,2.86,0.68,24.69,47.15
 1495,Female,59,No school,No,No,No,No,Yes,No,,,,,Never Smoked,60.0,110.0,5.2,6.0,Yes,4.74,1.3,36.21,107.78
-1496,Female,52,No school,No,No,Yes,Yes,Yes,No,,,,,Never Smoked,145.0,84.0,11.0,,Yes,8.9,2.3,21.5,93.73
+1496,Female,52,No school,No,No,Yes,Yes,Yes,No,,,,,Never Smoked,145.0,84.0,11.0,0.0,Yes,8.9,2.3,21.5,93.73
 1497,Female,59,No school,No,No,No,Yes,Yes,Yes,2000.0,12.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,102.0,80.0,,7.6,Yes,4.65,0.42,31.25,56.16
 1498,Female,70,No school,No,No,No,No,No,No,,,,,Never Smoked,80.0,84.0,,4.1,Yes,4.69,1.2,23.53,66.9
 1499,Male,79,No school,No,No,No,Yes,No,Yes,,6.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,97.0,84.0,7.1,,Yes,4.0,0.96,23.63,29.91
@@ -1504,7 +1504,7 @@
 1502,Female,78,No school,No,No,No,Yes,No,Yes,,12.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,118.0,,5.5440000000000005,,Yes,3.0,1.25,,31.38
 1503,Female,84,No school,No,No,No,Yes,No,Yes,2009.0,,Type 2,Oral Hypoglycemic drugs,Never Smoked,86.0,75.0,5.992,,Yes,4.2,0.92,19.56,13.14
 1504,Male,58,No school,No,No,No,Yes,No,Yes,,15.0,Type 2,Insulin,Current smoker (currently smoking or stopped smoking < 1 month),119.0,76.0,7.5600000000000005,,Yes,6.8,1.05,22.27,23.85
-1505,Female,67,No school,No,No,No,Yes,Yes,Yes,2010.0,2.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,114.0,70.0,5.16,,Yes,,,20.2,37.96
+1505,Female,67,No school,No,No,No,Yes,Yes,Yes,2010.0,2.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,114.0,70.0,5.16,,Yes,0.08,0.01,20.2,37.96
 1506,Female,70,No school,No,No,No,Yes,Yes,Yes,2000.0,,Type 2,"Diet,  Oral Hypoglycemic drugs",Never Smoked,92.0,88.0,6.9,,Yes,2.45,1.18,28.55,64.13
 1507,Female,79,No school,No,No,No,Yes,Yes,Yes,1995.0,,Type 2,"Diet,  Oral Hypoglycemic drugs,  Insulin",Never Smoked,120.0,98.0,7.8,7.0,No,4.2,2.0,33.65,70.12
 1508,Female,68,Below secondary school (high school),No,No,No,Yes,Yes,Yes,1999.0,,Type 2,"Diet,  Oral Hypoglycemic drugs",Never Smoked,143.0,101.0,7.2,6.3,Yes,3.04,1.15,30.86,63.73
@@ -1525,7 +1525,7 @@
 1523,Female,69,No school,No,No,No,Yes,Yes,Yes,,20.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,64.0,90.0,8.1,10.9,Yes,5.03,2.12,24.46,30.81
 1524,Male,73,Below secondary school (high school),No,No,No,Yes,Yes,No,,,,,Never Smoked,72.0,100.0,,6.0,Yes,3.14,0.99,28.13,27.73
 1525,Male,70,No school,No,No,No,Yes,Yes,Yes,,10.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,68.0,107.0,,7.6,Yes,3.93,1.16,25.21,66.66
-1526,Male,76,Graduated from college,No,No,No,No,Yes,Yes,,15.0,Type 2,"Diet,  Insulin",Past smoker (smoker stopped > 1year ago),148.0,75.0,19.7,,No,4.0,1.56,43.06,60.51
+1526,Male,76,Graduated from college,No,No,No,No,Yes,Yes,,15.0,Type 2,"Diet,  Insulin",Past smoker (smoker stopped > 1year ago),148.0,75.0,19.7,14.8,No,4.0,1.56,43.06,60.51
 1527,Male,67,No school,No,No,No,Yes,Yes,Yes,,15.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Current smoker (currently smoking or stopped smoking < 1 month),52.0,105.0,9.1,9.3,Yes,4.9,1.51,25.91,80.34
 1528,Male,55,Graduated from college,No,No,No,Yes,Yes,No,,,,,Past smoker (smoker stopped > 1year ago),90.0,98.0,9.32,7.9,Yes,4.74,3.13,23.39,82.79
 1529,Male,67,Secondary school (high school),No,No,No,Yes,Yes,Yes,2002.0,10.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),77.0,130.0,5.6,5.7,No,4.1,0.86,26.87,64.65
@@ -1612,7 +1612,7 @@
 1610,Female,69,No school,No,No,No,Yes,Yes,Yes,,20.0,Type 2,Insulin,Never Smoked,82.0,102.0,9.1,,No,4.12,,36.98,53.16
 1611,Female,69,No school,No,No,No,Yes,Yes,Yes,,10.0,Type 2,Insulin,Never Smoked,140.0,95.0,11.4,7.56,Yes,3.8,1.8,29.38,38.65
 1612,Female,71,Below secondary school (high school),No,No,No,Yes,Yes,Yes,1989.0,,Type 2,Insulin,Never Smoked,74.0,107.0,8.6,8.74,Yes,3.3,1.04,29.75,72.66
-1613,Female,67,No school,No,No,No,Yes,No,Yes,2002.0,10.0,Type 2,Insulin,Never Smoked,75.0,110.0,7.2,,Yes,4.3,1.4,38.79,45.95
+1613,Female,67,No school,No,No,No,Yes,No,Yes,2002.0,10.0,Type 2,Insulin,Never Smoked,75.0,110.0,7.2,88.4,Yes,4.3,1.4,38.79,45.95
 1614,Male,59,Secondary school (high school),No,No,No,Yes,Yes,Yes,1995.0,,Type 2,"Diet,  Insulin",Past smoker (smoker stopped > 1year ago),75.0,88.0,9.7,11.3,Yes,1.95,0.7,17.65,41.65
 1615,Female,99,No school,No,No,Yes,Yes,Yes,No,,,,,Never Smoked,80.0,78.0,5.77,5.0,Yes,4.07,0.85,24.24,46.59
 1616,Female,61,No school,No,No,No,Yes,Yes,Yes,1992.0,20.0,Type 2,Insulin,Past smoker (smoker stopped > 1year ago),100.0,101.0,10.0,7.9,Yes,5.5,1.0,28.83,23.69
@@ -1651,7 +1651,7 @@
 1649,Male,38,Post-graduate degree,"Yes, Full-time",No,No,No,Yes,Yes,2007.0,5.0,Type 2,Diet,Current smoker (currently smoking or stopped smoking < 1 month),66.0,113.0,11.0,10.22,Yes,6.17,1.44,24.22,121.47
 1650,Male,69,Secondary school (high school),"Yes, Full-time","Yes, after other symptoms",No,Yes,Yes,No,,,,,Never Smoked,94.0,102.0,,5.46,Yes,4.61,0.88,27.34,102.57
 1651,Male,46,Some college or vocational school,"Yes, Full-time",No,No,Yes,Yes,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),91.0,32.0,5.44,6.2,Yes,6.33,1.23,24.22,115.62
-1652,Male,61,Post-graduate degree,"Yes, Full-time",No,No,Yes,Yes,Yes,2007.0,5.0,Type 2,Oral Hypoglycemic drugs,Past smoker (smoker stopped > 1year ago),97.0,138.0,9.1,,Yes,3.2,1.5,36.42,
+1652,Male,61,Post-graduate degree,"Yes, Full-time",No,No,Yes,Yes,Yes,2007.0,5.0,Type 2,Oral Hypoglycemic drugs,Past smoker (smoker stopped > 1year ago),97.0,138.0,9.1,,Yes,3.2,1.5,36.42,213.12
 1653,Male,75,Secondary school (high school),No,No,No,Yes,Yes,No,,,,,Never Smoked,86.0,40.0,6.14,5.73,Yes,6.09,2.58,30.04,72.07
 1654,Male,60,Graduated from college,No,No,No,Yes,Yes,Yes,2007.0,5.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,58.0,38.0,10.3,,Yes,5.89,0.63,27.68,102.23
 1655,Male,62,Below secondary school (high school),No,No,No,Yes,Yes,No,,,,,Never Smoked,45.0,94.0,,,Yes,5.25,0.46,24.69,67.47
@@ -1675,20 +1675,20 @@
 1673,Male,60,Below secondary school (high school),No,No,No,Yes,Yes,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),65.0,103.0,,,Yes,3.33,0.84,27.22,102.5
 1674,Male,54,Graduated from college,"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),97.0,97.0,,5.22,Yes,3.83,2.97,26.4,89.86
 1675,Male,47,Below secondary school (high school),"Yes, Full-time",No,No,No,Yes,Yes,,3.0,Type 2,Diet,Current smoker (currently smoking or stopped smoking < 1 month),80.0,86.0,11.4,,Yes,4.46,1.53,24.22,117.75
-1676,Male,60,Graduated from college,"Yes, Full-time",No,No,No,Yes,Yes,2012.0,0.0,Type 2,None,Never Smoked,100.0,,,,Yes,7.06,,27.36,100.8
+1676,Male,60,Graduated from college,"Yes, Full-time",No,No,No,Yes,Yes,2012.0,0.0,Type 2,None,Never Smoked,100.0,,0.71,,Yes,7.06,0.02,27.36,100.8
 1677,Female,79,No school,No,No,No,Yes,Yes,Yes,2010.0,2.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Never Smoked,62.0,110.0,10.0,,Yes,4.95,1.34,31.25,63.44
 1678,Male,61,Below secondary school (high school),"Yes, Full-time",No,No,No,Yes,No,,,,,Past smoker (smoker stopped > 1year ago),69.0,96.0,,6.02,Yes,6.86,1.15,26.22,87.69
 1679,Male,46,Secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,Yes,2009.0,3.0,Type 2,None,Never Smoked,69.0,107.0,15.0,14.0,Yes,6.3,1.0,28.68,139.04
 1680,Female,53,Secondary school (high school),No,No,No,No,Yes,No,2009.0,3.0,Type 2,Diet,Never Smoked,108.0,96.0,10.53,8.34,Yes,5.03,0.8,35.34,144.1
 1681,Male,44,Secondary school (high school),"Yes, Full-time",No,No,No,Yes,Yes,,3.0,Type 2,None,Past smoker (smoker stopped > 1year ago),79.0,105.0,,10.6,Yes,6.02,1.3,37.5,128.81
 1682,Male,67,Below secondary school (high school),"Yes, Full-time",No,No,No,No,Yes,,3.0,Type 2,Diet,Current smoker (currently smoking or stopped smoking < 1 month),63.0,92.0,8.2,9.1,Yes,4.9,0.83,31.59,118.8
-1683,Male,41,Some college or vocational school,"Yes, Full-time",No,No,Yes,Yes,Yes,2008.0,5.0,Type 2,Insulin,Current smoker (currently smoking or stopped smoking < 1 month),70.0,75.0,13.8,10.9,Yes,6.5,2.0,25.71,
+1683,Male,41,Some college or vocational school,"Yes, Full-time",No,No,Yes,Yes,Yes,2008.0,5.0,Type 2,Insulin,Current smoker (currently smoking or stopped smoking < 1 month),70.0,75.0,13.8,10.9,Yes,6.5,2.0,25.71,236.78
 1684,Male,64,Some college or vocational school,"Yes, Full-time",No,No,No,No,No,,,,,Past smoker (smoker stopped > 1year ago),70.0,113.0,7.5,7.51,Yes,5.52,1.2,31.6,
 1685,Male,48,Below secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),108.0,97.0,9.4,,Yes,4.3,1.3,24.22,134.26
 1686,Male,67,Secondary school (high school),"Yes, Full-time",No,No,No,No,Yes,1997.0,15.0,Type 2,Oral Hypoglycemic drugs,Past smoker (smoker stopped > 1year ago),65.0,86.0,14.56,11.1,Yes,4.83,2.15,33.59,94.17
 1687,Male,54,Secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,Yes,2002.0,10.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Current smoker (currently smoking or stopped smoking < 1 month),94.0,96.0,12.0,10.4,Yes,6.99,1.0,36.73,155.56
 1688,Male,46,Secondary school (high school),"Yes, Full-time","Yes, after other symptoms",No,Yes,Yes,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),88.0,152.0,,6.16,Yes,4.59,4.73,44.1,129.28
-1689,Female,49,Below secondary school (high school),No,No,No,No,Yes,Yes,2007.0,5.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Never Smoked,110.0,90.0,15.6,9.15,Yes,4.29,1.06,30.48,
+1689,Female,49,Below secondary school (high school),No,No,No,No,Yes,Yes,2007.0,5.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Never Smoked,110.0,90.0,15.6,9.15,Yes,4.29,1.06,30.48,244.23
 1690,Female,63,Below secondary school (high school),No,No,No,Yes,Yes,No,,,,,Never Smoked,40.0,102.0,8.38,6.6,No,3.28,2.09,32.05,67.89
 1691,Male,42,Below secondary school (high school),"Yes, Full-time",No,No,Yes,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),87.0,85.0,5.6,5.39,No,2.79,0.96,24.91,11.43
 1692,Male,42,Below secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),110.0,90.0,12.01,8.86,Yes,9.2,2.23,27.76,146.37
@@ -1733,7 +1733,7 @@
 1731,Male,54,Some college or vocational school,No,No,No,Yes,Yes,Yes,2007.0,5.0,Type 2,Diet,Never Smoked,66.0,114.0,,8.22,Yes,6.45,3.4,32.95,102.47
 1732,Male,53,No school,No,No,No,Yes,Yes,Yes,,10.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),65.0,109.0,9.1,,Yes,4.4,2.36,31.96,78.23
 1733,Male,62,Secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),90.0,88.0,7.3,,Yes,5.3,3.0,22.53,78.81
-1734,Male,39,Some college or vocational school,"Yes, Full-time",No,No,No,No,Yes,2005.0,7.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Past smoker (smoker stopped > 1year ago),88.0,123.0,,10.96,Yes,6.16,2.9,42.97,
+1734,Male,39,Some college or vocational school,"Yes, Full-time",No,No,No,No,Yes,2005.0,7.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Past smoker (smoker stopped > 1year ago),88.0,123.0,,10.96,Yes,6.16,2.9,42.97,207.05
 1735,Male,54,Secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),70.0,109.0,,6.55,Yes,4.78,3.12,32.77,160.97
 1736,Male,56,Secondary school (high school),No,No,No,Yes,Yes,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),75.0,85.0,8.1,5.93,Yes,5.9,0.72,25.43,59.37
 1737,Male,59,Graduated from college,No,No,No,No,Yes,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),70.0,98.0,,5.43,Yes,6.87,4.38,29.76,93.97
@@ -1753,7 +1753,7 @@
 1751,Female,46,Graduated from college,"Yes, Full-time",No,No,No,Yes,Yes,1986.0,26.0,Type 2,Insulin,Never Smoked,55.0,90.0,6.0,,Yes,3.0,3.2,31.25,156.42
 1752,Male,59,Below secondary school (high school),"Yes, Part-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),88.0,100.0,,,No,,,32.03,151.29
 1753,Female,83,No school,No,No,No,Yes,No,Yes,1987.0,25.0,Type 2,"Diet,  Oral Hypoglycemic drugs,  Insulin",Past smoker (smoker stopped > 1year ago),46.0,94.0,,9.0,Yes,2.8,0.76,27.11,26.99
-1754,Male,41,Secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),67.0,130.0,4.2,,No,3.5,1.4,47.75,
+1754,Male,41,Secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),67.0,130.0,4.2,,No,3.5,1.4,47.75,216.85
 1755,Female,51,Secondary school (high school),No,No,No,No,No,No,,,,,Never Smoked,85.0,112.0,5.6,5.5,No,4.0,0.5,41.38,161.05
 1756,Male,40,Secondary school (high school),No,No,No,Yes,Yes,Yes,2007.0,5.0,Type 2,None,Current smoker (currently smoking or stopped smoking < 1 month),106.0,103.0,10.2,9.8,Yes,6.5,4.8,29.03,142.99
 1757,Male,59,Below secondary school (high school),No,No,No,Yes,Yes,Yes,1996.0,16.0,Type 2,"Oral Hypoglycemic drugs,  Insulin",Current smoker (currently smoking or stopped smoking < 1 month),90.0,100.0,,13.4,Yes,5.8,2.19,23.03,124.54
@@ -1769,7 +1769,7 @@
 1767,Female,69,No school,No,No,No,Yes,Yes,Yes,2007.0,5.0,Type 2,None,Never Smoked,85.0,120.0,14.0,9.3,Yes,4.8,0.81,34.38,129.96
 1768,Male,40,Below secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),78.0,81.0,5.2,5.7,Yes,3.4,1.35,24.77,72.07
 1769,Male,62,Secondary school (high school),No,"Yes, after other symptoms",No,No,No,Yes,2011.0,1.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Current smoker (currently smoking or stopped smoking < 1 month),92.0,104.0,,8.4,Yes,4.6,1.53,26.83,119.93
-1770,Male,33,Graduated from college,"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),93.0,100.0,6.0,5.5,Yes,4.5,3.5,33.41,
+1770,Male,33,Graduated from college,"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),93.0,100.0,6.0,5.5,Yes,4.5,3.5,33.41,219.35
 1771,Male,59,Secondary school (high school),No,No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),72.0,86.0,8.2,,Yes,6.5,3.3,27.05,77.73
 1772,Male,35,Graduated from college,"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),80.0,104.0,6.0,6.3,Yes,5.3,1.22,31.51,161.44
 1773,Female,69,Secondary school (high school),No,No,No,Yes,Yes,Yes,1987.0,25.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),40.0,106.0,4.6,7.2,Yes,6.1,2.6,33.23,57.43
@@ -1795,7 +1795,7 @@
 1793,Male,65,No school,No,No,No,Yes,Yes,Yes,1997.0,15.0,Type 2,Insulin,Never Smoked,99.0,125.0,9.4,,Yes,4.7,0.7,37.18,113.89
 1794,Male,38,Graduated from college,"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),80.0,98.0,5.7,,Yes,5.4,2.4,27.04,116.71
 1795,Male,44,Below secondary school (high school),No,No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),93.0,119.0,4.4,,Yes,4.5,1.5,35.01,133.15
-1796,Female,48,No school,No,No,No,Yes,No,Yes,1997.0,15.0,Type 2,None,Never Smoked,87.0,112.0,16.0,12.4,Yes,7.2,2.3,38.95,
+1796,Female,48,No school,No,No,No,Yes,No,Yes,1997.0,15.0,Type 2,None,Never Smoked,87.0,112.0,16.0,12.4,Yes,7.2,2.3,38.95,262.44
 1797,Male,70,No school,No,No,No,Yes,No,Yes,1991.0,21.0,Type 2,Insulin,Past smoker (smoker stopped > 1year ago),94.0,98.0,,6.2,Yes,6.2,1.8,25.71,74.41
 1798,Female,49,Below secondary school (high school),No,No,No,Yes,No,Yes,1998.0,14.0,Type 2,Insulin,Never Smoked,68.0,125.0,8.8,,Yes,6.2,2.4,38.09,134.33
 1799,Male,57,Graduated from college,"Yes, Full-time",No,No,No,No,Yes,2010.0,2.0,Type 2,Insulin,Current smoker (currently smoking or stopped smoking < 1 month),67.0,100.0,12.0,10.2,Yes,6.3,1.1,26.99,78.84
@@ -1819,7 +1819,7 @@
 1817,Male,41,Graduated from college,"Yes, Full-time",No,No,No,Yes,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),68.0,75.0,,6.0,Yes,4.88,1.74,23.78,105.63
 1818,Male,43,Secondary school (high school),"Yes, Full-time",No,No,Yes,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),90.0,106.0,3.9,,Yes,6.01,2.61,32.53,135.12
 1819,Female,81,No school,No,No,No,Yes,Yes,Yes,1977.0,35.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),83.0,83.0,3.5,6.4,Yes,4.9,0.62,19.22,22.09
-1820,Female,61,No school,No,No,No,No,No,Yes,1995.0,17.0,Type 2,Insulin,Never Smoked,98.0,85.0,8.1,,No,5.6,2.3,22.86,96.66
+1820,Female,61,No school,No,No,No,No,No,Yes,1995.0,17.0,Type 2,Insulin,Never Smoked,98.0,85.0,8.1,14.6,No,5.6,2.3,22.86,96.66
 1821,Male,52,Secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),66.0,95.0,5.2,5.6,No,5.85,1.78,25.95,101.48
 1822,Male,75,Below secondary school (high school),No,No,No,Yes,Yes,Yes,1997.0,15.0,Type 2,Insulin,Past smoker (smoker stopped > 1year ago),85.0,96.0,6.4,,Yes,5.0,1.08,24.22,58.91
 1823,Male,62,Secondary school (high school),No,No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),55.0,95.0,8.2,6.6,Yes,4.66,0.33,24.54,87.85
@@ -1829,13 +1829,13 @@
 1827,Male,57,Below secondary school (high school),No,No,No,Yes,No,Yes,2004.0,8.0,Type 2,Insulin,Current smoker (currently smoking or stopped smoking < 1 month),100.0,104.0,8.8,11.3,Yes,2.7,1.22,33.3,118.47
 1828,Male,63,Some college or vocational school,"Yes, Part-time",No,No,Yes,Yes,Yes,2012.0,0.0,Type 2,Diet,Current smoker (currently smoking or stopped smoking < 1 month),80.0,99.0,6.4,6.2,Yes,4.2,1.4,27.18,179.71
 1829,Male,68,Secondary school (high school),No,No,No,No,No,Yes,2008.0,4.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),80.0,85.0,3.4,10.7,Yes,2.69,0.31,21.6,93.93
-1830,Male,43,Below secondary school (high school),No,No,No,No,No,Yes,2005.0,7.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),80.0,108.0,7.8,9.4,Yes,3.77,1.28,26.83,
+1830,Male,43,Below secondary school (high school),No,No,No,No,No,Yes,2005.0,7.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),80.0,108.0,7.8,9.4,Yes,3.77,1.28,26.83,206.97
 1831,Male,89,Below secondary school (high school),No,No,No,No,No,No,,,,,Past smoker (smoker stopped > 1year ago),70.0,106.0,5.1,5.8,Yes,3.62,0.61,26.3,83.03
 1832,Male,52,Below secondary school (high school),No,No,No,No,No,Yes,2002.0,10.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),88.0,112.0,5.0,5.4,Yes,5.9,0.9,33.13,139.57
 1833,Male,52,Secondary school (high school),"Yes, Full-time",No,No,Yes,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),90.0,106.0,5.5,5.8,Yes,5.2,1.4,28.74,102.36
 1834,Male,47,Secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),70.0,82.0,5.2,6.7,Yes,3.99,1.0,22.23,90.93
 1835,Female,51,Below secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),78.0,88.0,4.9,5.8,Yes,4.6,2.3,29.36,118.36
-1836,Male,57,Secondary school (high school),No,No,No,No,No,Yes,1995.0,17.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,113.0,100.0,7.7,,Yes,3.6,,27.73,119.34
+1836,Male,57,Secondary school (high school),No,No,No,No,No,Yes,1995.0,17.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,113.0,100.0,7.7,,Yes,3.6,0.18,27.73,119.34
 1837,Male,48,Below secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),67.0,87.0,6.3,,No,5.9,2.6,22.04,101.34
 1838,Male,51,Graduated from college,"Yes, Full-time",No,No,Yes,No,No,,,,,Never Smoked,70.0,98.0,5.0,5.5,Yes,5.19,1.14,29.41,93.99
 1839,Male,52,Some college or vocational school,"Yes, Full-time",No,No,No,Yes,Yes,1994.0,18.0,Type 2,"Diet,  Oral Hypoglycemic drugs,  Insulin",Current smoker (currently smoking or stopped smoking < 1 month),100.0,90.0,6.0,7.5,Yes,3.9,2.7,27.04,92.12
@@ -1878,7 +1878,7 @@
 1876,Male,68,No school,No,No,No,Yes,No,Yes,2000.0,12.0,Type 2,Insulin,Past smoker (smoker stopped > 1year ago),83.0,105.0,4.6,,Yes,3.53,1.01,26.81,30.24
 1877,Male,50,No school,No,No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),90.0,82.0,6.5,,Yes,4.43,1.18,23.03,114.21
 1878,Male,49,Below secondary school (high school),No,No,No,Yes,No,No,,,,,Past smoker (smoker stopped > 1year ago),58.0,102.0,4.22,5.4,Yes,4.1,1.2,32.47,130.31
-1879,Female,52,No school,No,No,No,Yes,Yes,Yes,1997.0,15.0,Type 2,"Oral Hypoglycemic drugs,  Insulin",Never Smoked,100.0,102.0,13.1,9.1,Yes,6.3,1.7,32.05,
+1879,Female,52,No school,No,No,No,Yes,Yes,Yes,1997.0,15.0,Type 2,"Oral Hypoglycemic drugs,  Insulin",Never Smoked,100.0,102.0,13.1,9.1,Yes,6.3,1.7,32.05,230.28
 1880,Male,65,No school,No,No,No,Yes,No,No,,,,,Past smoker (smoker stopped > 1year ago),70.0,83.0,4.22,6.4,Yes,5.3,1.7,25.67,71.06
 1881,Male,43,Secondary school (high school),"Yes, Full-time",No,No,No,No,Yes,2007.0,5.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,76.0,80.0,5.99,11.6,Yes,5.7,1.6,26.04,127.13
 1882,Male,86,Below secondary school (high school),No,No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),112.0,90.0,6.8,6.3,Yes,5.3,1.1,33.98,58.96
@@ -1889,7 +1889,7 @@
 1887,Male,69,Below secondary school (high school),No,No,No,No,No,Yes,2007.0,5.0,Type 2,Oral Hypoglycemic drugs,Past smoker (smoker stopped > 1year ago),87.0,90.0,4.6,7.5,Yes,6.4,2.3,28.91,83.93
 1888,Female,53,No school,No,No,No,Yes,No,Yes,2002.0,10.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Never Smoked,68.0,94.0,6.2,,No,4.6,2.2,27.24,157.76
 1889,Male,57,Below secondary school (high school),No,No,No,Yes,Yes,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),64.0,86.0,6.4,5.3,Yes,4.3,1.7,24.84,76.26
-1890,Male,33,Graduated from college,"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),110.0,80.0,11.0,5.1,Yes,5.4,1.2,37.11,
+1890,Male,33,Graduated from college,"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),110.0,80.0,11.0,5.1,Yes,5.4,1.2,37.11,245.16
 1891,Male,39,Graduated from college,"Yes, Full-time",No,No,No,No,No,,,,,Past smoker (smoker stopped > 1year ago),105.0,98.0,6.8,6.2,Yes,7.4,1.7,32.05,157.75
 1892,Male,53,Below secondary school (high school),No,"Yes, after other symptoms",No,Yes,No,Yes,2011.0,2.0,Type 2,Diet,Never Smoked,68.0,98.0,10.2,,Yes,4.3,2.0,31.25,138.08
 1893,Female,85,No school,No,No,No,Yes,Yes,No,,,,,Never Smoked,78.0,103.0,6.3,8.5,Yes,5.43,0.94,25.33,48.66
@@ -1920,7 +1920,7 @@
 1918,Female,73,No school,No,No,No,Yes,No,Yes,2004.0,8.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,78.0,90.0,9.5,5.9,Yes,3.7,1.0,25.11,24.1
 1919,Male,40,Secondary school (high school),"Yes, Part-time",No,No,No,No,No,,,,,Never Smoked,74.0,90.0,,7.8,Yes,5.25,3.03,31.53,152.04
 1920,Male,56,No school,No,No,No,Yes,No,Yes,1997.0,15.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,117.0,58.0,,12.8,Yes,5.52,1.29,24.45,72.01
-1921,Female,62,No school,No,No,No,No,No,No,,,,,Never Smoked,100.0,86.0,,,Yes,6.9,2.3,24.46,59.56
+1921,Female,62,No school,No,No,No,No,No,No,,,,,Never Smoked,100.0,86.0,,15.7,Yes,6.9,2.3,24.46,59.56
 1922,Male,77,No school,"Yes, Full-time",No,No,Yes,Yes,No,,,,,Never Smoked,80.0,88.0,,,Yes,5.57,1.07,24.84,54.6
 1923,Male,37,Secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Never Smoked,68.0,95.0,,5.8,Yes,3.71,1.28,27.08,102.86
 1924,Male,46,Below secondary school (high school),"Yes, Full-time",No,No,Yes,No,No,,,,,Past smoker (smoker stopped > 1year ago),81.0,65.0,,5.1,Yes,5.37,1.6,26.35,78.58
@@ -1994,7 +1994,7 @@
 1992,Male,76,No school,No,No,No,No,No,No,,,,,Never Smoked,80.0,78.0,6.41,,No,3.7,0.89,19.48,45.42
 1993,Male,57,No school,No,No,No,Yes,No,No,,,,,Never Smoked,76.0,92.0,9.74,5.8,No,4.21,0.71,22.55,70.97
 1994,Male,44,Secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Never Smoked,92.0,116.0,5.98,6.2,Yes,7.33,,35.19,135.97
-1995,Male,53,Secondary school (high school),"Yes, Full-time",No,No,No,No,Yes,2012.0,0.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,102.0,100.0,8.26,,Yes,5.38,1.51,26.45,113.3
+1995,Male,53,Secondary school (high school),"Yes, Full-time",No,No,No,No,Yes,2012.0,0.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,102.0,100.0,8.26,16.6,Yes,5.38,1.51,26.45,113.3
 1996,Male,46,Below secondary school (high school),No,No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),64.0,98.0,,3.9,Yes,7.56,1.62,30.39,86.13
 1997,Female,68,No school,No,No,No,No,No,No,,,,,Past smoker (smoker stopped > 1year ago),65.0,71.0,,4.3,Yes,6.14,1.31,18.8,31.08
 1998,Male,64,No school,No,No,No,Yes,No,Yes,2011.0,1.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,64.0,113.0,6.5,4.5,Yes,5.09,1.53,31.12,69.73
@@ -2036,7 +2036,7 @@
 2034,Male,52,Graduated from college,"Yes, Full-time",No,No,Yes,No,No,,,,,Past smoker (smoker stopped > 1year ago),105.0,88.0,7.7,6.6,Yes,5.6,1.8,30.41,133.11
 2035,Male,68,Secondary school (high school),"Yes, Part-time",No,No,No,No,No,,,,,Never Smoked,84.0,87.0,,,Yes,6.1,1.3,30.74,65.71
 2036,Male,40,Some college or vocational school,"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),82.0,77.0,,,Yes,6.5,2.2,23.15,116.77
-2037,Male,36,Post-graduate degree,"Yes, Full-time",No,No,No,Yes,Yes,2010.0,2.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Never Smoked,114.0,90.0,,12.1,Yes,8.0,2.3,25.42,
+2037,Male,36,Post-graduate degree,"Yes, Full-time",No,No,No,Yes,Yes,2010.0,2.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Never Smoked,114.0,90.0,,12.1,Yes,8.0,2.3,25.42,214.02
 2038,Male,57,No school,No,No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),100.0,98.0,5.2,5.7,Yes,2.39,0.92,25.73,174.69
 2039,Female,68,No school,No,No,No,No,No,No,,,,,Never Smoked,57.0,82.0,6.2,5.8,Yes,6.23,1.02,24.65,76.15
 2040,Male,60,Below secondary school (high school),"Yes, Part-time",No,No,No,No,No,,,,,Never Smoked,110.0,,,,Yes,4.87,1.15,24.62,81.43
@@ -2051,7 +2051,7 @@
 2049,Male,41,Secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Past smoker (smoker stopped > 1year ago),115.0,79.0,,,Yes,7.7,2.9,22.21,112.26
 2050,Female,72,No school,No,No,No,Yes,Yes,Yes,,18.0,Type 2,Insulin,Never Smoked,102.0,84.0,12.3,11.5,Yes,3.8,0.85,23.37,45.46
 2051,Female,74,No school,No,No,No,Yes,No,Yes,1992.0,20.0,Type 2,Insulin,Never Smoked,105.0,117.0,13.64,9.0,Yes,4.0,0.8,30.83,62.47
-2052,Male,38,Graduated from college,"Yes, Full-time",No,No,No,Yes,Yes,2006.0,6.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),77.0,120.0,14.1,13.0,Yes,4.63,1.08,44.08,
+2052,Male,38,Graduated from college,"Yes, Full-time",No,No,No,Yes,Yes,2006.0,6.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),77.0,120.0,14.1,13.0,Yes,4.63,1.08,44.08,271.86
 2053,Male,44,Secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Never Smoked,90.0,93.0,6.0,7.0,Yes,4.6,1.2,30.47,119.61
 2054,Female,90,No school,No,No,No,No,No,No,,,,,Never Smoked,110.0,90.0,6.2,6.0,Yes,3.8,0.77,27.03,52.95
 2055,Male,62,No school,No,No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),59.0,88.0,8.77,,Yes,5.81,0.62,24.84,89.06
@@ -2061,7 +2061,7 @@
 2059,Male,52,No school,No,No,No,No,Yes,Yes,2009.0,3.0,Type 2,Diet,Current smoker (currently smoking or stopped smoking < 1 month),72.0,88.0,17.17,11.0,Yes,5.49,0.51,25.77,73.82
 2060,Male,53,Below secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,Yes,2010.0,2.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,100.0,128.0,11.83,7.0,Yes,4.22,1.0,37.37,99.72
 2061,Male,45,Below secondary school (high school),"Yes, Full-time",No,No,No,No,Yes,2000.0,12.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,58.0,103.0,6.8,,Yes,5.38,1.22,33.3,98.95
-2062,Male,35,Graduated from college,"Yes, Full-time",No,No,No,Yes,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),70.0,92.0,12.61,,Yes,8.81,5.67,29.41,94.36
+2062,Male,35,Graduated from college,"Yes, Full-time",No,No,No,Yes,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),70.0,92.0,12.61,15.0,Yes,8.81,5.67,29.41,94.36
 2063,Male,46,No school,"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),120.0,99.0,10.05,7.0,Yes,8.41,4.93,27.74,99.51
 2064,Male,74,No school,No,No,No,Yes,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),75.0,110.0,5.6,5.0,Yes,5.63,0.83,30.78,61.73
 2065,Male,62,Below secondary school (high school),"Yes, Full-time",No,No,Yes,No,Yes,2008.0,4.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,76.0,95.0,13.62,8.0,Yes,6.28,0.97,21.78,55.58
@@ -2122,7 +2122,7 @@
 2120,Male,67,Below secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,Yes,2011.0,,Type 2,Oral Hypoglycemic drugs,Past smoker (smoker stopped > 1year ago),65.0,122.0,8.21,6.6,Yes,5.21,1.82,33.08,134.58
 2121,Female,99,No school,No,No,No,Yes,Yes,Yes,2000.0,12.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,121.0,115.0,5.66,5.5,No,,,27.34,42.21
 2122,Male,28,Graduated from college,"Yes, Full-time",No,No,No,Yes,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),102.0,115.0,4.66,5.8,Yes,3.42,0.72,29.04,126.23
-2123,Male,57,Below secondary school (high school),No,No,No,No,Yes,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),70.0,118.0,6.33,5.8,Yes,5.91,,27.18,106.82
+2123,Male,57,Below secondary school (high school),No,No,No,No,Yes,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),70.0,118.0,6.33,5.8,Yes,5.91,0.14,27.18,106.82
 2124,Male,53,Below secondary school (high school),"Yes, Full-time",No,No,No,No,Yes,2005.0,7.0,Type 2,Insulin,Current smoker (currently smoking or stopped smoking < 1 month),71.0,118.0,,7.8,Yes,4.71,6.43,32.04,61.8
 2125,Male,41,Secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Never Smoked,107.0,99.0,,5.8,Yes,5.57,1.81,27.12,96.42
 2126,Male,56,Some college or vocational school,"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),90.0,107.0,6.83,5.6,Yes,5.13,1.27,33.06,105.19
@@ -2149,7 +2149,7 @@
 2147,Male,51,Secondary school (high school),No,No,No,No,Yes,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),55.0,102.0,6.2,,Yes,7.19,1.83,29.86,109.47
 2148,Male,67,No school,No,No,No,Yes,No,No,,,,,Past smoker (smoker stopped > 1year ago),83.0,100.0,,,Yes,5.89,,29.21,95.07
 2149,Male,47,Below secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,Yes,2010.0,2.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,73.0,110.0,16.8,10.8,Yes,4.81,5.32,36.85,144.16
-2150,Female,55,Secondary school (high school),No,No,No,Yes,No,Yes,2002.0,10.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,58.0,104.0,12.5,,Yes,5.09,1.65,30.3,82.51
+2150,Female,55,Secondary school (high school),No,No,No,Yes,No,Yes,2002.0,10.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,58.0,104.0,12.5,15.3,Yes,5.09,1.65,30.3,82.51
 2151,Male,49,Graduated from college,"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),55.0,98.0,6.6,5.9,Yes,6.3,2.18,29.05,103.13
 2152,Male,36,Some college or vocational school,"Yes, Full-time",No,No,Yes,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),60.0,93.0,4.6,,Yes,4.23,4.03,27.34,62.77
 2153,Male,27,No school,No,No,No,Yes,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),67.0,124.0,5.9,,Yes,3.13,0.48,36.16,158.85
@@ -2201,7 +2201,7 @@
 2199,Male,45,Graduated from college,"Yes, Full-time",No,No,No,No,No,,,,,Never Smoked,62.0,67.0,6.5,5.1,Yes,6.3,0.6,22.92,105.02
 2200,Male,32,Secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),94.0,105.0,6.3,6.7,No,6.9,1.97,34.72,124.89
 2201,Male,46,Below secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),78.0,98.0,5.7,,Yes,4.6,1.38,28.62,117.37
-2202,Female,44,Below secondary school (high school),No,No,No,Yes,Yes,Yes,,6.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Never Smoked,62.0,133.0,6.4,5.8,Yes,3.7,1.25,44.06,
+2202,Female,44,Below secondary school (high school),No,No,No,Yes,Yes,Yes,,6.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Never Smoked,62.0,133.0,6.4,5.8,Yes,3.7,1.25,44.06,244.05
 2203,Female,70,No school,No,No,No,Yes,Yes,No,,,,,Never Smoked,50.0,95.0,6.2,,No,2.4,0.76,18.75,43.68
 2204,Male,42,Graduated from college,"Yes, Full-time",No,No,No,No,Yes,2000.0,14.0,Type 1,Insulin,Current smoker (currently smoking or stopped smoking < 1 month),84.0,100.0,13.5,13.7,Yes,5.6,2.14,24.22,143.01
 2205,Male,64,No school,No,No,No,No,Yes,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),97.0,82.0,7.44,5.9,Yes,2.77,0.73,24.46,57.28
@@ -2238,7 +2238,7 @@
 2236,Male,71,No school,No,No,No,Yes,No,No,,,,,Never Smoked,80.0,100.0,6.56,6.0,Yes,6.56,1.83,29.41,46.24
 2237,Male,57,Below secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),65.0,88.0,6.43,5.7,Yes,6.09,0.69,22.55,58.19
 2238,Female,45,No school,No,No,No,No,No,Yes,2011.0,1.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,109.0,100.0,,9.7,Yes,5.01,2.22,35.61,90.66
-2239,Male,43,No school,"Yes, Full-time",No,No,No,No,No,,,,,Past smoker (smoker stopped > 1year ago),110.0,140.0,7.82,4.6,Yes,5.37,1.09,48.76,
+2239,Male,43,No school,"Yes, Full-time",No,No,No,No,No,,,,,Past smoker (smoker stopped > 1year ago),110.0,140.0,7.82,4.6,Yes,5.37,1.09,48.76,235.16
 2240,Male,56,No school,No,No,No,No,No,No,,,,,Past smoker (smoker stopped > 1year ago),77.0,111.0,,4.6,Yes,4.44,0.92,29.38,70.65
 2241,Male,64,No school,No,No,No,No,No,No,,,,,Never Smoked,53.0,90.0,5.0,5.2,Yes,4.84,0.42,22.86,90.6
 2242,Male,56,No school,"Yes, Full-time",No,No,Yes,No,Yes,2009.0,3.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Never Smoked,85.0,93.0,,10.8,Yes,4.13,0.95,24.54,111.79
@@ -2246,7 +2246,7 @@
 2244,Male,30,Secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Never Smoked,86.0,85.0,,,Yes,3.54,0.71,24.98,97.88
 2245,Male,68,No school,No,No,No,No,Yes,Yes,1998.0,14.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,100.0,84.0,5.0,7.9,Yes,5.0,1.0,22.43,105.52
 2246,Female,59,No school,No,No,No,No,Yes,Yes,2003.0,10.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,81.0,104.0,,11.9,Yes,6.96,4.22,25.88,101.43
-2247,Male,27,Secondary school (high school),"Yes, Part-time",No,No,No,No,No,,,,,Never Smoked,88.0,125.0,,,No,4.55,1.04,32.9,
+2247,Male,27,Secondary school (high school),"Yes, Part-time",No,No,No,No,No,,,,,Never Smoked,88.0,125.0,,3.5,No,4.55,1.04,32.9,245.61
 2248,Male,72,No school,No,No,No,No,No,Yes,2011.0,2.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,103.0,95.0,,4.5,Yes,4.6,0.8,24.8,81.32
 2249,Male,56,No school,No,No,No,Yes,No,Yes,2003.0,10.0,Type 2,Insulin,Never Smoked,96.0,105.0,,6.8,Yes,3.04,1.03,29.3,65.12
 2250,Male,66,Below secondary school (high school),No,No,No,Yes,No,Yes,2006.0,6.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,89.0,,,,No,,,21.97,95.42
@@ -2258,7 +2258,7 @@
 2256,Male,59,Below secondary school (high school),"Yes, Full-time","Yes, after other symptoms",No,Yes,Yes,Yes,2002.0,10.0,Type 2,Diet,Never Smoked,105.0,102.0,,,Yes,6.5,0.8,25.71,119.01
 2257,Female,51,No school,No,No,No,Yes,Yes,Yes,2012.0,,Type 2,"Oral Hypoglycemic drugs,  Insulin",Never Smoked,80.0,,,7.2,Yes,6.46,1.34,,
 2258,Male,60,No school,"Yes, Part-time",No,No,No,Yes,No,,,,,Never Smoked,90.0,82.0,,6.0,Yes,7.0,0.85,23.01,
-2259,Male,47,No school,"Yes, Part-time",No,No,No,No,No,,,,,Never Smoked,98.0,88.0,,,Yes,7.2,1.1,29.38,
+2259,Male,47,No school,"Yes, Part-time",No,No,No,No,No,,,,,Never Smoked,98.0,88.0,,,Yes,7.2,1.1,29.38,217.89
 2260,Male,58,No school,"Yes, Part-time",No,No,No,No,No,,,,,Never Smoked,60.0,82.0,,,Yes,7.0,,27.06,82.99
 2261,Male,56,No school,"Yes, Full-time",No,No,No,No,Yes,2010.0,2.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,110.0,88.0,,9.7,Yes,5.57,1.87,29.0,
 2262,Female,45,Secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,No,,,,,Never Smoked,123.0,88.0,4.9,5.4,Yes,3.9,2.3,26.99,48.17
@@ -2269,7 +2269,7 @@
 2267,Male,60,Below secondary school (high school),"Yes, Part-time",No,No,No,Yes,No,,,,,Past smoker (smoker stopped > 1year ago),66.0,85.0,5.8,5.6,Yes,5.08,2.56,25.4,76.53
 2268,Male,44,Below secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),70.0,88.0,5.28,5.51,Yes,5.08,2.48,26.45,113.86
 2269,Male,44,Below secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),88.0,110.0,5.1,,Yes,4.2,1.08,33.13,119.3
-2270,Male,25,Some college or vocational school,No,No,No,Yes,No,Yes,2012.0,1.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,75.0,104.0,15.04,,Yes,5.68,0.85,24.69,174.09
+2270,Male,25,Some college or vocational school,No,No,No,Yes,No,Yes,2012.0,1.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,75.0,104.0,15.04,15.7,Yes,5.68,0.85,24.69,174.09
 2271,Female,65,Below secondary school (high school),No,No,No,No,No,No,,,,,Never Smoked,80.0,97.0,6.0,5.4,Yes,5.97,1.9,29.3,90.0
 2272,Female,64,No school,No,No,No,Yes,Yes,Yes,1997.0,15.0,Type 2,"Oral Hypoglycemic drugs,  Insulin",Never Smoked,66.0,90.0,,,No,,,29.67,76.68
 2273,Female,56,No school,No,No,No,No,No,No,,,,,Never Smoked,67.0,98.0,,5.53,Yes,6.18,2.3,27.01,61.93
@@ -2318,7 +2318,7 @@
 2316,Male,61,No school,No,No,No,Yes,Yes,Yes,2002.0,10.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,70.0,76.0,8.56,7.8,No,4.22,0.86,21.36,51.44
 2317,Male,68,No school,No,No,No,Yes,Yes,No,,,,,Never Smoked,90.0,81.0,9.06,6.5,No,5.47,0.8,22.35,49.41
 2318,Male,88,No school,No,No,No,Yes,No,No,,,,,Never Smoked,80.0,90.0,5.95,6.3,No,3.29,0.62,25.95,54.51
-2319,Male,68,No school,No,No,No,No,No,No,,,,,Past smoker (smoker stopped > 1year ago),70.0,109.0,11.92,,Yes,5.0,1.2,28.52,60.99
+2319,Male,68,No school,No,No,No,No,No,No,,,,,Past smoker (smoker stopped > 1year ago),70.0,109.0,11.92,3.3,Yes,5.0,1.2,28.52,60.99
 2320,Female,70,No school,No,No,No,Yes,Yes,Yes,1989.0,23.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,90.0,90.0,6.35,3.9,Yes,3.81,1.19,28.89,8.17
 2321,Male,45,No school,"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),95.0,102.0,,4.4,Yes,8.0,1.59,28.34,129.83
 2322,Male,61,No school,No,No,No,No,No,Yes,1996.0,16.0,Type 2,"Oral Hypoglycemic drugs,  Insulin",Current smoker (currently smoking or stopped smoking < 1 month),113.0,107.0,11.4,5.4,Yes,3.31,0.83,31.25,47.69
@@ -2374,9 +2374,9 @@
 2372,Female,45,Post-graduate degree,"Yes, Full-time",No,No,No,No,No,,,,,Never Smoked,86.0,90.0,4.7,,Yes,4.2,1.9,33.3,133.97
 2373,Female,64,No school,No,No,No,Yes,Yes,Yes,1982.0,30.0,Type 2,"Oral Hypoglycemic drugs,  Insulin",Never Smoked,78.0,90.0,4.2,5.9,Yes,3.8,1.1,30.49,93.93
 2374,Female,59,Below secondary school (high school),No,No,No,Yes,No,No,,,,,Never Smoked,82.0,90.0,4.8,,Yes,4.1,1.8,31.22,86.55
-2375,Male,46,Below secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Past smoker (smoker stopped > 1year ago),95.0,85.0,5.1,,Yes,5.2,2.4,26.89,104.48
-2376,Female,36,Secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Never Smoked,58.0,100.0,4.5,,Yes,4.1,0.7,44.55,
-2377,Male,53,Secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,Yes,2007.0,5.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,85.0,150.0,9.1,7.9,Yes,4.6,1.2,65.38,
+2375,Male,46,Below secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Past smoker (smoker stopped > 1year ago),95.0,85.0,5.1,20.0,Yes,5.2,2.4,26.89,104.48
+2376,Female,36,Secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Never Smoked,58.0,100.0,4.5,,Yes,4.1,0.7,44.55,207.31
+2377,Male,53,Secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,Yes,2007.0,5.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,85.0,150.0,9.1,7.9,Yes,4.6,1.2,65.38,235.16
 2378,Female,50,Secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,Yes,2011.0,1.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,58.0,90.0,4.4,6.0,Yes,5.2,0.6,27.34,89.09
 2379,Male,70,No school,No,No,No,Yes,No,No,,,,,Past smoker (smoker stopped > 1year ago),61.0,85.0,,4.0,Yes,5.4,1.1,25.16,65.03
 2380,Male,47,Some college or vocational school,"Yes, Full-time",No,No,No,No,No,,,,,Never Smoked,91.0,82.0,5.2,4.0,Yes,5.3,0.4,27.45,100.38
@@ -2438,7 +2438,7 @@
 2436,Male,58,Graduated from college,"Yes, Full-time",No,No,Yes,Yes,Yes,2010.0,2.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,77.0,90.0,9.3,,Yes,3.0,1.4,30.44,115.08
 2437,Male,44,Below secondary school (high school),"Yes, Full-time",No,No,Yes,No,No,,,,,Never Smoked,76.0,90.0,4.6,,Yes,4.9,2.9,30.07,13.32
 2438,Female,44,Below secondary school (high school),No,No,No,Yes,Yes,Yes,2010.0,2.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,148.0,98.0,6.7,,Yes,5.7,2.7,36.0,127.07
-2439,Female,55,No school,No,No,No,Yes,Yes,Yes,2004.0,8.0,Type 2,"Oral Hypoglycemic drugs,  Insulin",Never Smoked,86.0,77.0,,,Yes,4.4,1.3,24.34,
+2439,Female,55,No school,No,No,No,Yes,Yes,Yes,2004.0,8.0,Type 2,"Oral Hypoglycemic drugs,  Insulin",Never Smoked,86.0,77.0,,,Yes,4.4,1.3,24.34,205.32
 2440,Male,38,Secondary school (high school),"Yes, Full-time",No,No,Yes,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),82.0,115.0,5.0,,Yes,5.3,4.6,34.6,162.94
 2441,Female,72,No school,No,No,No,Yes,Yes,Yes,2005.0,8.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,55.0,79.0,6.9,,Yes,4.2,0.8,27.22,84.19
 2442,Female,67,Some college or vocational school,No,No,No,Yes,Yes,Yes,2002.0,10.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,75.0,80.0,9.7,,Yes,4.4,1.4,33.3,63.93
@@ -2513,7 +2513,7 @@
 2511,Male,58,Some college or vocational school,"Yes, Full-time",No,No,Yes,No,Yes,,1.0,Type 2,Diet,Never Smoked,94.0,104.0,6.58,7.51,Yes,6.03,1.68,26.75,143.33
 2512,Male,59,Graduated from college,"Yes, Full-time",No,No,Yes,Yes,Yes,2002.0,10.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Never Smoked,99.0,97.0,8.75,6.33,Yes,7.2,1.63,23.38,21.08
 2513,Male,55,Secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,Yes,1992.0,20.0,Type 1,Insulin,Current smoker (currently smoking or stopped smoking < 1 month),60.0,42.0,,,Yes,3.89,3.29,24.54,134.22
-2514,Male,55,Graduated from college,"Yes, Full-time",No,No,Yes,Yes,Yes,2007.0,5.0,Type 2,Oral Hypoglycemic drugs,Past smoker (smoker stopped > 1year ago),79.0,101.0,,8.9,Yes,4.24,1.29,37.72,
+2514,Male,55,Graduated from college,"Yes, Full-time",No,No,Yes,Yes,Yes,2007.0,5.0,Type 2,Oral Hypoglycemic drugs,Past smoker (smoker stopped > 1year ago),79.0,101.0,,8.9,Yes,4.24,1.29,37.72,226.11
 2515,Male,46,Graduated from college,"Yes, Full-time",No,No,No,Yes,Yes,2008.0,4.0,Type 2,Diet,Current smoker (currently smoking or stopped smoking < 1 month),72.0,94.0,5.7,5.7,Yes,5.6,3.8,29.76,114.78
 2516,Male,66,Secondary school (high school),No,No,No,Yes,Yes,Yes,2011.0,1.0,Type 2,Oral Hypoglycemic drugs,Past smoker (smoker stopped > 1year ago),77.0,147.0,6.4,5.6,Yes,3.4,0.81,40.43,193.56
 2517,Male,75,Below secondary school (high school),No,No,No,No,Yes,No,,,,,Never Smoked,89.0,38.0,5.3,,No,2.58,0.7,23.88,44.53
@@ -2578,7 +2578,7 @@
 2576,Female,55,No school,No,No,No,Yes,Yes,No,,,,,Never Smoked,83.0,115.0,,6.2,Yes,3.7,0.6,53.51,185.94
 2577,Female,60,Below secondary school (high school),No,No,No,Yes,Yes,Yes,1997.0,15.0,Type 2,Diet,Never Smoked,77.0,120.0,,6.2,Yes,3.8,1.26,41.12,158.08
 2578,Male,59,Some college or vocational school,No,No,No,Yes,Yes,Yes,1997.0,15.0,Type 2,"Diet,  Insulin",Current smoker (currently smoking or stopped smoking < 1 month),67.0,110.0,10.0,11.4,Yes,3.6,3.0,32.98,80.5
-2579,Male,62,Secondary school (high school),No,No,No,Yes,Yes,Yes,2012.0,0.0,Type 2,Diet,Past smoker (smoker stopped > 1year ago),84.0,114.0,,8.2,Yes,5.2,3.1,34.26,
+2579,Male,62,Secondary school (high school),No,No,No,Yes,Yes,Yes,2012.0,0.0,Type 2,Diet,Past smoker (smoker stopped > 1year ago),84.0,114.0,,8.2,Yes,5.2,3.1,34.26,206.48
 2580,Female,71,No school,No,No,No,Yes,Yes,No,,,,,Never Smoked,85.0,123.0,,,Yes,4.6,1.41,44.79,86.91
 2581,Male,45,Secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),61.0,106.0,19.0,10.8,Yes,5.5,2.9,27.78,140.22
 2582,Female,57,Secondary school (high school),No,No,No,Yes,No,No,,,,,Never Smoked,160.0,115.0,,6.1,Yes,3.7,0.97,41.09,166.0
@@ -2614,7 +2614,7 @@
 2612,Female,47,Secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,Yes,1996.0,16.0,Type 2,"Diet,  Oral Hypoglycemic drugs,  Insulin",Never Smoked,70.0,116.0,,,Yes,3.5,1.96,40.16,137.75
 2613,Male,46,Secondary school (high school),"Yes, Full-time",No,No,Yes,No,Yes,2008.0,4.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Past smoker (smoker stopped > 1year ago),85.0,108.0,,7.6,Yes,5.2,2.46,27.08,139.42
 2614,Female,51,Below secondary school (high school),No,No,No,Yes,No,No,,,,,Never Smoked,104.0,105.0,,,No,3.8,2.07,38.81,126.9
-2615,Male,60,Secondary school (high school),No,No,No,Yes,Yes,Yes,2010.0,2.0,Type 2,None,Current smoker (currently smoking or stopped smoking < 1 month),94.0,86.0,,14.1,Yes,,0.80159,24.13,
+2615,Male,60,Secondary school (high school),No,No,No,Yes,Yes,Yes,2010.0,2.0,Type 2,None,Current smoker (currently smoking or stopped smoking < 1 month),94.0,86.0,,14.1,Yes,,0.80159,24.13,500.2
 2616,Female,69,No school,No,No,No,Yes,Yes,Yes,1992.0,20.0,Type 2,Insulin,Never Smoked,72.0,105.0,17.3,11.0,Yes,5.0,0.74,31.16,63.29
 2617,Male,42,Below secondary school (high school),"Yes, Full-time",No,No,Yes,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),97.0,110.0,5.4,6.6,Yes,6.4,2.68,33.56,164.68
 2618,Male,63,No school,No,No,No,Yes,No,Yes,2007.0,5.0,Type 2,None,Current smoker (currently smoking or stopped smoking < 1 month),90.0,110.0,7.1,8.4,Yes,2.7,0.78,35.56,157.85
@@ -2623,8 +2623,8 @@
 2621,Female,65,No school,No,No,No,Yes,Yes,Yes,1992.0,20.0,Type 2,Insulin,Never Smoked,75.0,120.0,,8.4,Yes,3.5,1.69,45.79,132.0
 2622,Female,70,No school,No,No,No,Yes,Yes,Yes,1972.0,40.0,Type 2,Insulin,Never Smoked,96.0,78.0,10.5,10.1,Yes,5.9,1.9,21.33,67.2
 2623,Male,53,Secondary school (high school),No,No,No,No,No,Yes,2011.0,1.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Current smoker (currently smoking or stopped smoking < 1 month),82.0,105.0,,7.8,Yes,4.0,2.7,29.02,97.17
-2624,Male,38,Graduated from college,"Yes, Full-time",No,No,Yes,Yes,Yes,2010.0,2.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),75.0,128.0,,7.9,No,,,41.21,
-2625,Female,59,No school,No,No,No,Yes,Yes,Yes,1994.0,18.0,Type 2,"Diet,  Insulin",Never Smoked,72.0,115.0,,,No,,,33.78,105.3
+2624,Male,38,Graduated from college,"Yes, Full-time",No,No,Yes,Yes,Yes,2010.0,2.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),75.0,128.0,,7.9,No,,,41.21,245.47
+2625,Female,59,No school,No,No,No,Yes,Yes,Yes,1994.0,18.0,Type 2,"Diet,  Insulin",Never Smoked,72.0,115.0,,14.9,No,,,33.78,105.3
 2626,Female,65,No school,No,No,No,Yes,No,No,,,,,Never Smoked,90.0,101.0,,6.5,Yes,5.1,0.97,27.56,78.0
 2627,Female,63,No school,No,No,No,Yes,Yes,Yes,1989.0,23.0,Type 2,Insulin,Never Smoked,90.0,130.0,,9.1,Yes,4.3,4.02,26.67,91.9
 2628,Female,55,Graduated from college,No,No,No,Yes,Yes,Yes,2002.0,10.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Never Smoked,160.0,104.0,,10.4,Yes,3.6,1.0,30.02,83.2
@@ -2652,14 +2652,14 @@
 2650,Male,43,Secondary school (high school),"Yes, Part-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),85.0,102.0,5.4,5.1,Yes,4.9,1.3,27.66,122.41
 2651,Male,65,Below secondary school (high school),No,No,No,Yes,Yes,Yes,2002.0,10.0,Type 2,Insulin,Never Smoked,80.0,90.0,6.9,7.0,Yes,5.0,3.3,27.34,92.25
 2652,Male,51,Secondary school (high school),"Yes, Part-time",No,No,Yes,No,No,,,,,Never Smoked,85.0,112.0,5.2,5.9,Yes,4.1,2.1,28.36,147.78
-2653,Male,44,Secondary school (high school),"Yes, Part-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),90.0,102.0,5.2,5.4,Yes,5.3,2.4,27.76,
+2653,Male,44,Secondary school (high school),"Yes, Part-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),90.0,102.0,5.2,5.4,Yes,5.3,2.4,27.76,223.04
 2654,Male,66,Secondary school (high school),No,No,No,Yes,No,No,,,,,Never Smoked,90.0,114.0,5.9,5.7,Yes,4.3,1.9,32.24,96.31
 2655,Male,38,Some college or vocational school,"Yes, Part-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),86.0,116.0,6.3,6.1,Yes,5.2,2.1,34.31,195.16
 2656,Male,42,Secondary school (high school),No,No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),84.0,108.0,5.6,5.8,Yes,4.3,1.9,29.41,152.45
 2657,Male,49,Secondary school (high school),No,No,No,No,No,Yes,2002.0,10.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,80.0,115.0,7.2,7.1,Yes,5.1,2.4,29.36,103.94
 2658,Male,53,Below secondary school (high school),No,No,No,Yes,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),80.0,109.0,5.6,5.4,Yes,4.1,1.5,28.03,117.13
 2659,Male,40,Below secondary school (high school),"Yes, Part-time",No,No,No,Yes,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),95.0,109.0,5.9,5.7,Yes,4.9,1.9,29.74,140.35
-2660,Male,41,Secondary school (high school),"Yes, Part-time",No,No,No,Yes,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),80.0,114.0,5.4,5.7,Yes,5.1,2.8,35.11,
+2660,Male,41,Secondary school (high school),"Yes, Part-time",No,No,No,Yes,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),80.0,114.0,5.4,5.7,Yes,5.1,2.8,35.11,212.61
 2661,Female,48,Below secondary school (high school),No,No,No,Yes,No,No,,,,,Never Smoked,86.0,107.0,5.1,5.7,Yes,5.1,2.1,33.3,95.68
 2662,Female,43,Below secondary school (high school),No,No,No,Yes,Yes,No,,,,,Never Smoked,80.0,112.0,5.8,5.9,Yes,4.9,2.3,32.05,124.16
 2663,Male,42,Secondary school (high school),No,No,No,Yes,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),100.0,115.0,6.5,6.1,Yes,4.9,1.9,32.65,182.64
@@ -2703,7 +2703,7 @@
 2701,Female,71,No school,No,No,No,Yes,No,No,,,,,Never Smoked,113.0,85.0,5.1,,Yes,4.0,0.9,21.48,55.59
 2702,Female,73,No school,No,No,No,Yes,Yes,Yes,1987.0,25.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,100.0,100.0,,7.4,No,4.18,1.11,25.89,63.62
 2703,Male,65,Secondary school (high school),No,No,No,Yes,Yes,Yes,,25.0,Type 2,Insulin,Current smoker (currently smoking or stopped smoking < 1 month),114.0,100.0,8.0,8.7,Yes,5.75,1.05,27.4,71.36
-2704,Female,70,No school,No,No,No,Yes,Yes,Yes,2011.0,1.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,108.0,110.0,,7.0,Yes,3.43,0.83,29.9,63.57
+2704,Female,70,No school,No,No,No,Yes,Yes,Yes,2011.0,1.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,108.0,110.0,0.33,7.0,Yes,3.43,0.83,29.9,63.57
 2705,Male,69,No school,No,No,No,Yes,Yes,No,,,,,Never Smoked,76.0,99.0,5.5,5.9,Yes,4.38,1.23,26.84,59.71
 2706,Male,72,Below secondary school (high school),No,No,No,Yes,Yes,No,,,,,Never Smoked,102.0,100.0,9.0,7.4,Yes,4.53,1.05,33.33,33.19
 2707,Male,63,Below secondary school (high school),No,No,No,Yes,Yes,No,,,,,Never Smoked,80.0,98.0,,5.9,Yes,4.46,0.61,25.61,103.07
@@ -2712,7 +2712,7 @@
 2710,Male,55,Secondary school (high school),No,No,No,Yes,No,No,,,,,Never Smoked,57.0,91.0,,6.2,Yes,4.63,1.23,25.53,81.45
 2711,Female,67,No school,No,No,No,Yes,Yes,Yes,1997.0,15.0,Type 2,"Diet,  Oral Hypoglycemic drugs,  Insulin",Never Smoked,94.0,115.0,9.8,8.4,Yes,3.97,4.02,34.55,88.75
 2712,Female,53,Secondary school (high school),No,No,No,Yes,Yes,Yes,2011.0,1.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Never Smoked,77.0,108.0,7.7,6.7,Yes,4.04,1.59,31.22,79.84
-2713,Male,59,Secondary school (high school),No,No,No,Yes,Yes,No,,,,,Past smoker (smoker stopped > 1year ago),79.0,82.0,4.9,,Yes,4.26,0.87,,
+2713,Male,59,Secondary school (high school),No,No,No,Yes,Yes,No,,,,,Past smoker (smoker stopped > 1year ago),79.0,82.0,4.9,,Yes,4.26,0.87,233.4,684.96
 2714,Male,64,Below secondary school (high school),No,No,No,Yes,Yes,Yes,1989.0,23.0,Type 2,Oral Hypoglycemic drugs,Past smoker (smoker stopped > 1year ago),75.0,105.0,7.7,,Yes,3.56,1.38,29.32,113.85
 2715,Male,59,Secondary school (high school),"Yes, Full-time",No,No,No,Yes,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),51.0,102.0,,5.7,Yes,5.37,0.89,29.75,148.6
 2716,Female,61,No school,No,No,No,Yes,Yes,Yes,2002.0,10.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,85.0,96.0,,6.2,No,,,30.3,94.28
@@ -2737,7 +2737,7 @@
 2735,Male,64,Some college or vocational school,No,No,No,Yes,Yes,Yes,1995.0,17.0,Type 2,"Oral Hypoglycemic drugs,  Insulin",Never Smoked,76.0,124.0,16.6,9.6,No,4.0,9.14,34.22,73.4
 2736,Male,48,Secondary school (high school),No,No,No,No,No,Yes,2011.0,1.0,Type 2,Diet,Current smoker (currently smoking or stopped smoking < 1 month),84.0,88.0,4.4,4.4,Yes,3.33,0.75,28.69,109.07
 2737,Male,41,Secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),70.0,95.0,5.6,5.8,No,4.1,0.8,23.67,114.16
-2738,Male,41,Below secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,Yes,1999.0,13.0,Type 2,Insulin,Current smoker (currently smoking or stopped smoking < 1 month),100.0,135.0,17.4,11.2,No,3.7,2.3,40.12,
+2738,Male,41,Below secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,Yes,1999.0,13.0,Type 2,Insulin,Current smoker (currently smoking or stopped smoking < 1 month),100.0,135.0,17.4,11.2,No,3.7,2.3,40.12,298.68
 2739,Female,64,No school,No,No,No,Yes,Yes,Yes,1996.0,16.0,Type 2,Insulin,Never Smoked,72.0,103.0,,,No,,,31.74,134.09
 2740,Male,61,Secondary school (high school),No,No,No,Yes,No,Yes,1992.0,20.0,Type 2,Insulin,Current smoker (currently smoking or stopped smoking < 1 month),66.0,99.0,15.5,11.8,Yes,3.32,0.83,32.21,171.92
 2741,Male,55,Post-graduate degree,"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),82.0,99.0,4.8,,Yes,3.6,0.42,29.05,113.37
@@ -2752,7 +2752,7 @@
 2750,Female,67,No school,No,No,No,Yes,Yes,Yes,1992.0,20.0,Type 2,Insulin,Never Smoked,72.0,119.0,9.0,8.0,Yes,3.3,0.76,35.29,95.6
 2751,Male,44,Below secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Never Smoked,73.0,113.0,6.0,4.7,Yes,5.7,1.87,37.65,151.2
 2752,Male,43,Secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,Yes,2002.0,10.0,Type 2,"Diet,  Insulin",Past smoker (smoker stopped > 1year ago),81.0,105.0,10.4,,Yes,4.78,3.3,40.56,98.74
-2753,Male,53,Some college or vocational school,No,No,No,Yes,Yes,Yes,1993.0,19.0,Type 2,Insulin,Past smoker (smoker stopped > 1year ago),124.0,140.0,12.9,,Yes,3.3,3.6,45.44,
+2753,Male,53,Some college or vocational school,No,No,No,Yes,Yes,Yes,1993.0,19.0,Type 2,Insulin,Past smoker (smoker stopped > 1year ago),124.0,140.0,12.9,,Yes,3.3,3.6,45.44,202.13
 2754,Female,63,Below secondary school (high school),No,No,No,Yes,Yes,Yes,1982.0,30.0,Type 2,Insulin,Never Smoked,80.0,144.0,11.5,10.5,No,3.54,1.9,43.55,126.44
 2755,Male,34,Graduated from college,"Yes, Full-time",No,No,No,No,No,,,,,Never Smoked,76.0,100.0,5.0,,Yes,4.5,1.8,27.04,107.53
 2756,Female,58,Secondary school (high school),No,No,No,No,Yes,No,,,,,Never Smoked,114.0,111.0,5.4,,Yes,5.5,0.52,34.89,135.82
@@ -2790,15 +2790,15 @@
 2788,Female,62,No school,No,No,No,Yes,Yes,Yes,2008.0,4.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Never Smoked,70.0,104.0,,6.39,Yes,6.09,1.5,33.23,80.76
 2789,Female,62,No school,No,No,No,No,No,No,,,,,Never Smoked,90.0,102.0,,,No,,,28.69,98.04
 2790,Female,70,No school,No,No,No,No,Yes,No,,,,,Never Smoked,68.0,,,,Yes,5.46,0.45,,
-2791,Female,62,No school,No,No,No,No,Yes,Yes,2010.0,2.0,Type 2,"Oral Hypoglycemic drugs,  Insulin",Never Smoked,94.0,85.0,13.0,,Yes,7.23,2.37,23.14,41.46
+2791,Female,62,No school,No,No,No,No,Yes,Yes,2010.0,2.0,Type 2,"Oral Hypoglycemic drugs,  Insulin",Never Smoked,94.0,85.0,13.0,16.0,Yes,7.23,2.37,23.14,41.46
 2792,Male,58,No school,"Yes, Full-time",No,No,No,No,No,,,,,Past smoker (smoker stopped > 1year ago),95.0,60.0,,4.5,Yes,5.7,1.34,26.57,75.65
 2793,Female,52,No school,"Yes, Full-time",No,No,No,No,Yes,2004.0,8.0,Type 2,Diet,Never Smoked,75.0,70.0,,8.4,Yes,4.1,0.63,23.47,59.4
 2794,Male,52,No school,No,No,No,No,No,No,,,,,Never Smoked,54.0,94.0,,,Yes,5.08,2.16,33.96,116.66
 2795,Female,52,No school,No,No,No,Yes,No,Yes,,10.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,90.0,78.0,,6.6,Yes,4.32,1.11,27.11,115.93
 2796,Female,50,No school,No,No,No,Yes,No,Yes,,12.0,Type 2,"Oral Hypoglycemic drugs,  Insulin",Never Smoked,82.0,104.0,,,Yes,9.53,5.3,29.56,90.72
 2797,Male,63,No school,No,No,No,Yes,Yes,Yes,,12.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,87.0,88.0,,,Yes,3.12,0.87,28.69,106.76
-2798,Female,68,No school,No,No,No,Yes,Yes,Yes,1992.0,20.0,Type 2,"Diet,  Insulin",Never Smoked,56.0,86.0,,,Yes,5.5,0.96,22.64,19.55
-2799,Female,54,No school,No,No,No,No,No,No,,,,,Never Smoked,74.0,100.0,,5.94,Yes,4.2,0.6,,
+2798,Female,68,No school,No,No,No,Yes,Yes,Yes,1992.0,20.0,Type 2,"Diet,  Insulin",Never Smoked,56.0,86.0,,14.64,Yes,5.5,0.96,22.64,19.55
+2799,Female,54,No school,No,No,No,No,No,No,,,,,Never Smoked,74.0,100.0,,5.94,Yes,4.2,0.6,342.78,1153.62
 2800,Male,66,Secondary school (high school),No,No,No,Yes,Yes,No,,,,,Never Smoked,160.0,110.0,,,Yes,2.8,1.32,31.1,47.31
 2801,Female,71,No school,No,No,No,Yes,Yes,No,,,,,Never Smoked,94.0,91.0,5.4,5.5,Yes,7.01,1.2,24.88,59.63
 2802,Male,46,Secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,Yes,2007.0,5.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Never Smoked,60.0,85.0,6.4,7.0,Yes,4.8,1.3,29.71,117.14
@@ -2971,7 +2971,7 @@
 2969,Female,62,No school,No,No,No,Yes,Yes,No,,,,,Never Smoked,75.0,95.0,5.3,6.0,Yes,6.26,1.7,25.67,90.24
 2970,Female,66,No school,No,No,No,Yes,No,No,,,,,Never Smoked,80.0,41.0,5.2,5.78,Yes,5.09,1.2,26.94,52.54
 2971,Male,64,No school,No,"Yes, after other symptoms",No,No,No,No,,,,,Never Smoked,90.0,93.0,,,Yes,4.22,0.8,20.43,74.1
-2972,Male,67,No school,"Yes, Part-time",No,No,Yes,Yes,No,,,,,Never Smoked,80.0,87.0,5.0,,Yes,4.1,0.9,23.12,83.9
+2972,Male,67,No school,"Yes, Part-time",No,No,Yes,Yes,No,,,,,Never Smoked,80.0,87.0,5.0,0.0,Yes,4.1,0.9,23.12,83.9
 2973,Female,69,No school,No,No,No,Yes,Yes,No,,,,,Never Smoked,112.0,120.0,,5.0,Yes,7.43,1.34,57.78,171.41
 2974,Female,50,Below secondary school (high school),No,No,No,No,No,No,,,,,Never Smoked,76.0,88.0,,5.3,Yes,5.7,1.76,27.92,145.18
 2975,Male,61,Below secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,Yes,2002.0,10.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),68.0,88.0,,,Yes,5.28,3.7,27.64,62.64
@@ -3017,7 +3017,7 @@
 3015,Male,48,No school,No,No,No,Yes,Yes,Yes,2000.0,,Type 2,Oral Hypoglycemic drugs,Never Smoked,76.0,,12.8,7.0,No,,,24.77,83.58
 3016,Female,69,No school,No,No,No,Yes,Yes,Yes,2002.0,10.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,80.0,102.0,9.4,10.4,Yes,3.98,1.94,27.55,89.32
 3017,Male,73,Some college or vocational school,No,No,No,Yes,No,Yes,2008.0,4.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,86.0,85.0,9.3,12.0,Yes,6.12,1.07,20.2,45.33
-3018,Male,71,Secondary school (high school),No,No,No,Yes,Yes,No,,,,,Never Smoked,58.0,90.0,5.5,6.0,Yes,,,23.73,54.35
+3018,Male,71,Secondary school (high school),No,No,No,Yes,Yes,No,,,,,Never Smoked,58.0,90.0,5.5,6.0,Yes,0.1,0.02,23.73,54.35
 3019,Male,60,Below secondary school (high school),No,No,No,Yes,Yes,Yes,1997.0,15.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,65.0,92.0,7.4,11.5,Yes,2.65,1.0,24.22,49.2
 3020,Female,69,No school,No,No,No,Yes,Yes,No,,,,,Never Smoked,69.0,97.0,5.4,5.9,Yes,3.59,0.91,25.97,65.15
 3021,Male,54,Secondary school (high school),No,No,No,Yes,Yes,Yes,2002.0,10.0,Type 2,Insulin,Past smoker (smoker stopped > 1year ago),78.0,108.0,6.2,,Yes,4.81,2.17,26.96,23.82
@@ -3033,11 +3033,11 @@
 3031,Male,68,Secondary school (high school),No,No,No,No,No,Yes,1997.0,15.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,64.0,102.0,5.1,6.7,Yes,2.91,0.57,29.02,71.39
 3032,Female,64,No school,No,No,Yes,Yes,Yes,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),94.0,95.0,6.5,5.6,Yes,3.31,1.19,21.09,20.92
 3033,Male,57,Below secondary school (high school),No,No,No,Yes,Yes,Yes,2008.0,4.0,Type 2,None,Current smoker (currently smoking or stopped smoking < 1 month),95.0,100.0,10.1,11.1,Yes,5.69,1.48,24.34,91.88
-3034,Male,38,Secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,Yes,2008.0,4.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),75.0,130.0,13.7,9.0,Yes,3.78,2.52,44.64,
+3034,Male,38,Secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,Yes,2008.0,4.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),75.0,130.0,13.7,9.0,Yes,3.78,2.52,44.64,202.67
 3035,Male,64,Below secondary school (high school),No,No,No,Yes,Yes,No,,,,,Past smoker (smoker stopped > 1year ago),55.0,80.0,5.8,5.9,Yes,7.73,0.97,23.63,52.05
 3036,Female,74,No school,No,No,No,Yes,Yes,Yes,2000.0,12.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,88.0,95.0,4.6,,Yes,3.68,0.9,23.5,61.89
 3037,Male,82,Below secondary school (high school),No,No,No,No,Yes,Yes,1992.0,20.0,Type 2,Insulin,Past smoker (smoker stopped > 1year ago),64.0,75.0,,,No,,,16.42,32.14
-3038,Male,53,Secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,Yes,2008.0,4.0,Type 2,"Oral Hypoglycemic drugs,  Insulin",Recent smoker (stopped smoking  > 1 month and < 1 year),62.0,105.0,12.7,,Yes,,0.74,27.13,171.62
+3038,Male,53,Secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,Yes,2008.0,4.0,Type 2,"Oral Hypoglycemic drugs,  Insulin",Recent smoker (stopped smoking  > 1 month and < 1 year),62.0,105.0,12.7,,Yes,0.08,0.74,27.13,171.62
 3039,Male,52,Some college or vocational school,"Yes, Full-time",No,No,Yes,Yes,Yes,2000.0,12.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),65.0,110.0,7.2,6.2,Yes,2.9,1.47,29.07,140.55
 3040,Male,49,Post-graduate degree,"Yes, Full-time",No,Yes,Yes,Yes,Yes,2007.0,5.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),75.0,108.0,13.5,9.4,Yes,6.42,2.64,29.34,37.64
 3041,Female,53,No school,No,No,No,Yes,Yes,No,,,,,Past smoker (smoker stopped > 1year ago),80.0,102.0,4.6,5.2,Yes,6.39,2.62,27.29,77.08
@@ -3055,7 +3055,7 @@
 3053,Male,60,No school,No,No,No,Yes,Yes,Yes,1982.0,30.0,Type 2,"Oral Hypoglycemic drugs,  Insulin",Never Smoked,62.0,106.0,10.4,,Yes,2.56,0.85,33.13,83.13
 3054,Female,72,No school,No,No,No,Yes,Yes,No,,,,,Never Smoked,60.0,90.0,,5.9,Yes,5.18,0.57,23.56,50.65
 3055,Female,88,No school,No,No,No,Yes,Yes,No,,,,,Never Smoked,76.0,102.0,6.6,,Yes,2.61,0.62,32.84,49.16
-3056,Female,82,No school,No,No,No,Yes,Yes,No,,,,,Never Smoked,,80.0,,,Yes,5.01,1.97,24.44,43.65
+3056,Female,82,No school,No,No,No,Yes,Yes,No,,,,,Never Smoked,8.0,80.0,,,Yes,5.01,1.97,24.44,43.65
 3057,Female,53,No school,No,No,Yes,Yes,Yes,Yes,2008.0,4.0,Type 2,"Oral Hypoglycemic drugs,  Insulin",Never Smoked,92.0,128.0,8.4,,Yes,3.12,3.02,47.8,73.05
 3058,Male,70,Below secondary school (high school),No,No,No,No,No,No,2002.0,10.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,53.0,92.0,10.8,,Yes,3.44,0.78,24.65,33.21
 3059,Female,34,Graduated from college,No,No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),75.0,74.0,5.1,,Yes,3.33,1.24,25.3,103.35
@@ -3178,7 +3178,7 @@
 3176,Male,59,Some college or vocational school,"Yes, Full-time",No,No,No,No,Yes,1987.0,25.0,Type 2,Insulin,Never Smoked,80.0,43.0,8.55,6.7,Yes,3.06,1.5,25.26,82.27
 3177,Male,66,No school,"Yes, Full-time",No,No,Yes,Yes,Yes,2012.0,,Type 2,Diet,Current smoker (currently smoking or stopped smoking < 1 month),120.0,89.0,9.99,6.4,Yes,4.87,2.27,21.19,53.35
 3178,Male,64,Graduated from college,"Yes, Full-time",No,No,Yes,Yes,Yes,,10.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Never Smoked,65.0,102.0,7.49,6.2,Yes,2.98,0.51,31.64,84.6
-3179,Male,45,Secondary school (high school),"Yes, Full-time",No,No,No,No,Yes,2002.0,10.0,Type 2,"Diet,  Oral Hypoglycemic drugs,  Insulin",Never Smoked,70.0,102.0,1.53216,,Yes,5.49,1.21,31.64,88.12
+3179,Male,45,Secondary school (high school),"Yes, Full-time",No,No,No,No,Yes,2002.0,10.0,Type 2,"Diet,  Oral Hypoglycemic drugs,  Insulin",Never Smoked,70.0,102.0,1.53216,16.0,Yes,5.49,1.21,31.64,88.12
 3180,Male,46,Graduated from college,"Yes, Full-time",No,No,No,Yes,No,,,,,Never Smoked,60.0,122.0,,5.0,Yes,5.8,1.54,40.4,128.78
 3181,Male,75,No school,No,No,No,Yes,No,No,,,,,Never Smoked,72.0,100.0,,,No,,,21.45,43.13
 3182,Male,58,Below secondary school (high school),No,No,No,Yes,Yes,Yes,,6.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Current smoker (currently smoking or stopped smoking < 1 month),180.0,103.0,,5.9,Yes,3.91,1.39,29.05,103.95
@@ -3194,7 +3194,7 @@
 3192,Male,42,Secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Past smoker (smoker stopped > 1year ago),69.0,105.0,5.0,5.3,Yes,4.4,1.06,26.35,106.81
 3193,Female,51,No school,No,No,No,Yes,Yes,Yes,,10.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,65.0,110.0,8.2,,Yes,2.62,0.84,41.09,193.73
 3194,Female,48,No school,No,No,No,No,No,No,,,,,Never Smoked,90.0,107.0,5.5,5.5,Yes,4.13,1.17,32.81,167.44
-3195,Male,36,Post-graduate degree,"Yes, Full-time",No,No,No,Yes,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),81.0,150.0,4.8,5.8,Yes,5.13,1.96,42.02,
+3195,Male,36,Post-graduate degree,"Yes, Full-time",No,No,No,Yes,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),81.0,150.0,4.8,5.8,Yes,5.13,1.96,42.02,207.44
 3196,Female,77,No school,No,No,No,Yes,Yes,Yes,,15.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,78.0,115.0,,8.0,Yes,4.33,3.07,30.73,65.52
 3197,Male,55,Below secondary school (high school),No,No,No,Yes,Yes,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),89.0,94.0,,,Yes,3.96,0.75,25.32,119.49
 3198,Male,72,Below secondary school (high school),No,No,No,Yes,Yes,Yes,,20.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,57.0,,7.8,8.7,Yes,3.78,1.22,34.21,80.54
@@ -3209,11 +3209,11 @@
 3207,Female,76,No school,No,No,No,Yes,No,No,,,,,Past smoker (smoker stopped > 1year ago),130.0,90.0,19.1,5.5,Yes,6.4,0.8,23.63,40.48
 3208,Male,46,Graduated from college,"Yes, Full-time",No,No,No,No,No,,,,,Past smoker (smoker stopped > 1year ago),60.0,81.0,5.5,,Yes,3.6,0.9,21.09,79.03
 3209,Male,74,No school,No,No,No,No,No,No,,,,,Never Smoked,83.0,100.0,9.3,8.8,Yes,6.0,2.2,33.33,55.86
-3210,Male,34,Graduated from college,"Yes, Full-time",No,No,No,No,No,,,,,Never Smoked,72.0,122.0,,,Yes,4.9,1.0,43.25,
+3210,Male,34,Graduated from college,"Yes, Full-time",No,No,No,No,No,,,,,Never Smoked,72.0,122.0,,,Yes,4.9,1.0,43.25,211.66
 3211,Female,64,No school,No,No,No,Yes,Yes,Yes,2002.0,10.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),90.0,95.0,9.5,7.3,Yes,4.2,1.1,35.38,55.99
 3212,Male,46,Graduated from college,"Yes, Full-time",No,No,No,Yes,No,,,,,Past smoker (smoker stopped > 1year ago),75.0,32.0,5.16,,No,,,25.5,128.47
 3213,Male,58,Graduated from college,"Yes, Full-time",No,No,Yes,Yes,Yes,2006.0,6.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),52.0,99.0,5.6,6.2,Yes,3.3,1.3,25.71,95.41
-3214,Male,51,Secondary school (high school),"Yes, Full-time",No,No,Yes,No,Yes,1995.0,,Type 2,Oral Hypoglycemic drugs,Past smoker (smoker stopped > 1year ago),75.0,115.0,10.28,9.92,No,,,40.75,
+3214,Male,51,Secondary school (high school),"Yes, Full-time",No,No,Yes,No,Yes,1995.0,,Type 2,Oral Hypoglycemic drugs,Past smoker (smoker stopped > 1year ago),75.0,115.0,10.28,9.92,No,,,40.75,206.38
 3215,Female,69,No school,No,No,No,No,Yes,Yes,1979.0,33.0,Type 2,"Diet,  Oral Hypoglycemic drugs,  Insulin",Never Smoked,80.0,120.0,16.9,10.7,Yes,3.0,1.76,32.81,43.37
 3216,Female,58,Secondary school (high school),No,No,No,Yes,No,Yes,1987.0,25.0,Type 2,"Diet,  Insulin",Never Smoked,100.0,84.0,,8.4,Yes,3.1,1.62,30.67,103.23
 3217,Male,69,No school,No,No,No,Yes,Yes,Yes,1997.0,15.0,Type 2,Insulin,Recent smoker (stopped smoking  > 1 month and < 1 year),70.0,130.0,,,No,,,35.08,89.9
@@ -3232,7 +3232,7 @@
 3230,Female,69,No school,No,No,No,Yes,Yes,No,,,,,Never Smoked,75.0,109.0,5.6,,No,,,28.7,122.06
 3231,Male,41,Secondary school (high school),"Yes, Full-time",No,No,Yes,No,Yes,,2.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,80.0,119.0,5.4,7.0,Yes,2.5,0.8,39.04,137.72
 3232,Male,63,No school,No,No,No,Yes,No,No,,,,,Never Smoked,78.0,96.0,,6.4,Yes,3.0,1.63,25.39,62.8
-3233,Female,48,Below secondary school (high school),No,No,No,Yes,Yes,Yes,2007.0,,Type 2,"Diet,  Oral Hypoglycemic drugs",Never Smoked,70.0,101.0,14.0,12.79,Yes,9.9,2.4,27.14,
+3233,Female,48,Below secondary school (high school),No,No,No,Yes,Yes,Yes,2007.0,,Type 2,"Diet,  Oral Hypoglycemic drugs",Never Smoked,70.0,101.0,14.0,12.79,Yes,9.9,2.4,27.14,225.31
 3234,Female,62,Some college or vocational school,No,No,No,Yes,No,No,,,,,Never Smoked,80.0,106.0,,,Yes,4.9,0.8,28.67,87.56
 3235,Male,52,No school,No,No,No,Yes,Yes,No,,,,,Never Smoked,73.0,89.0,,,Yes,6.0,1.5,30.85,113.65
 3236,Female,42,Graduated from college,"Yes, Full-time",No,No,No,Yes,No,,,,,Never Smoked,54.0,80.0,5.8,,Yes,3.3,1.2,24.0,103.84
@@ -3245,7 +3245,7 @@
 3243,Female,61,No school,No,No,No,No,Yes,No,,,,,Never Smoked,85.0,87.0,,,No,,,31.56,121.53
 3244,Male,55,No school,No,No,No,No,No,No,,,,,Never Smoked,85.0,91.0,5.8,6.3,Yes,5.01,0.85,26.62,110.98
 3245,Female,37,No school,No,No,No,Yes,Yes,Yes,2007.0,5.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,70.0,90.0,,,No,,,27.55,118.15
-3246,Male,36,Secondary school (high school),"Yes, Full-time",No,No,No,Yes,Yes,2012.0,0.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),111.0,90.0,,13.1,Yes,7.18,2.17,27.76,
+3246,Male,36,Secondary school (high school),"Yes, Full-time",No,No,No,Yes,Yes,2012.0,0.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),111.0,90.0,,13.1,Yes,7.18,2.17,27.76,226.53
 3247,Male,55,No school,No,No,No,Yes,Yes,Yes,2002.0,10.0,Type 2,Insulin,Never Smoked,60.0,85.0,10.2,11.4,No,,,22.66,56.67
 3248,Female,43,No school,No,No,No,No,Yes,No,,,,,Never Smoked,80.0,87.0,,5.1,Yes,4.1,0.76,29.43,167.31
 3249,Female,46,No school,No,No,No,Yes,No,No,,,,,Never Smoked,58.0,85.0,,,No,,,31.11,152.07
@@ -3330,7 +3330,7 @@
 3328,Male,54,Below secondary school (high school),No,No,No,Yes,Yes,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),98.0,126.0,5.6,5.5,Yes,5.6,3.3,30.1,68.68
 3329,Male,80,Below secondary school (high school),No,No,Yes,Yes,Yes,Yes,2010.0,3.0,Type 2,Oral Hypoglycemic drugs,Past smoker (smoker stopped > 1year ago),106.0,103.0,,,No,4.0,0.3,31.02,40.29
 3330,Female,69,No school,No,No,No,Yes,Yes,Yes,1980.0,32.0,Type 2,"Oral Hypoglycemic drugs,  Insulin",Never Smoked,100.0,120.0,9.9,6.02,Yes,3.3,1.7,40.0,107.19
-3331,Female,76,No school,No,No,No,No,No,Yes,1997.0,15.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,78.0,76.0,,,Yes,,,21.23,53.04
+3331,Female,76,No school,No,No,No,No,No,Yes,1997.0,15.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,78.0,76.0,,,Yes,0.07,0.01,21.23,53.04
 3332,Female,74,No school,No,No,No,Yes,No,No,,,,,Never Smoked,110.0,83.0,,4.8,Yes,4.81,2.6,18.72,11.35
 3333,Male,75,No school,No,No,Yes,Yes,No,Yes,1998.0,15.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,100.0,105.0,5.7,,Yes,4.06,0.87,29.3,48.75
 3334,Female,68,No school,No,No,Yes,Yes,Yes,Yes,1997.0,15.0,Type 2,"Oral Hypoglycemic drugs,  Insulin",Never Smoked,140.0,120.0,11.8,,Yes,2.75,0.42,45.79,92.55
@@ -3373,7 +3373,7 @@
 3371,Male,62,No school,No,No,No,No,No,No,,,,,Past smoker (smoker stopped > 1year ago),74.0,110.0,,,Yes,5.94,5.8,30.0,46.38
 3372,Male,74,No school,"Yes, Part-time",No,No,No,No,No,,,,,Never Smoked,58.0,100.0,5.5,4.4,Yes,4.8,0.7,25.26,51.98
 3373,Male,63,No school,"Yes, Full-time","Yes, after other symptoms",No,Yes,Yes,Yes,2002.0,10.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,100.0,85.0,6.2,,Yes,3.5,1.1,26.58,71.03
-3374,Male,46,Graduated from college,"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),70.0,88.0,6.12,5.73,Yes,6.07,1.59,,
+3374,Male,46,Graduated from college,"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),70.0,88.0,6.12,5.73,Yes,6.07,1.59,221.14,1164.7
 3375,Male,72,Below secondary school (high school),No,No,No,Yes,Yes,No,,,,,Never Smoked,53.0,97.0,10.0,5.9,Yes,4.6,0.46,22.49,61.09
 3376,Male,68,No school,No,No,No,Yes,Yes,Yes,1998.0,14.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Never Smoked,74.0,94.0,,9.65,Yes,5.59,1.61,28.89,55.89
 3377,Male,47,Graduated from college,"Yes, Full-time",No,No,Yes,Yes,No,,,,,Never Smoked,84.0,101.0,5.4,,Yes,6.5,2.44,32.6,88.44
@@ -3419,18 +3419,18 @@
 3417,Male,88,No school,No,No,No,Yes,Yes,No,,,,,Past smoker (smoker stopped > 1year ago),99.0,76.0,,,Yes,4.3,0.7,19.49,21.99
 3418,Female,91,No school,No,No,No,Yes,No,Yes,1992.0,20.0,Type 2,Insulin,Never Smoked,70.0,102.0,6.1,7.37,No,3.57,1.18,34.93,32.33
 3419,Female,64,Some college or vocational school,No,No,Yes,No,Yes,Yes,1992.0,20.0,Type 2,"Diet,  Insulin",Never Smoked,68.0,106.0,3.5,7.8,No,1.76,0.87,29.07,28.35
-3420,Male,66,Secondary school (high school),No,"Yes, after other symptoms",No,No,No,Yes,1992.0,20.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),,145.0,9.7,,Yes,3.36,1.97,33.8,118.21
+3420,Male,66,Secondary school (high school),No,"Yes, after other symptoms",No,No,No,Yes,1992.0,20.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),0.0,145.0,9.7,,Yes,3.36,1.97,33.8,118.21
 3421,Female,56,No school,No,No,No,No,No,No,,,,,Never Smoked,90.0,27.0,,,No,,,19.82,30.51
 3422,Male,65,No school,No,No,No,Yes,Yes,Yes,,10.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,160.0,94.0,,5.5,Yes,3.27,0.97,26.04,54.02
 3423,Male,51,Below secondary school (high school),No,"Yes, after other symptoms",No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),138.0,126.0,5.0,5.4,Yes,5.4,0.9,24.61,71.21
 3424,Male,56,No school,No,No,No,No,Yes,No,,,,,Never Smoked,65.0,32.0,,,Yes,2.4,1.1,24.46,23.73
 3425,Male,69,No school,No,No,No,Yes,No,Yes,2003.0,10.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,50.0,85.0,,11.0,Yes,4.0,1.0,28.13,54.68
-3426,Female,47,No school,No,"Yes, first presentation without prior symptoms",No,Yes,Yes,Yes,,,Type 2,Oral Hypoglycemic drugs,Never Smoked,86.0,85.0,8.9,9.5,Yes,6.8,1.8,24.69,85.97
+3426,Female,47,No school,No,"Yes, first presentation without prior symptoms",No,Yes,Yes,Yes,2022.0,-10.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,86.0,85.0,8.9,9.5,Yes,6.8,1.8,24.69,85.97
 3427,Male,78,No school,No,No,No,Yes,Yes,No,,,,,Never Smoked,91.0,,6.33,5.7,Yes,3.7,0.79,,
 3428,Male,72,No school,No,No,No,Yes,No,Yes,2012.0,1.0,Type 2,"Diet,  Oral Hypoglycemic drugs,  Insulin",Never Smoked,91.0,96.0,5.38,6.5,Yes,5.34,0.8,28.65,26.36
 3429,Female,74,No school,No,No,No,Yes,Yes,Yes,1990.0,23.0,Type 2,"Diet,  Insulin",Never Smoked,72.0,109.0,10.6,10.7,No,,,30.22,16.5
 3430,Female,94,No school,No,No,No,Yes,Yes,Yes,2006.0,7.0,Type 2,Insulin,Never Smoked,88.0,,15.04,8.2,Yes,3.96,1.03,33.67,23.64
-3431,Male,54,No school,"Yes, Part-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),85.0,145.0,9.1,,Yes,5.18,1.11,56.15,
+3431,Male,54,No school,"Yes, Part-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),85.0,145.0,9.1,,Yes,5.18,1.11,56.15,254.28
 3432,Male,87,No school,No,No,No,No,No,No,,,,,Past smoker (smoker stopped > 1year ago),98.0,80.0,5.8,,Yes,6.3,0.8,21.22,31.86
 3433,Male,76,No school,No,No,No,Yes,Yes,No,,,,,Never Smoked,88.0,90.0,,6.1,Yes,3.76,1.21,25.97,56.23
 3434,Female,62,No school,No,No,No,Yes,Yes,Yes,2005.0,7.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,100.0,101.0,10.99,,Yes,3.53,3.12,28.44,60.51
@@ -3446,7 +3446,7 @@
 3444,Male,58,Post-graduate degree,"Yes, Full-time",No,No,No,Yes,Yes,,20.0,Type 2,Insulin,Current smoker (currently smoking or stopped smoking < 1 month),100.0,92.0,12.0,12.16,Yes,5.8,1.6,29.74,110.53
 3445,Female,77,No school,No,No,No,No,No,Yes,2006.0,6.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,136.0,96.0,15.2,11.7,Yes,2.4,0.55,21.91,38.88
 3446,Male,75,No school,No,No,No,Yes,No,Yes,2005.0,7.0,Type 2,Insulin,Never Smoked,104.0,104.0,,,Yes,2.6,0.7,22.22,52.33
-3447,Male,70,No school,No,No,No,Yes,No,Yes,2009.0,3.0,Type 2,Insulin,Past smoker (smoker stopped > 1year ago),104.0,54.0,8.3,,Yes,6.9,1.5,26.56,43.69
+3447,Male,70,No school,No,No,No,Yes,No,Yes,2009.0,3.0,Type 2,Insulin,Past smoker (smoker stopped > 1year ago),104.0,54.0,8.3,14.7,Yes,6.9,1.5,26.56,43.69
 3448,Male,69,No school,No,"Yes, after other symptoms",No,Yes,No,No,,,,,Never Smoked,113.0,38.0,,,No,,,28.72,60.4
 3449,Male,63,No school,No,"Yes, after other symptoms",No,No,Yes,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),80.0,84.0,,,No,,,25.22,51.59
 3450,Male,70,No school,No,No,No,Yes,Yes,No,,,,,Never Smoked,74.0,90.0,5.0,,Yes,4.8,1.3,23.44,21.62
@@ -3491,7 +3491,7 @@
 3489,Female,69,No school,No,No,No,Yes,Yes,Yes,1988.0,25.0,Type 2,Insulin,Never Smoked,77.0,120.0,7.1,7.7,Yes,2.73,1.14,50.08,110.76
 3490,Male,95,No school,No,"Yes, first presentation without prior symptoms",Yes,No,No,No,,,,,Never Smoked,72.0,90.0,6.6,6.0,Yes,2.18,0.65,,
 3491,Male,82,Below secondary school (high school),No,"Yes, after other symptoms",Yes,Yes,Yes,Yes,1982.0,30.0,Type 2,Oral Hypoglycemic drugs,Past smoker (smoker stopped > 1year ago),130.0,111.0,7.5,7.9,Yes,5.6,1.6,23.62,17.28
-3492,Male,70,No school,No,No,No,No,No,No,,,,,Never Smoked,70.0,85.0,6.63,,No,5.33,1.46,24.61,37.22
+3492,Male,70,No school,No,No,No,No,No,No,,,,,Never Smoked,70.0,85.0,6.63,3.6,No,5.33,1.46,24.61,37.22
 3493,Male,75,No school,No,No,No,No,No,No,,,,,Never Smoked,50.0,85.0,,,No,,,25.35,53.54
 3494,Female,72,No school,No,No,No,No,No,No,,,,,Never Smoked,83.0,70.0,,,No,,,25.71,77.35
 3495,Male,43,Below secondary school (high school),No,"Yes, after other symptoms",No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),45.0,118.0,8.2,6.52,Yes,7.73,4.07,35.49,156.59
@@ -3500,7 +3500,7 @@
 3498,Female,88,No school,No,No,No,Yes,Yes,Yes,1992.0,20.0,Type 2,Insulin,Never Smoked,108.0,118.0,,9.3,Yes,6.0,1.2,34.48,30.04
 3499,Female,68,No school,No,No,No,Yes,No,No,,,,,Never Smoked,88.0,66.0,8.7,,Yes,4.5,0.8,22.37,55.59
 3500,Male,61,No school,No,No,No,No,Yes,Yes,2002.0,10.0,Type 2,Diet,Never Smoked,67.0,90.0,,,No,5.32,0.83,28.76,56.16
-3501,Male,40,Below secondary school (high school),"Yes, Part-time","Yes, after other symptoms",No,No,No,No,,,,,Recent smoker (stopped smoking  > 1 month and < 1 year),,,,,No,,,,
+3501,Male,40,Below secondary school (high school),"Yes, Part-time","Yes, after other symptoms",No,No,No,No,,,,,Recent smoker (stopped smoking  > 1 month and < 1 year),0.0,,,,No,,,,
 3502,Male,65,No school,No,No,Yes,No,No,No,,,,,Never Smoked,58.0,70.0,,,No,,,30.18,13.18
 3503,Female,59,No school,No,No,No,Yes,Yes,Yes,2005.0,7.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,46.0,110.0,7.18,8.0,Yes,3.54,0.93,35.38,16.38
 3504,Female,56,No school,No,No,No,No,No,Yes,2007.0,5.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,116.0,85.0,12.6,10.0,Yes,6.74,1.98,29.43,83.91
@@ -3521,20 +3521,20 @@
 3519,Male,65,Below secondary school (high school),"Yes, Part-time",No,No,Yes,Yes,Yes,2002.0,17.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Past smoker (smoker stopped > 1year ago),102.0,93.0,7.4,7.8,Yes,4.3,1.5,26.71,68.14
 3520,Female,78,No school,No,No,No,Yes,Yes,Yes,2002.0,10.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,110.0,122.0,,8.22,No,7.2,1.17,39.54,74.47
 3521,Male,42,Below secondary school (high school),"Yes, Part-time","Yes, after other symptoms",No,No,No,Yes,2004.0,8.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),85.0,113.0,12.3,10.99,Yes,4.0,1.36,30.04,144.02
-3522,Male,64,Secondary school (high school),No,No,Yes,Yes,Yes,Yes,,20.0,Type 2,Insulin,Never Smoked,99.0,82.0,6.5,,Yes,3.5,1.1,25.81,47.12
+3522,Male,64,Secondary school (high school),No,No,Yes,Yes,Yes,Yes,,20.0,Type 2,Insulin,Never Smoked,99.0,82.0,6.5,17.5,Yes,3.5,1.1,25.81,47.12
 3523,Male,75,No school,No,No,No,Yes,Yes,No,,,,,Never Smoked,130.0,86.0,6.6,,Yes,2.53,0.72,19.05,26.83
 3524,Female,66,No school,No,No,No,No,No,No,,,,,Never Smoked,106.0,96.0,,5.95,Yes,5.02,1.5,31.11,95.86
 3525,Female,72,No school,No,"Yes, after other symptoms",No,Yes,Yes,Yes,2006.0,6.0,Type 2,Insulin,Never Smoked,80.0,90.0,,,No,,,33.06,61.2
-3526,Female,68,No school,No,"Yes, after other symptoms",No,No,No,Yes,2002.0,10.0,Type 2,Insulin,Never Smoked,,88.0,,7.1,Yes,3.67,0.29,24.97,40.11
+3526,Female,68,No school,No,"Yes, after other symptoms",No,No,No,Yes,2002.0,10.0,Type 2,Insulin,Never Smoked,0.0,88.0,,7.1,Yes,3.67,0.29,24.97,40.11
 3527,Male,80,No school,No,No,No,No,No,No,,,,,Never Smoked,104.0,85.0,5.8,6.1,Yes,3.92,0.61,25.71,40.36
 3528,Female,53,No school,No,"Yes, after other symptoms",No,Yes,No,Yes,2002.0,10.0,Type 2,Insulin,Never Smoked,154.0,80.0,,,Yes,4.26,0.8,22.67,79.56
 3529,Male,65,No school,No,"Yes, first presentation without prior symptoms",No,Yes,Yes,Yes,2002.0,10.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,42.0,96.0,,,Yes,5.12,1.23,,
 3530,Male,69,No school,No,"Yes, after other symptoms",No,Yes,No,No,,,,,Recent smoker (stopped smoking  > 1 month and < 1 year),110.0,,,5.8,Yes,3.3,1.07,,
 3531,Male,60,Below secondary school (high school),"Yes, Full-time",No,No,No,No,Yes,2002.0,10.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,75.0,98.0,,,Yes,4.95,1.4,26.89,56.34
-3532,Male,72,No school,No,"Yes, first presentation without prior symptoms",No,Yes,Yes,Yes,1995.0,17.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,,95.0,,,No,,,25.95,51.42
+3532,Male,72,No school,No,"Yes, first presentation without prior symptoms",No,Yes,Yes,Yes,1995.0,17.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,0.0,95.0,,,No,,,25.95,51.42
 3533,Male,95,No school,No,No,No,No,No,No,,,,,Never Smoked,91.0,,,,No,,,20.96,31.48
 3534,Female,61,No school,No,"Yes, after other symptoms",No,Yes,Yes,No,,,,,Never Smoked,92.0,85.0,,,Yes,5.7,3.8,25.71,25.56
-3535,Female,55,No school,No,"Yes, after other symptoms",No,Yes,Yes,Yes,1987.0,25.0,Type 2,Insulin,Never Smoked,,92.0,15.13,11.0,Yes,3.48,1.79,33.3,37.8
+3535,Female,55,No school,No,"Yes, after other symptoms",No,Yes,Yes,Yes,1987.0,25.0,Type 2,Insulin,Never Smoked,0.0,92.0,15.13,11.0,Yes,3.48,1.79,33.3,37.8
 3536,Male,86,Below secondary school (high school),No,No,No,Yes,Yes,No,,,,,Never Smoked,77.0,74.0,5.2,5.1,Yes,5.3,1.7,17.3,36.9
 3537,Female,85,Secondary school (high school),No,No,No,Yes,Yes,No,,,,,Never Smoked,105.0,88.0,5.1,5.0,No,3.9,1.76,30.49,37.83
 3538,Male,47,Some college or vocational school,"Yes, Full-time",No,No,No,Yes,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),65.0,82.0,,5.7,Yes,5.93,0.78,19.88,62.71
@@ -3612,7 +3612,7 @@
 3610,Female,62,No school,No,No,No,No,No,No,,,,,Never Smoked,100.0,,,12.02,Yes,3.67,1.12,32.03,80.9
 3611,Male,48,Below secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Never Smoked,62.0,100.0,6.8,4.9,Yes,6.4,3.1,29.07,110.59
 3612,Male,62,Graduated from college,No,No,No,Yes,Yes,No,,,,,Never Smoked,93.0,38.0,5.6,4.2,Yes,4.7,1.7,25.14,94.71
-3613,Female,63,No school,No,No,No,Yes,Yes,Yes,2003.0,9.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,94.0,124.0,,5.1,Yes,,,33.06,33.0
+3613,Female,63,No school,No,No,No,Yes,Yes,Yes,2003.0,9.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,94.0,124.0,0.98,5.1,Yes,0.1,0.02,33.06,33.0
 3614,Male,60,Graduated from college,No,No,No,Yes,No,Yes,2004.0,8.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),145.0,,,,Yes,4.0,1.6,27.1,86.4
 3615,Male,67,Some college or vocational school,No,No,No,Yes,Yes,Yes,2003.0,9.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),108.0,80.0,7.2,,Yes,3.5,0.5,24.05,61.55
 3616,Male,62,Below secondary school (high school),"Yes, Part-time",No,No,Yes,Yes,No,,,,,Never Smoked,102.0,70.0,6.2,,No,,,29.75,114.09
@@ -3664,7 +3664,7 @@
 3662,Male,49,Some college or vocational school,"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),88.0,110.0,,,Yes,5.6,1.01,27.77,127.13
 3663,Male,76,No school,No,No,No,No,No,Yes,2002.0,10.0,Type 2,"Diet,  Oral Hypoglycemic drugs,  Insulin",Never Smoked,55.0,106.0,,8.8,Yes,4.2,2.1,31.22,50.9
 3664,Female,56,Secondary school (high school),No,No,No,Yes,Yes,Yes,2002.0,10.0,Type 1,Insulin,Never Smoked,54.0,115.0,11.6,7.6,Yes,6.1,5.9,36.44,105.35
-3665,Male,37,Secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),80.0,130.0,7.6,7.1,Yes,4.9,2.51,40.68,
+3665,Male,37,Secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),80.0,130.0,7.6,7.1,Yes,4.9,2.51,40.68,204.65
 3666,Male,64,Secondary school (high school),No,No,No,Yes,No,Yes,2012.0,0.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Never Smoked,84.0,100.0,,8.1,Yes,4.5,2.27,32.42,103.45
 3667,Male,63,No school,No,No,No,Yes,Yes,No,,,,,Past smoker (smoker stopped > 1year ago),82.0,100.0,,,Yes,3.68,1.45,24.77,9.11
 3668,Female,62,Below secondary school (high school),No,No,No,Yes,No,Yes,1997.0,15.0,Type 2,Insulin,Never Smoked,80.0,140.0,,,Yes,4.8,1.3,31.22,71.83
@@ -3676,7 +3676,7 @@
 3674,Male,49,Graduated from college,"Yes, Full-time",No,No,Yes,No,Yes,2005.0,7.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,104.0,115.0,7.0,9.5,Yes,4.6,1.59,28.41,129.84
 3675,Female,49,Below secondary school (high school),No,No,No,No,Yes,Yes,1995.0,17.0,Type 2,Insulin,Never Smoked,68.0,117.0,8.1,,Yes,6.55,4.55,35.09,80.54
 3676,Male,43,Some college or vocational school,"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),78.0,94.0,4.5,,No,3.97,1.63,28.41,135.92
-3677,Female,37,Secondary school (high school),"Yes, Full-time",No,No,No,Yes,Yes,2010.0,2.0,Type 2,Insulin,Never Smoked,75.0,102.0,9.8,10.7,No,4.8,3.52,32.49,
+3677,Female,37,Secondary school (high school),"Yes, Full-time",No,No,No,Yes,Yes,2010.0,2.0,Type 2,Insulin,Never Smoked,75.0,102.0,9.8,10.7,No,4.8,3.52,32.49,236.66
 3678,Male,63,Below secondary school (high school),No,No,No,Yes,Yes,Yes,1992.0,20.0,Type 2,Insulin,Never Smoked,96.0,105.0,4.4,10.1,Yes,4.3,1.55,34.72,99.8
 3679,Female,66,No school,No,No,No,Yes,Yes,Yes,2010.0,2.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,60.0,113.0,13.5,8.1,Yes,3.75,1.84,32.44,85.12
 3680,Male,48,Secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),80.0,128.0,5.0,,Yes,6.88,1.52,38.42,184.47
@@ -3704,7 +3704,7 @@
 3702,Male,75,Secondary school (high school),No,No,No,No,No,Yes,2002.0,10.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,96.0,97.0,5.55,7.5,Yes,5.6,1.4,33.75,95.7
 3703,Male,53,Below secondary school (high school),"Yes, Full-time",No,No,Yes,No,No,,,,,Never Smoked,87.0,65.0,,6.1,Yes,3.44,1.13,24.92,91.1
 3704,Male,40,No school,"Yes, Part-time",No,No,No,No,No,,,,,Past smoker (smoker stopped > 1year ago),55.0,90.0,,6.46,Yes,4.67,2.26,24.39,78.72
-3705,Male,49,Below secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,Yes,2011.0,1.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),75.0,95.0,,,Yes,6.42,3.53,26.03,124.37
+3705,Male,49,Below secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,Yes,2011.0,1.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),75.0,95.0,,14.5,Yes,6.42,3.53,26.03,124.37
 3706,Female,73,No school,No,No,No,Yes,No,Yes,2000.0,,Type 2,"Diet,  Oral Hypoglycemic drugs",Never Smoked,106.0,83.0,4.6,7.1,No,,,22.86,62.4
 3707,Female,61,Below secondary school (high school),No,No,No,Yes,Yes,No,,,,,Never Smoked,104.0,87.0,6.5,6.5,Yes,7.83,1.19,28.76,65.35
 3708,Female,72,Secondary school (high school),No,No,No,No,Yes,Yes,1989.0,,Type 2,"Diet,  Oral Hypoglycemic drugs",Never Smoked,38.0,101.0,9.6,8.7,No,3.6,1.25,28.34,18.67
@@ -3728,7 +3728,7 @@
 3726,Female,67,Below secondary school (high school),No,No,No,Yes,No,Yes,1997.0,15.0,Type 2,Insulin,Never Smoked,90.0,92.0,7.0,8.1,Yes,2.93,0.39,25.28,68.83
 3727,Female,51,Secondary school (high school),No,No,No,No,No,No,,,,,Never Smoked,75.0,102.0,4.1,,Yes,4.84,0.64,31.1,103.85
 3728,Male,43,Graduated from college,"Yes, Full-time",No,No,Yes,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),58.0,105.0,4.1,5.8,Yes,3.46,0.65,33.41,168.04
-3729,Female,45,Secondary school (high school),No,No,No,No,Yes,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),75.0,130.0,5.7,,No,,,45.72,
+3729,Female,45,Secondary school (high school),No,No,No,No,Yes,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),75.0,130.0,5.7,,No,,,45.72,289.17
 3730,Male,49,Some college or vocational school,"Yes, Full-time",No,No,No,Yes,Yes,1992.0,20.0,Type 2,Insulin,Past smoker (smoker stopped > 1year ago),117.0,88.0,7.0,,No,,,23.51,91.84
 3731,Male,53,Below secondary school (high school),No,No,No,No,No,No,,,,,Never Smoked,55.0,100.0,4.6,,Yes,4.9,2.0,24.06,91.72
 3732,Male,66,Secondary school (high school),No,No,No,No,No,No,,,,,Never Smoked,65.0,126.0,,,No,,,35.99,106.36
@@ -3743,7 +3743,7 @@
 3741,Male,72,No school,No,No,No,Yes,Yes,No,,,,,Never Smoked,80.0,90.0,5.5,,No,,,30.86,81.57
 3742,Female,51,Graduated from college,No,No,No,Yes,Yes,Yes,2006.0,6.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Never Smoked,95.0,108.0,10.1,9.5,Yes,4.9,0.9,25.24,102.3
 3743,Male,42,No school,No,No,No,Yes,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),80.0,89.0,6.1,6.1,Yes,4.8,1.6,24.54,107.51
-3744,Male,25,Below secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,Yes,2007.0,5.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),80.0,114.0,,,Yes,6.22,1.44,40.68,
+3744,Male,25,Below secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,Yes,2007.0,5.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),80.0,114.0,,,Yes,6.22,1.44,40.68,363.73
 3745,Male,30,Graduated from college,"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),58.0,70.0,4.6,5.0,Yes,3.82,0.5,28.06,90.64
 3746,Male,26,Secondary school (high school),"Yes, Full-time",No,No,No,Yes,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),88.0,93.0,5.2,5.0,Yes,7.44,2.24,27.01,102.78
 3747,Female,40,No school,No,No,No,No,Yes,Yes,2010.0,3.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,74.0,80.0,8.6,,Yes,5.9,3.8,21.64,110.37
@@ -3785,13 +3785,13 @@
 3783,Male,65,Below secondary school (high school),No,No,No,Yes,No,Yes,2004.0,8.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,90.0,90.0,12.8,,Yes,4.8,2.3,29.38,61.5
 3784,Female,63,No school,No,No,No,Yes,Yes,Yes,2011.0,1.0,Type 2,Diet,Current smoker (currently smoking or stopped smoking < 1 month),125.0,90.0,8.3,,Yes,5.7,2.2,35.56,65.37
 3785,Male,54,No school,No,No,No,Yes,No,No,,,,,Never Smoked,92.0,80.0,,,No,,,25.71,26.73
-3786,Female,66,No school,No,No,No,Yes,No,Yes,,,Type 2,Insulin,Never Smoked,80.0,108.0,7.5,,No,,,28.58,71.26
+3786,Female,66,No school,No,No,No,Yes,No,Yes,,2004.0,Type 2,Insulin,Never Smoked,80.0,108.0,7.5,,No,,,28.58,71.26
 3787,Male,67,Secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,Yes,2011.0,1.0,Type 2,Oral Hypoglycemic drugs,Past smoker (smoker stopped > 1year ago),100.0,91.0,6.8,,Yes,5.6,1.5,22.32,73.46
 3788,Female,63,Below secondary school (high school),No,No,No,Yes,Yes,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),96.0,115.0,5.2,5.8,Yes,5.9,2.9,32.72,70.47
 3789,Male,68,No school,No,No,No,Yes,Yes,Yes,2009.0,3.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),84.0,84.0,9.5,6.5,Yes,5.5,2.8,27.68,88.56
 3790,Male,62,Secondary school (high school),No,"Yes, after other symptoms",No,No,No,Yes,2002.0,10.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,90.0,,,,No,,,31.25,71.73
 3791,Female,74,No school,No,No,No,No,No,Yes,2008.0,4.0,Type 2,Insulin,Never Smoked,84.0,90.0,17.3,11.4,Yes,5.1,1.9,35.56,83.2
-3792,Male,68,Some college or vocational school,No,No,No,No,No,Yes,1982.0,30.0,Type 2,Diet,Current smoker (currently smoking or stopped smoking < 1 month),67.0,85.0,9.2,7.46,Yes,5.3,,31.22,62.07
+3792,Male,68,Some college or vocational school,No,No,No,No,No,Yes,1982.0,30.0,Type 2,Diet,Current smoker (currently smoking or stopped smoking < 1 month),67.0,85.0,9.2,7.46,Yes,5.3,0.1,31.22,62.07
 3793,Male,52,Some college or vocational school,"Yes, Full-time",No,No,Yes,Yes,Yes,2002.0,10.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),57.0,98.0,7.4,7.6,Yes,5.5,1.7,29.03,90.2
 3794,Male,45,Secondary school (high school),"Yes, Full-time",No,No,No,No,Yes,2005.0,7.0,Type 2,Diet,Past smoker (smoker stopped > 1year ago),98.0,98.0,13.2,,Yes,6.3,1.9,24.49,103.1
 3795,Male,65,Below secondary school (high school),"Yes, Full-time",No,No,No,Yes,Yes,2009.0,3.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,96.0,100.0,11.0,7.4,Yes,4.7,2.5,26.64,88.79
@@ -3856,7 +3856,7 @@
 3854,Male,80,No school,No,No,No,No,No,No,,,,,Past smoker (smoker stopped > 1year ago),70.0,111.0,5.3,6.0,Yes,5.4,3.83,23.59,42.83
 3855,Male,76,No school,No,No,No,No,Yes,Yes,,20.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,64.0,104.0,7.3,,Yes,4.87,2.13,32.45,70.85
 3856,Male,47,Secondary school (high school),"Yes, Full-time",No,No,No,Yes,Yes,2010.0,2.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Past smoker (smoker stopped > 1year ago),102.0,114.0,12.5,,Yes,4.2,1.23,32.82,
-3857,Female,62,No school,No,No,No,Yes,Yes,Yes,1999.0,14.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,86.0,,,9.4,No,,,,
+3857,Female,62,No school,No,No,No,Yes,Yes,Yes,1999.0,14.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,86.0,,0.58,9.4,No,0.18,0.04,,
 3858,Male,55,Secondary school (high school),"Yes, Part-time",No,No,No,No,No,,,,,Past smoker (smoker stopped > 1year ago),65.0,86.0,6.2,,Yes,6.93,1.2,28.4,112.49
 3859,Male,32,Below secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),90.0,95.0,3.9,5.5,Yes,5.14,3.99,29.39,186.81
 3860,Male,54,Graduated from college,"Yes, Full-time",No,No,Yes,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),85.0,120.0,,,No,,,32.28,144.9
@@ -3868,7 +3868,7 @@
 3866,Male,69,Below secondary school (high school),No,No,No,Yes,Yes,No,,,,,Never Smoked,70.0,88.0,5.2,5.2,Yes,3.97,1.36,24.22,32.62
 3867,Male,54,Below secondary school (high school),No,No,No,Yes,Yes,Yes,1997.0,16.0,Type 2,Oral Hypoglycemic drugs,Past smoker (smoker stopped > 1year ago),80.0,100.0,12.0,,Yes,4.3,0.99,24.91,90.67
 3868,Female,70,No school,No,No,No,Yes,No,Yes,2005.0,7.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),70.0,88.0,18.5,8.9,Yes,4.82,0.52,18.43,57.74
-3869,Female,32,Graduated from college,"Yes, Full-time","Yes, after other symptoms",No,No,Yes,Yes,2006.0,6.0,Type 2,Diet,Never Smoked,75.0,109.0,6.0,6.0,Yes,3.1,0.73,31.89,
+3869,Female,32,Graduated from college,"Yes, Full-time","Yes, after other symptoms",No,No,Yes,Yes,2006.0,6.0,Type 2,Diet,Never Smoked,75.0,109.0,6.0,6.0,Yes,3.1,0.73,31.89,280.8
 3870,Male,64,Secondary school (high school),No,No,No,Yes,Yes,Yes,2010.0,2.0,Type 2,Diet,Never Smoked,120.0,99.0,8.9,7.3,Yes,5.37,1.67,33.8,102.73
 3871,Male,46,Graduated from college,"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),79.0,98.0,,,No,,,32.65,160.58
 3872,Male,63,Graduated from college,"Yes, Full-time",No,No,No,No,Yes,2000.0,13.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),58.0,109.0,6.6,,Yes,6.38,2.61,26.42,99.69
@@ -3911,7 +3911,7 @@
 3909,Male,53,Graduated from college,No,No,No,No,No,Yes,,3.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),122.0,86.0,,10.4,Yes,3.94,1.29,21.94,53.96
 3910,Female,70,No school,No,No,No,Yes,No,No,,,,,Never Smoked,82.0,121.0,,5.9,Yes,3.68,0.7,37.95,101.18
 3911,Male,71,Post-graduate degree,"Yes, Full-time",No,No,Yes,Yes,Yes,2006.0,6.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Current smoker (currently smoking or stopped smoking < 1 month),80.0,107.0,,6.9,Yes,2.85,1.92,29.34,64.07
-3912,Male,47,Post-graduate degree,"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),75.0,,,6.0,No,,,26.04,82.2
+3912,Male,47,Post-graduate degree,"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),75.0,,,6.0,No,0.16,0.03,26.04,82.2
 3913,Male,43,,,,,,,,,,,,,,,,,,,,,
 3914,Male,28,Secondary school (high school),"Yes, Full-time",No,No,Yes,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),61.0,137.0,4.4,5.4,No,3.66,1.68,32.39,165.05
 3915,Male,55,Secondary school (high school),No,"Yes, after other symptoms",No,No,No,No,,,,,Never Smoked,85.0,84.0,4.5,5.1,Yes,4.44,0.93,24.21,89.11
@@ -3930,7 +3930,7 @@
 3928,Male,40,Secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),82.0,108.0,5.2,6.0,Yes,5.64,1.73,29.76,135.78
 3929,Male,56,Secondary school (high school),No,No,No,Yes,Yes,Yes,,10.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Never Smoked,40.0,110.0,9.3,7.3,Yes,4.2,1.56,25.35,86.1
 3930,Male,64,No school,No,No,No,Yes,Yes,Yes,1992.0,20.0,Type 2,Insulin,Never Smoked,75.0,100.0,,8.9,No,4.5,2.82,24.07,78.4
-3931,Male,28,Secondary school (high school),No,No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),67.0,108.0,,,Yes,10.12,0.72,35.27,
+3931,Male,28,Secondary school (high school),No,No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),67.0,108.0,,,Yes,10.12,0.72,35.27,204.93
 3932,Male,61,No school,No,No,No,Yes,No,Yes,2012.0,0.0,Type 2,"Diet,  Insulin",Current smoker (currently smoking or stopped smoking < 1 month),70.0,94.0,9.0,,Yes,2.8,0.52,22.66,76.16
 3933,Female,60,No school,No,"Yes, after other symptoms",No,No,No,No,,,,,Never Smoked,60.0,103.0,,,No,,,26.73,80.19
 3934,Male,72,Below secondary school (high school),No,No,No,No,No,No,,,,,Never Smoked,58.0,104.0,,,No,,,27.55,69.7
@@ -3948,7 +3948,7 @@
 3946,Male,64,Below secondary school (high school),No,"Yes, after other symptoms",No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),75.0,92.0,4.8,,No,4.6,1.27,33.8,118.33
 3947,Female,92,No school,No,No,No,Yes,Yes,No,,,,,Never Smoked,97.0,112.0,10.1,6.0,No,6.65,0.96,37.58,33.63
 3948,Female,78,No school,No,No,Yes,Yes,Yes,Yes,1987.0,25.0,Type 2,"Diet,  Insulin",Never Smoked,100.0,112.0,9.4,9.1,Yes,5.37,0.72,34.19,31.44
-3949,Female,30,Secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Never Smoked,60.0,100.0,,5.84,Yes,3.9,1.1,53.63,
+3949,Female,30,Secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Never Smoked,60.0,100.0,,5.84,Yes,3.9,1.1,53.63,290.69
 3950,Female,62,No school,No,No,No,No,Yes,Yes,2002.0,10.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Never Smoked,122.0,89.0,7.01,,Yes,2.63,0.94,25.85,86.27
 3951,Male,72,No school,No,No,No,No,Yes,Yes,1999.0,13.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),64.0,75.0,1.1423999999999999,,No,,,29.38,63.12
 3952,Male,51,Below secondary school (high school),"Yes, Full-time",No,No,No,No,No,,,,,Never Smoked,62.0,92.0,4.44,5.7,Yes,2.9,1.7,24.44,65.47
@@ -3989,7 +3989,7 @@
 3987,Female,39,Below secondary school (high school),"Yes, Part-time",No,No,No,Yes,No,,,,,Never Smoked,70.0,118.0,4.1,6.2,Yes,2.2,0.96,35.63,185.25
 3988,Male,65,Graduated from college,No,No,No,No,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),65.0,101.0,4.0,5.1,Yes,4.33,1.43,21.37,119.58
 3989,Female,59,Below secondary school (high school),No,No,No,No,No,Yes,1997.0,15.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,90.0,82.0,3.4,9.8,Yes,4.1,0.9,23.31,79.36
-3990,Male,41,Secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,Yes,2002.0,10.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),70.0,133.0,6.5,9.0,Yes,3.6,3.35,45.91,
+3990,Male,41,Secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,Yes,2002.0,10.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),70.0,133.0,6.5,9.0,Yes,3.6,3.35,45.91,289.42
 3991,Male,46,Post-graduate degree,"Yes, Full-time",No,No,Yes,Yes,Yes,2003.0,9.0,Type 2,Oral Hypoglycemic drugs,Past smoker (smoker stopped > 1year ago),74.0,98.0,,,No,,,29.07,127.48
 3992,Male,59,Post-graduate degree,"Yes, Full-time",No,No,No,No,No,,,,,Never Smoked,91.0,113.0,6.5,5.1,No,4.2,1.1,31.07,128.69
 3993,Female,58,No school,No,No,No,Yes,Yes,Yes,1997.0,15.0,Type 2,Insulin,Never Smoked,75.0,125.0,10.2,10.7,No,4.9,1.4,48.93,178.81
@@ -4002,7 +4002,7 @@
 4000,Male,41,Secondary school (high school),"Yes, Full-time",No,No,Yes,No,No,,,,,Current smoker (currently smoking or stopped smoking < 1 month),70.0,98.0,5.5,5.3,No,4.6,0.9,27.7,167.18
 4001,Female,56,Below secondary school (high school),No,No,No,Yes,Yes,Yes,2002.0,10.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,98.0,120.0,,11.6,Yes,5.9,1.05,35.38,137.51
 4002,Male,58,Secondary school (high school),No,No,No,Yes,Yes,Yes,1992.0,20.0,Type 2,Insulin,Past smoker (smoker stopped > 1year ago),116.0,104.0,,5.6,No,2.09,1.98,31.14,8.62
-4003,Male,79,Below secondary school (high school),No,No,No,Yes,Yes,Yes,1995.0,18.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Never Smoked,64.0,103.0,5.6,5.1,No,2.96,,27.43,60.0
+4003,Male,79,Below secondary school (high school),No,No,No,Yes,Yes,Yes,1995.0,18.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Never Smoked,64.0,103.0,5.6,5.1,No,2.96,0.01,27.43,60.0
 4004,Female,74,No school,No,No,No,Yes,Yes,Yes,1997.0,15.0,Type 2,Oral Hypoglycemic drugs,Past smoker (smoker stopped > 1year ago),83.0,105.0,13.3,12.6,No,4.73,2.78,26.67,80.75
 4005,Female,45,Secondary school (high school),"Yes, Full-time",No,No,Yes,Yes,No,,,,,Never Smoked,89.0,92.0,5.4,5.6,No,3.65,1.09,30.67,174.8
 4006,Male,55,Below secondary school (high school),No,No,No,Yes,Yes,No,,,,,Never Smoked,65.0,101.0,7.4,6.8,No,3.54,0.98,31.18,90.2
