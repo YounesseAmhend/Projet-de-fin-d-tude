@@ -49,7 +49,7 @@ def clean(df, column:str, min:float, max:float, conv:float=1.0)->None:
         elif  min <= (value*conv) and (value*conv )<= max:
             df.loc[i, column]=value*conv
         else:
-            wrong_values.append({"id":i+2,"value":df[column][i],"min":min,"max":max, "conv":conv, "minConv":min/conv, "maxConv":max/conv})
+            wrong_values.append({"id":i+2,"value":df[column][i],"min":min,"max":max,"minConv":min/conv, "maxConv":max/conv})
             
     # printing result
     with open("variablesToClean.txt", "a") as f:
