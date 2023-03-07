@@ -52,8 +52,6 @@ def clean(df, column:str, min:float, max:float, conv:float=1.0)->None:
             wrong_values.append({"id":i+2,"value":df[column][i],"min":min,"max":max, "conv":conv, "minConv":min/conv, "maxConv":max/conv})
             
     # printing result
-    with open("variablesToClean.txt", "w") as f:
-        f.close()
     with open("variablesToClean.txt", "a") as f:
         f.write("_________________________________________________________________________________________________________________________________________________________________\n")
         f.write(str(column)+" " +str(len(wrong_values))+"\n")
@@ -67,7 +65,7 @@ def fillValue(df, column:str, newValue:str)->None:
 
 
 dfall = pd.read_csv("csv/Gulf.csv", low_memory=False, usecols = variables)
-
+ds = pd.read_csv("csv/Gulf.csv", low_memory=False, usecols = to_numeric)
 
 dfall.to_excel("Excel/Original.xlsx")
 profile = ProfileReport(dfall)
@@ -84,7 +82,7 @@ for i in to_numeric:
     temp = []
     count = 0
     
-    for row in dfall[i].unique():
+    for row in ds[i].unique():
         temp.append({f"{key[count]}": row})
         count+=1
         
@@ -106,8 +104,7 @@ profile.to_file("Analysis/EncodedAnalysis.html")
 
 # cleaning
 cleanDm(dfall)
-fillValue(df = dfall, column="DM_Type", newValue="Not sick")
-fillValue(df = dfall, column="DM_Treatment", newValue="Not sick")
+
 
 clean(df=dfall, column="Year_DM_Diagnosed", min=1967 ,max=2013,conv=1) 
 clean(df=dfall, column="DM_Duration", min=0 ,max=45,conv=1)
