@@ -7,8 +7,8 @@
 {"Hypertension": [{"2": ""}, {"1": "Yes"}, {"0": "No"}]},
 {"Dyslipidemia": [{"2": ""}, {"1": "Yes"}, {"0": "No"}]},
 {"DM": [{"2": ""}, {"1": "Yes"}, {"0": "No"}]},
-{"DM_Type": [{"2": ""}, {"1": "Type 2"}, {"0": "Type 1"}]},
-{"DM_Treatment": [{"9": ""}, {"3": "Diet,  Oral Hypoglycemic drugs"}, {"5": "Insulin"}, {"8": "Oral Hypoglycemic drugs,  Insulin"}, {"7": "Oral Hypoglycemic drugs"}, {"4": "Diet,  Oral Hypoglycemic drugs,  Insulin"}, {"1": "Diet,  Insulin"}, {"6": "None"}, {"0": "Diet"}, {"2": "Diet,  None"}]},
+{"DM_Type": [{"0": ""}, {"2": "Type 2"}, {"1": "Type 1"}]},
+{"DM_Treatment": [{"7": ""}, {"3": "Diet,  Oral Hypoglycemic drugs"}, {"5": "Insulin"}, {"9": "Oral Hypoglycemic drugs,  Insulin"}, {"8": "Oral Hypoglycemic drugs"}, {"4": "Diet,  Oral Hypoglycemic drugs,  Insulin"}, {"1": "Diet,  Insulin"}, {"6": "None"}, {"0": "Diet"}, {"2": "Diet,  None"}]},
 {"Smoking_History": [{"4": ""}, {"0": "Current smoker (currently smoking or stopped smoking < 1 month)"}, {"1": "Never Smoked"}, {"2": "Past smoker (smoker stopped > 1year ago)"}, {"3": "Recent smoker (stopped smoking  > 1 month and < 1 year)"}]},
 {"Lipid_24_Collected": [{"2": ""}, {"1": "Yes"}, {"0": "No"}]}
 ]
