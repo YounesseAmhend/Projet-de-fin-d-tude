@@ -1,13 +1,13 @@
 import pandas as pd
 from ydata_profiling import ProfileReport
 from sklearn.preprocessing import LabelEncoder
-from sklearn.experimental import enable_iterative_imputer
-from sklearn.impute import IterativeImputer
+from sklearn.impute import KNNImputer
+from missingpy import MissForest as MImputer
 import np
 import time
 
 
-to_numeric = [
+to_num = [
               'Gender', 'Education', 'Work', 'Cardiac_Arrest_Admission', 'Non_Cardiac_Condition',
               'Hypertension', 'Dyslipidemia', 'DM', 'DM_Type', 'DM_Treatment', 'Smoking_History',
               'Lipid_24_Collected'
@@ -80,7 +80,7 @@ def fillValue(df, column:str, newValue:str) -> None:
 
 
 dfall = pd.read_csv("csv/Gulf.csv", low_memory=False, usecols = variables)
-ds = pd.read_csv("csv/Gulf.csv", low_memory=False, usecols = to_numeric)
+ds = pd.read_csv("csv/Gulf.csv", low_memory=False, usecols = to_num)
 df_imput = pd.read_csv("csv/Gulf.csv", low_memory=False, usecols = variables_to_imput)
 
 dfall.to_excel("Excel/Original.xlsx")
@@ -91,13 +91,16 @@ cleanDm(dfall)
 fillValue(dfall, "DM_Type", "Not sick")
 fillValue(dfall, "DM_Treatment", "Not sick")
 
+dfall.to_csv("csv/Mod.csv")
+
+dfall = pd.read_csv("csv/Mod.csv", low_memory=False, usecols = variables)
 # encodage
 le = LabelEncoder()
 encodingKey = []
 
-for i in to_numeric:
+for i in to_num:
     
-    dfall[i] = pd.to_numeric(le.fit_transform(dfall[i]))
+    dfall[i] = pd.to_numeric(le.fit_transform(dfall[i].astype(str)))
     key = dfall[i].unique()
     temp = []
     count = 0
@@ -139,32 +142,57 @@ clean(df=dfall, column="Fasting_Blood_Glucose_Value_SI_Units", min=1 ,max=17.8,c
 
 dfall.to_excel("Excel/CleanedResult.xlsx", float_format="%.2f")
 dfall.to_csv("csv/CleanedResult.csv")
+profile = ProfileReport(dfall, infer_dtypes=False, minimal=True)
+profile.to_file("Analysis/EncodedCleanedAnalysis.html")
 
-dfall = pd.read_csv("csv/CleanedResult.csv", low_memory=False)
-
-
-# Impute missing values using MICE imputer
-imputer = IterativeImputer()
-df_imputed = imputer.fit_transform(df_imput)
-
-# Convert imputed array back to DataFrame
-df_imput = pd.DataFrame(df_imputed, columns=df_imput.columns)
 
 dfall = pd.read_csv("csv/CleanedResult.csv", low_memory=False, usecols = variables_to_not_imput)
-dfall =  dfall.merge(df_imput,left_index=True, right_index=True)
+# Impute missing values using MICE imputer
+# KNN
+imputer_KNN = KNNImputer(n_neighbors=5)
+df_imputed_KNN = imputer_KNN.fit_transform(df_imput)
 
-# for col in dfall:
-#     dfall[col] = dfall[col].astype(float)
+df_imput_KNN = pd.DataFrame(df_imputed_KNN, columns=df_imput.columns)
+dfall_KNN =  dfall.merge(df_imput_KNN,left_index=True, right_index=True)
 
-df_imput.to_excel("Excel/imputed.xlsx")
-dfall.to_excel("Excel/FinalResult.xlsx")
-dfall.to_csv("csv/finalResult.csv", float_format="%.2f")
+df_imput_KNN.to_excel("Excel/imputed_KNN.xlsx")
+dfall_KNN.to_excel("Excel/FinalResult_KNN.xlsx")
+dfall_KNN.to_csv("csv/finalResult_KNN.csv", float_format="%.2f")
+
+
+# MI
+df_imput = pd.read_csv("csv/Gulf.csv", low_memory=False, usecols = variables_to_imput)
+
+imputer_MI = MImputer()
+df_imputed_MI = imputer_MI.fit_transform(df_imput)
+
+df_imput_MI = pd.DataFrame(df_imputed_MI, columns=df_imput.columns)
+dfall_MI =  dfall.merge(df_imput_MI,left_index=True, right_index=True)
+
+df_imput_MI.to_excel("Excel/imputed_MI.xlsx")
+dfall_MI.to_excel("Excel/FinalResult_MI.xlsx")
+dfall_MI.to_csv("csv/finalResult_MI.csv", float_format="%.2f")
 
 dfall = pd.read_csv("csv/finalResult.csv", low_memory=False, usecols=variables)
 
 
-profile = ProfileReport(dfall, infer_dtypes=False)
-profile.to_file("Analysis/FinalResult.html")
+# KNN
+
+profile = ProfileReport(dfall_KNN, infer_dtypes=False, minimal=True)
+profile.to_file("Analysis/FinalResult_KNN.html")
+
+# MI
+
+profile = ProfileReport(dfall_MI, infer_dtypes=False, minimal=True, sensitive=True,explorative=True,lazy=False)
+profile.to_file("Analysis/FinalResult_MI.html")
+
+profile = ProfileReport(dfall_KNN, infer_dtypes=False, minimal=True)
+profile.to_file("Analysis/FullFinalResult_KNN.html")
+
+# MI
+
+profile = ProfileReport(dfall_MI, infer_dtypes=False, minimal=True, sensitive=True,explorative=True,lazy=False)
+profile.to_file("Analysis/FullFinalResult_MI.html")
 
 
 print("\n\n time :",time.process_time(), "s")
