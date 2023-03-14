@@ -193,7 +193,7 @@ profile.to_file("Analysis/FullFinalResult_KNN.html")
 profile = ProfileReport(dfall_MI, infer_dtypes=False, minimal=True, sensitive=True,explorative=True,lazy=False)
 profile.to_file("Analysis/FinalResult_MI.html")
 
-profile = ProfileReport(dfall_MI, infer_dtypes=False, sensitive=True,explorative=True)
+profile = ProfileReport(dfall_MI, infer_dtypes=False, sensitive=True,explorative=True, lazy=False)
 profile.to_file("Analysis/FullFinalResult_MI.html")
 
 

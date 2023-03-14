@@ -1,9 +1,9 @@
 ,Gender,Age,Education,Work,Cardiac_Arrest_Admission,Non_Cardiac_Condition,Hypertension,Dyslipidemia,DM,Year_DM_Diagnosed,DM_Duration,DM_Type,DM_Treatment,Smoking_History,Heart_Rate,Waist,Fasting_Blood_Glucose_Value_SI_Units,HbA1C_Admission_Value,Lipid_24_Collected,Cholesterol_Value_SI_Units,Triglycerides_Value_SI_Units,BMI,Creatinine_Clearance
-0,Male,62,Graduated from college,"Yes, Full-time",No,No,,,,,,Not sick,Not sick,,,,,,,,,,
+0,Male,62,Graduated from college,"Yes, Full-time",No,No,,,Not sick,,,Not sick,Not sick,,,,,,,,,,
 1,Male,52,Graduated from college,"Yes, Full-time",No,No,Yes,Yes,Yes,2003.0,10.0,Type 2,"Diet,  Oral Hypoglycemic drugs",,,,,,,,,,
 2,Female,73,Below secondary school (high school),No,No,No,Yes,Yes,No,,,Not sick,Not sick,Current smoker (currently smoking or stopped smoking < 1 month),75.0,60.0,7.0,,Yes,5.38,1.85,20.0,24.12
-3,Male,46,,,,,,,,,,Not sick,Not sick,,,,,,,,,,
-4,Female,46,,,,,,,,,,Not sick,Not sick,,,,,,,,,,
+3,Male,46,,,,,,,Not sick,,,Not sick,Not sick,,,,,,,,,,
+4,Female,46,,,,,,,Not sick,,,Not sick,Not sick,,,,,,,,,,
 5,Female,64,Secondary school (high school),No,No,No,Yes,Yes,Yes,2002.0,10.0,Type 2,Insulin,Never Smoked,117.0,85.0,11.93,,Yes,5.4,2.24,33.29,63.6
 6,Female,56,Below secondary school (high school),No,No,No,No,Yes,Yes,1988.0,24.0,Type 2,"Oral Hypoglycemic drugs,  Insulin",Never Smoked,82.0,85.0,4.4,7.1,No,4.7,1.3,31.22,114.24
 7,Female,78,Below secondary school (high school),No,No,No,Yes,No,No,,,Not sick,Not sick,Never Smoked,90.0,90.0,6.2,5.6,No,4.11,1.11,19.56,27.55
@@ -3603,7 +3603,7 @@
 3601,Female,50,No school,No,No,No,Yes,Yes,Yes,2002.0,10.0,Type 2,None,Never Smoked,88.0,83.0,,5.7,Yes,5.9,1.1,22.89,72.51
 3602,Male,61,Below secondary school (high school),"Yes, Full-time",No,No,No,Yes,Yes,2007.0,6.0,Type 2,Oral Hypoglycemic drugs,Never Smoked,53.0,92.0,6.38,6.0,Yes,3.21,1.03,21.72,78.32
 3603,Male,72,Below secondary school (high school),No,No,No,No,No,No,,,Not sick,Not sick,Never Smoked,78.0,78.0,5.2,,Yes,4.75,1.76,18.47,54.42
-3604,Female,76,,,,,,,,,,Not sick,Not sick,,,,,,,,,,
+3604,Female,76,,,,,,,Not sick,,,Not sick,Not sick,,,,,,,,,,
 3605,Female,47,Below secondary school (high school),No,No,No,No,Yes,Yes,1994.0,18.0,Type 2,Insulin,Never Smoked,75.0,130.0,,,,,,39.06,
 3606,Male,51,Below secondary school (high school),"Yes, Part-time",No,No,No,No,Yes,2007.0,5.0,Type 2,Oral Hypoglycemic drugs,Current smoker (currently smoking or stopped smoking < 1 month),136.0,97.0,6.6,,Yes,7.8,1.4,25.83,79.61
 3607,Female,50,Secondary school (high school),No,No,No,No,No,No,,,Not sick,Not sick,Never Smoked,81.0,65.0,5.2,5.9,Yes,5.8,1.0,26.22,88.8
@@ -3912,7 +3912,7 @@
 3910,Female,70,No school,No,No,No,Yes,No,No,,,Not sick,Not sick,Never Smoked,82.0,121.0,,5.9,Yes,3.68,0.7,37.95,101.18
 3911,Male,71,Post-graduate degree,"Yes, Full-time",No,No,Yes,Yes,Yes,2006.0,6.0,Type 2,"Diet,  Oral Hypoglycemic drugs",Current smoker (currently smoking or stopped smoking < 1 month),80.0,107.0,,6.9,Yes,2.85,1.92,29.34,64.07
 3912,Male,47,Post-graduate degree,"Yes, Full-time",No,No,No,No,No,,,Not sick,Not sick,Current smoker (currently smoking or stopped smoking < 1 month),75.0,,,6.0,No,0.16,0.03,26.04,1.37
-3913,Male,43,,,,,,,,,,Not sick,Not sick,,,,,,,,,,
+3913,Male,43,,,,,,,Not sick,,,Not sick,Not sick,,,,,,,,,,
 3914,Male,28,Secondary school (high school),"Yes, Full-time",No,No,Yes,No,No,,,Not sick,Not sick,Current smoker (currently smoking or stopped smoking < 1 month),61.0,137.0,4.4,5.4,No,3.66,1.68,32.39,165.05
 3915,Male,55,Secondary school (high school),No,"Yes, after other symptoms",No,No,No,No,,,Not sick,Not sick,Never Smoked,85.0,84.0,4.5,5.1,Yes,4.44,0.93,24.21,89.11
 3916,Male,71,No school,No,No,No,No,No,No,,,Not sick,Not sick,Current smoker (currently smoking or stopped smoking < 1 month),68.0,82.0,5.6,,Yes,6.89,0.46,25.39,90.44
