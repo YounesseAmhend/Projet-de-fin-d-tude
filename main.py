@@ -64,7 +64,7 @@ def clean(df, column:str, min:float, max:float, conv:float=1.0) -> None:
         elif  min <= (value*conv) and (value*conv )<= max:
             df.loc[i, column]=value*conv
         else:
-            wrong_values.append({"id":i+2,"value":df[column][i],"min":min,"max":max,"minConv":min/conv, "maxConv":max/conv})
+            wrong_values.append({"id":i,"value":df[column][i],"min":min,"max":max,"minConv":min/conv, "maxConv":max/conv})
             
     # printing result
     with open("variablesToClean.txt", "a") as f:
@@ -142,7 +142,6 @@ clean(df=dfall, column="Triglycerides_Value_SI_Units", min=0.2 ,max=22.58,conv=0
 clean(df=dfall, column="BMI", min=9 ,max=105,conv=1)
 clean(df=dfall, column="Creatinine_Clearance", min=5 ,max=1200,conv=60)
 clean(df=dfall, column="Fasting_Blood_Glucose_Value_SI_Units", min=1 ,max=17.8,conv=0.056)
-
 
 dfall.to_excel("Excel/CleanedResult.xlsx", float_format="%.2f")
 dfall.to_csv("csv/CleanedResult.csv")
