@@ -90,6 +90,10 @@ dfall.to_excel("Excel/Original.xlsx")
 cleanDm(dfall)
 fillValue(dfall, "DM_Type", "Not sick")
 fillValue(dfall, "DM_Treatment", "Not sick")
+fillValue(dfall, "DM", "Not sick")
+fillValue(ds, "DM_Type", "Not sick")
+fillValue(ds, "DM_Treatment", "Not sick")
+fillValue(ds, "DM", "Not sick")
 
 dfall.to_csv("csv/Mod.csv")
 
@@ -178,20 +182,18 @@ dfall = pd.read_csv("csv/finalResult.csv", low_memory=False, usecols=variables)
 
 # KNN
 
-profile = ProfileReport(dfall_KNN, infer_dtypes=False, minimal=True)
+profile = ProfileReport(dfall_KNN, infer_dtypes=False, minimal=True, sensitive=True,explorative=True,lazy=False)
 profile.to_file("Analysis/FinalResult_KNN.html")
+
+profile = ProfileReport(dfall_KNN, infer_dtypes=False, sensitive=True,explorative=True,lazy=False)
+profile.to_file("Analysis/FullFinalResult_KNN.html")
 
 # MI
 
 profile = ProfileReport(dfall_MI, infer_dtypes=False, minimal=True, sensitive=True,explorative=True,lazy=False)
 profile.to_file("Analysis/FinalResult_MI.html")
 
-profile = ProfileReport(dfall_KNN, infer_dtypes=False, minimal=True)
-profile.to_file("Analysis/FullFinalResult_KNN.html")
-
-# MI
-
-profile = ProfileReport(dfall_MI, infer_dtypes=False, minimal=True, sensitive=True,explorative=True,lazy=False)
+profile = ProfileReport(dfall_MI, infer_dtypes=False, sensitive=True,explorative=True)
 profile.to_file("Analysis/FullFinalResult_MI.html")
 
 
