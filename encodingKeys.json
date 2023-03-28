@@ -18,9 +18,6 @@
                 "0": "Below secondary school (high school)"
             },
             {
-                "6": ""
-            },
-            {
                 "4": "Secondary school (high school)"
             },
             {
@@ -43,9 +40,6 @@
                 "0": "No"
             },
             {
-                "3": ""
-            },
-            {
                 "2": "Yes, Part-time"
             }
         ]
@@ -54,9 +48,6 @@
         "Cardiac_Arrest_Admission": [
             {
                 "0": "No"
-            },
-            {
-                "3": ""
             },
             {
                 "2": "Yes, first presentation without prior symptoms"
@@ -72,18 +63,12 @@
                 "0": "No"
             },
             {
-                "2": ""
-            },
-            {
                 "1": "Yes"
             }
         ]
     },
     {
         "Hypertension": [
-            {
-                "2": ""
-            },
             {
                 "1": "Yes"
             },
@@ -94,9 +79,6 @@
     },
     {
         "Dyslipidemia": [
-            {
-                "2": ""
-            },
             {
                 "1": "Yes"
             },
@@ -168,9 +150,6 @@
     {
         "Smoking_History": [
             {
-                "4": ""
-            },
-            {
                 "0": "Current smoker (currently smoking or stopped smoking < 1 month)"
             },
             {
@@ -186,9 +165,6 @@
     },
     {
         "Lipid_24_Collected": [
-            {
-                "2": ""
-            },
             {
                 "1": "Yes"
             },

@@ -103,7 +103,7 @@ ds = pd.read_csv("csv/Gulf.csv", low_memory=False, usecols=to_num)
 
 dfall.to_excel("Excel/Original.xlsx")
 # faire les analyise
-# profile = ProfileReport(dfall)
+profile = ProfileReport(dfall)
 #afficher les analyises dans une page web
 profile.to_file("Analysis/Original.html")
 
@@ -136,6 +136,7 @@ for i in to_num:
         count += 1
     encodingKey.append({i: temp})
 
+
 with open("encodingKey.json", "w") as f:
     f.write("[\n")
     for i in range(len(encodingKey)):
@@ -147,7 +148,7 @@ with open("encodingKey.json", "w") as f:
                 "\'", "\"").replace("nan", "\"\"")+"\n")
     f.write("]")
     f.close()
-
+    
 dfall.to_excel("Excel/Encoded.xlsx")
 profile = ProfileReport(dfall)
 profile.to_file("Analysis/EncodedAnalysis.html")
@@ -173,8 +174,8 @@ dfall.to_csv("csv/CleanedResult.csv")
 profile = ProfileReport(dfall, infer_dtypes=False, minimal=True)
 profile.to_file("Analysis/EncodedCleanedAnalysis.html")
 
-dfall = pd.read_csv("csv/CleanedResult.csv", low_memory=False, usecols=variables_to_not_imput)
-df_imput = pd.read_csv("csv/CleanedResult.csv", low_memory=False, usecols=variables_to_imput)
+dfall = pd.read_csv("csv/CleanedResult_.csv", low_memory=False, usecols=variables_to_not_imput)
+df_imput = pd.read_csv("csv/CleanedResult_.csv", low_memory=False, usecols=variables_to_imput)
 
 # Imputation
 
