@@ -31,15 +31,14 @@ numeric_variables = [
 # une liste de variable qu'ils vont etre imputer 
 variables_to_imput = [
     'Waist', 'BMI', 'Fasting_Blood_Glucose_Value_SI_Units',
-    'Cholesterol_Value_SI_Units', 'Triglycerides_Value_SI_Units',
-    'Creatinine_Clearance', 'Heart_Rate'
+    'Cholesterol_Value_SI_Units', 'Triglycerides_Value_SI_Units','Age', 'Year_DM_Diagnosed', 'DM_Duration',
+    'Creatinine_Clearance', 'Heart_Rate', 'HbA1C_Admission_Value'
 ]
 # une liste de variable qu'ils ne vont pas etre imputer 
-variables_to_not_imput = [
-    'Gender', 'Age', 'Education', 'Work', 'Cardiac_Arrest_Admission', 'Non_Cardiac_Condition',
-    'Hypertension', 'Dyslipidemia', 'DM', 'Year_DM_Diagnosed', 'DM_Duration', 'DM_Type', 'DM_Treatment',
-    'Smoking_History', 'HbA1C_Admission_Value', 'Lipid_24_Collected'
-]
+variables_to_not_imput = []
+for i in variables:
+    if i not in variables_to_imput:
+        variables_to_not_imput.append(i)
 
 
 # cleaning functions
@@ -95,26 +94,30 @@ def clean(df, column: str, min: float, max: float, conv: float = 1.0) -> None:
 def fillValue(df, column: str, newValue: str) -> None:
     df[column].fillna(newValue, inplace=True)
 
-# importer tous la base de donne aver les columns qu'on a besoin dans dfall
+# importer tous la base de donne avec les columns qu'on a besoin dans dfall
 dfall = pd.read_csv("csv/Gulf.csv", low_memory=False, usecols=variables)
 # importer tous les variables á encoder
 ds = pd.read_csv("csv/Gulf.csv", low_memory=False, usecols=to_num)
 
 
 dfall.to_excel("Excel/Original.xlsx")
+
 # faire les analyise
-profile = ProfileReport(dfall)
+
+# profile = ProfileReport(dfall)
+
 #afficher les analyises dans une page web
-profile.to_file("Analysis/Original.html")
+
+# profile.to_file("Analysis/Original.html")
 
 cleanDm(dfall)
 # remplacer les valeur vide par "Not sick" (pas malade)
 fillValue(dfall, "DM_Type", "Not sick")
 fillValue(dfall, "DM_Treatment", "Not sick")
-fillValue(dfall, "DM", "Not sick")
+fillValue(dfall, "DM", "Not diagnosed")
 fillValue(ds, "DM_Type", "Not sick")
 fillValue(ds, "DM_Treatment", "Not sick")
-fillValue(ds, "DM", "Not sick")
+fillValue(ds, "DM", "Not diagnosed")
 
 #juste pour eviter les erreurs
 dfall.to_csv("csv/Mod.csv")
@@ -150,8 +153,8 @@ with open("encodingKey.json", "w") as f:
     f.close()
     
 dfall.to_excel("Excel/Encoded.xlsx")
-profile = ProfileReport(dfall)
-profile.to_file("Analysis/EncodedAnalysis.html")
+# profile = ProfileReport(dfall)
+# profile.to_file("Analysis/EncodedAnalysis.html")
 
 # cleaning
 
@@ -171,8 +174,8 @@ clean(df=dfall, column="Fasting_Blood_Glucose_Value_SI_Units", min=0.3, max=17.8
 dfall.to_excel("Excel/CleanedResult.xlsx", float_format="%.2f")
 dfall.to_csv("csv/CleanedResult.csv")
 
-profile = ProfileReport(dfall, infer_dtypes=False, minimal=True)
-profile.to_file("Analysis/EncodedCleanedAnalysis.html")
+# profile = ProfileReport(dfall, infer_dtypes=False, minimal=True)
+# profile.to_file("Analysis/EncodedCleanedAnalysis.html")
 
 dfall = pd.read_csv("csv/CleanedResult_.csv", low_memory=False, usecols=variables_to_not_imput)
 df_imput = pd.read_csv("csv/CleanedResult_.csv", low_memory=False, usecols=variables_to_imput)
@@ -188,7 +191,7 @@ dfall_KNN = dfall.merge(df_imput_KNN, left_index=True, right_index=True)
 
 df_imput_KNN.to_excel("Excel/imputed_KNN.xlsx")
 dfall_KNN.to_excel("Excel/FinalResult_KNN.xlsx")
-dfall_KNN.to_csv("csv/finalResult_KNN.csv", float_format="%.2f")
+dfall_KNN.to_csv("csv/FinalResultImputEverything_KNN.csv", float_format="%.2f")
 
 
 # MI
@@ -200,11 +203,9 @@ dfall_MI = dfall.merge(df_imput_MI, left_index=True, right_index=True)
 
 df_imput_MI.to_excel("Excel/imputed_MI.xlsx")
 dfall_MI.to_excel("Excel/FinalResult_MI.xlsx")
-dfall_MI.to_csv("csv/finalResult_MI.csv", float_format="%.2f")
-
+dfall_MI.to_csv("csv/FinalResultImputEverything_MI.csv", float_format="%.2f")
 
 # KNN
-# pour le pc de aymen
 profile = ProfileReport(dfall_KNN, infer_dtypes=False, minimal=True)
 profile.to_file("Analysis/FinalResult_KNN.html")
 
@@ -212,7 +213,6 @@ profile = ProfileReport(dfall_KNN, infer_dtypes=False, lazy=False)
 profile.to_file("Analysis/FullFinalResult_KNN.html")
 
 # MI
-# pour le pc de aymen
 profile = ProfileReport(dfall_MI, infer_dtypes=False, minimal=True)
 profile.to_file("Analysis/FinalResult_MI.html")
 

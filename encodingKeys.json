@@ -90,7 +90,7 @@
     {
         "DM": [
             {
-                "1": "Not sick"
+                "1": "Not diagnosed"
             },
             {
                 "2": "Yes"
@@ -103,7 +103,7 @@
     {
         "DM_Type": [
             {
-                "0": "Not sick"
+                "0": "Not sick or not diagnosed"
             },
             {
                 "2": "Type 2"
@@ -116,7 +116,7 @@
     {
         "DM_Treatment": [
             {
-                "7": "Not sick"
+                "7": "Not sick or not diagnosed"
             },
             {
                 "3": "Diet,  Oral Hypoglycemic drugs"
