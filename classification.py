@@ -75,7 +75,11 @@ for i in classifacation_methods :
 
     # diviser les données en ensembles d'apprentissage et de test
     X_train, X_test, y_train, y_test = train_test_split(X, y)
-
+    
+    scaler = StandardScaler()
+    X_train = scaler.fit_transform(X_train)
+    X_test = scaler.transform(X_test)
+    
     model.fit(X_train, y_train)
 
     # Entraînement du modèle
