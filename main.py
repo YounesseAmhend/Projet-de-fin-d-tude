@@ -9,29 +9,29 @@ from missingpy import MissForest as MImputer
 # une liste de variable qualitative 
 to_num = [
     'Gender', 'Education', 'Work', 'Cardiac_Arrest_Admission', 'Non_Cardiac_Condition',
-              'Hypertension', 'Dyslipidemia', 'DM', 'DM_Type', 'DM_Treatment', 'Smoking_History',
-              'Lipid_24_Collected'
+    'Hypertension', 'Dyslipidemia', 'DM', 'DM_Type', 'DM_Treatment', 'Smoking_History',
+    'Lipid_24_Collected'
 ]
 
 # une liste de tous les variables 
 variables = [
     "Gender", "Age", "Education", "Work", "Cardiac_Arrest_Admission", "Non_Cardiac_Condition",
-    "Hypertension",  "Dyslipidemia", "DM", "Year_DM_Diagnosed", "DM_Duration", "DM_Type",
+    "Hypertension",  "Dyslipidemia", "DM",  "DM_Type", "Year_DM_Diagnosed", "DM_Duration",
     "DM_Treatment", "Smoking_History", "Waist", "BMI", "Fasting_Blood_Glucose_Value_SI_Units",
     "HbA1C_Admission_Value", "Lipid_24_Collected", "Cholesterol_Value_SI_Units",
     "Triglycerides_Value_SI_Units", "Creatinine_Clearance", "Heart_Rate"
 ]
 # une liste de variable quantitative 
 numeric_variables = [
-
-    'Age', 'Year_DM_Diagnosed', 'DM_Duration', 'Waist', 'BMI', 'Fasting_Blood_Glucose_Value_SI_Units',
+    "Year_DM_Diagnosed", "DM_Duration",
+    'Age', 'Waist', 'BMI', 'Fasting_Blood_Glucose_Value_SI_Units',
     'HbA1C_Admission_Value', 'Cholesterol_Value_SI_Units', 'Triglycerides_Value_SI_Units',
     'Creatinine_Clearance', 'Heart_Rate'
 ]
 # une liste de variable qu'ils vont etre imputer 
 variables_to_imput = [
     'Waist', 'BMI', 'Fasting_Blood_Glucose_Value_SI_Units',
-    'Cholesterol_Value_SI_Units', 'Triglycerides_Value_SI_Units','Age', 'Year_DM_Diagnosed', 'DM_Duration',
+    'Cholesterol_Value_SI_Units', 'Triglycerides_Value_SI_Units',
     'Creatinine_Clearance', 'Heart_Rate', 'HbA1C_Admission_Value'
 ]
 # une liste de variable qu'ils ne vont pas etre imputer 
@@ -90,10 +90,6 @@ def clean(df, column: str, min: float, max: float, conv: float = 1.0) -> None:
         for i in wrong_values:
             f.write(str(i)+"\n")
 
-# remplacer les valeur vide par un valeur donne(newValue)
-def fillValue(df, column: str, newValue: str) -> None:
-    df[column].fillna(newValue, inplace=True)
-
 # importer tous la base de donne avec les columns qu'on a besoin dans dfall
 dfall = pd.read_csv("csv/Gulf.csv", low_memory=False, usecols=variables)
 # importer tous les variables á encoder
@@ -102,7 +98,7 @@ ds = pd.read_csv("csv/Gulf.csv", low_memory=False, usecols=to_num)
 
 dfall.to_excel("Excel/Original.xlsx")
 
-# faire les analyise
+# faire les analyises
 
 # profile = ProfileReport(dfall)
 
@@ -111,13 +107,6 @@ dfall.to_excel("Excel/Original.xlsx")
 # profile.to_file("Analysis/Original.html")
 
 cleanDm(dfall)
-# remplacer les valeur vide par "Not sick" (pas malade)
-fillValue(dfall, "DM_Type", "Not sick")
-fillValue(dfall, "DM_Treatment", "Not sick")
-fillValue(dfall, "DM", "Not diagnosed")
-fillValue(ds, "DM_Type", "Not sick")
-fillValue(ds, "DM_Treatment", "Not sick")
-fillValue(ds, "DM", "Not diagnosed")
 
 #juste pour eviter les erreurs
 dfall.to_csv("csv/Mod.csv")
@@ -126,6 +115,7 @@ dfall = pd.read_csv("csv/Mod.csv", low_memory=False, usecols=variables)
 # encodage
 le = LabelEncoder()
 encodingKey = []
+
 
 for i in to_num:
     #encodage par chaque column 
@@ -138,6 +128,7 @@ for i in to_num:
         temp.append({f"{key[count]}": row})
         count += 1
     encodingKey.append({i: temp})
+
 
 
 with open("encodingKey.json", "w") as f:
@@ -171,14 +162,18 @@ clean(df=dfall, column="BMI", min=9.4, max=150, conv=1)
 clean(df=dfall, column="Creatinine_Clearance", min=5, max=1200, conv=60)
 clean(df=dfall, column="Fasting_Blood_Glucose_Value_SI_Units", min=0.3, max=17.8, conv=0.056)
 
+# supprimer les lignes qui ont plus 25% des variables manquantes
+dfall = dfall[ dfall.isna().mean(axis=1) <= 0.25 ]
+
 dfall.to_excel("Excel/CleanedResult.xlsx", float_format="%.2f")
 dfall.to_csv("csv/CleanedResult.csv")
 
 # profile = ProfileReport(dfall, infer_dtypes=False, minimal=True)
 # profile.to_file("Analysis/EncodedCleanedAnalysis.html")
 
-dfall = pd.read_csv("csv/CleanedResult_.csv", low_memory=False, usecols=variables_to_not_imput)
-df_imput = pd.read_csv("csv/CleanedResult_.csv", low_memory=False, usecols=variables_to_imput)
+dfall = pd.read_csv("csv/CleanedResult.csv", low_memory=False, usecols=variables_to_not_imput)
+df_imput = pd.read_csv("csv/CleanedResult.csv", low_memory=False, usecols=variables_to_imput)
+
 
 # Imputation
 
@@ -191,7 +186,7 @@ dfall_KNN = dfall.merge(df_imput_KNN, left_index=True, right_index=True)
 
 df_imput_KNN.to_excel("Excel/imputed_KNN.xlsx")
 dfall_KNN.to_excel("Excel/FinalResult_KNN.xlsx")
-dfall_KNN.to_csv("csv/FinalResultImputEverything_KNN.csv", float_format="%.2f")
+dfall_KNN.to_csv("csv/FinalResult_KNN.csv", float_format="%.2f")
 
 
 # MI
@@ -203,7 +198,7 @@ dfall_MI = dfall.merge(df_imput_MI, left_index=True, right_index=True)
 
 df_imput_MI.to_excel("Excel/imputed_MI.xlsx")
 dfall_MI.to_excel("Excel/FinalResult_MI.xlsx")
-dfall_MI.to_csv("csv/FinalResultImputEverything_MI.csv", float_format="%.2f")
+dfall_MI.to_csv("csv/FinalResult_MI.csv", float_format="%.2f")
 
 # KNN
 profile = ProfileReport(dfall_KNN, infer_dtypes=False, minimal=True)
