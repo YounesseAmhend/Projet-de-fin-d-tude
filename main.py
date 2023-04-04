@@ -100,11 +100,11 @@ dfall.to_excel("Excel/Original.xlsx")
 
 # faire les analyises
 
-# profile = ProfileReport(dfall)
+profile = ProfileReport(dfall)
 
 #afficher les analyises dans une page web
 
-# profile.to_file("Analysis/Original.html")
+profile.to_file("Analysis/Original.html")
 
 cleanDm(dfall)
 
@@ -144,8 +144,8 @@ with open("encodingKey.json", "w") as f:
     f.close()
     
 dfall.to_excel("Excel/Encoded.xlsx")
-# profile = ProfileReport(dfall)
-# profile.to_file("Analysis/EncodedAnalysis.html")
+profile = ProfileReport(dfall)
+profile.to_file("Analysis/EncodedAnalysis.html")
 
 # cleaning
 
@@ -168,8 +168,8 @@ dfall = dfall[ dfall.isna().mean(axis=1) <= 0.25 ]
 dfall.to_excel("Excel/CleanedResult.xlsx", float_format="%.2f")
 dfall.to_csv("csv/CleanedResult.csv")
 
-# profile = ProfileReport(dfall, infer_dtypes=False, minimal=True)
-# profile.to_file("Analysis/EncodedCleanedAnalysis.html")
+profile = ProfileReport(dfall, infer_dtypes=False, minimal=True)
+profile.to_file("Analysis/EncodedCleanedAnalysis.html")
 
 dfall = pd.read_csv("csv/CleanedResult.csv", low_memory=False, usecols=variables_to_not_imput)
 df_imput = pd.read_csv("csv/CleanedResult.csv", low_memory=False, usecols=variables_to_imput)

@@ -42,7 +42,6 @@ for i in classifacation_methods :
     # stocker les valeurs de DM dans y
     y = df["DM"]
 
-
     # diviser les données en ensembles d'apprentissage et de test
     X_train, X_test, y_train, y_test = train_test_split(X, y)
 
@@ -51,13 +50,11 @@ for i in classifacation_methods :
     X_train = scaler.fit_transform(X_train)
     X_test = scaler.transform(X_test)
     
+    # Entraînement du modèle
     model.fit(X_train, y_train)
 
-    # Entraînement du modèle
-    y_pred = model.predict(X_test)
-
-
     # Évaluation du modèle
+    y_pred = model.predict(X_test)
     tb(
     i["method"],
     "{:.2f}".format(accuracy_score(y_test, y_pred)*100) + " %", 
